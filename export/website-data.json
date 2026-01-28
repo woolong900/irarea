@@ -1,0 +1,887 @@
+{
+  "company": {
+    "name": "XINGHE / Xinghe Fraredsensor Technology Co., Ltd",
+    "description": "World leading infrared detector manufacturer and service provider",
+    "location": "Xiwan Building, Xixiang Street, Baoan District, Shenzhen, Guangdong, China",
+    "hours": "9 AM - 6 PM",
+    "phone": "+86-18123713891",
+    "email": "marketing@fraredsensor.com",
+    "website": "https://fraredsensor.com",
+    "stats": {
+      "facility_area": "30,000 square meters",
+      "workshop_area": "20,000 square meters dust-free",
+      "annual_capacity": "1 million units"
+    }
+  },
+  "pages": [
+    {
+      "path": "/",
+      "title": "Home",
+      "sections": ["Hero", "Trust Badge", "Company Introduction", "Advanced Thermal Solutions", "Application Scenarios", "Contact Form"]
+    },
+    {
+      "path": "/about-us",
+      "title": "About Us",
+      "sections": ["Hero", "Company Description", "Stats", "Location", "Contact Form"]
+    },
+    {
+      "path": "/products",
+      "title": "Products",
+      "sections": ["Hero", "Product Categories Grid"]
+    },
+    {
+      "path": "/servicesandsupport",
+      "title": "Services & Support",
+      "sections": ["Hero", "Core Services", "One-Stop Solution", "FAQ"]
+    },
+    {
+      "path": "/industrial-solutions",
+      "title": "Industrial Solutions",
+      "sections": ["Hero", "Solutions Overview"]
+    },
+    {
+      "path": "/industrial-solutions-thermography",
+      "title": "Thermography Solutions",
+      "sections": ["Hero", "Applications"]
+    },
+    {
+      "path": "/industrial-solutions-security-monitoring",
+      "title": "Security Monitoring",
+      "sections": ["Hero", "Applications"]
+    },
+    {
+      "path": "/store",
+      "title": "Store",
+      "sections": ["Hero", "Products"]
+    }
+  ],
+  "productCategories": [
+    "TIMO Series",
+    "IGS Series",
+    "TWIN Series",
+    "PLUG Series",
+    "COIN Series",
+    "MINI Series",
+    "ILC Series",
+    "IDAS Series",
+    "IHA Series",
+    "ITL Series"
+  ],
+  "products": [
+    {
+      "id": "timo256",
+      "name": "TM256",
+      "subtitle": "Miniature 256×192 VOx Uncooled Thermal Module",
+      "category": "TIMO Series",
+      "description": "TM256 is one of the TM series miniature infrared camera modules developed by XINGHE. It integrates 256×192 wafer-level-packaging infrared detector, wafer-level optical lens, micro solenoid valve shutter and supports 25°/50° field of view. With industry-standard interfaces, it is easier to be integrated into various consumer electronic products.\n\nTM256 infrared camera module is oriented for small size, light weight & low price (SWaP) infrared thermal imaging applications but still requires better image quality. Its super miniature structure and ultralow power consumption are convenient to be integrated into various inspection tools, security monitoring cameras or handheld infrared thermal imagers with strict requirements on cost, size and weight.\n\nNow TM series thermal imaging cores have been widely used in consumer electronics market. It's easier for TM infrared thermal imaging core to be integrated into more terminal products and greatly reduces the cost of customers.",
+      "features": [
+        {"title": "Top Level Configuration", "description": "Equipped with high-precision PM motor and the thinnest solenoid valve shutter"},
+        {"title": "Fast to Focus", "description": "Realize the function of near-far focal adjustment and auto focus temperature measurement"},
+        {"title": "Temperature Measurement", "description": "High accuracy, customizable temperature measurement range"},
+        {"title": "ITA SDK", "description": "Special software development kit, support cross-platform and rich features"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["TM256 / TM256AF"]},
+        {"label": "Sensitive Material", "values": ["Vanadium Oxide"]},
+        {"label": "Resolution", "values": ["256×192"]},
+        {"label": "Pixel Size", "values": ["12μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "FOV", "values": ["56°±1° / 25°±1°"]},
+        {"label": "NETD", "values": ["≤50mK"]},
+        {"label": "Frame Rate", "values": ["25Hz (Customizable 1～30Hz)"]},
+        {"label": "Focusing Mode", "values": ["Free / Electric"]},
+        {"label": "Temperature Measurement Range", "values": ["Industrial: -20℃～550℃ / Body: 20℃～50℃"]},
+        {"label": "Temperature Accuracy", "values": ["Industrial: ±2℃ or ±2% / Body: ±0.5℃"]},
+        {"label": "External Interface", "values": ["40PIN / 50PIN"]},
+        {"label": "Typical Power Consumption", "values": ["≤85mW"]},
+        {"label": "SDK", "values": ["Android / Linux / Windows"]},
+        {"label": "Storage Temperature", "values": ["-40℃~+85℃"]},
+        {"label": "Operating Temperature", "values": ["-20℃~+70℃"]},
+        {"label": "Size (mm)", "values": ["15×13×6.95 / 20×15.5×15"]},
+        {"label": "Weight", "values": ["≤2.2g / ≤7g"]}
+      ],
+      "images": [
+        "/images/products/1746866251195-timo256-0.png",
+        "/images/products/1746866251196-timo256-1.png",
+        "/images/products/1746866251196-timo256-2.png",
+        "/images/products/1746866251196-timo256-3.png",
+        "/images/products/1746866251196-timo256-4.png"
+      ]
+    },
+    {
+      "id": "timo120",
+      "name": "TM120",
+      "subtitle": "Miniature 120×90 VOx Uncooled Thermal Module",
+      "category": "TIMO Series",
+      "description": "TM120 is one of the TM series miniature infrared modules developed by XINGHE. It integrates optical lens, 120x90/17μm wafer level package (WLP) detector and basic image processing circuit to quickly obtain thermal images of the target area and heat distribution.\n\nTM120 thermal imaging core is oriented for small size, light weight & low price (SWaP) infrared imaging applications. Its super miniature structure and ultralow power consumption are convenient to be integrated into various smart devices, thermal imagers or mobile terminals with strict requirements on cost, size and weight.\n\nNow TM series thermal cores and modules have been widely used in consumer electronics market. It's easier for TIMO thermal camera core module to be integrated into more terminal products and greatly reduces the cost of customers.",
+      "features": [
+        {"title": "Minimum WLP Module", "description": "Minimum WLP infrared module; size 8.5mm×8.5mm×9.16mm"},
+        {"title": "DVP Interface", "description": "DVP Interface, compatible with various embedded platforms"},
+        {"title": "Direct Integration", "description": "Visible camera module equivalent for directly integration"},
+        {"title": "SDK Support", "description": "Provide software development kit"},
+        {"title": "Ultra-low Power", "description": "Ultra-low power consumption, as low as 10mW"}
+      ],
+      "specifications": [
+        {"label": "Sensitive Material", "values": ["Vanadium Oxide"]},
+        {"label": "Resolution", "values": ["120×90"]},
+        {"label": "Pixel Size", "values": ["17μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "NETD", "values": ["≤60mK"]},
+        {"label": "Frame Rate", "values": ["25Hz"]},
+        {"label": "Size (mm)", "values": ["8.5×8.5×9.16"]},
+        {"label": "Power Consumption", "values": ["As low as 10mW"]},
+        {"label": "Interface", "values": ["DVP"]},
+        {"label": "Operating Temperature", "values": ["-20℃~+60℃"]},
+        {"label": "Storage Temperature", "values": ["-40℃~+85℃"]}
+      ],
+      "images": [
+        "/images/products/1746867654172-timo120-0.png",
+        "/images/products/1746867654173-timo120-1.png",
+        "/images/products/1746867654173-timo120-2.png"
+      ]
+    },
+    {
+      "id": "igs412",
+      "name": "IGS412",
+      "subtitle": "Shutterless Uncooled Infrared Camera Core 384×288/12μm",
+      "category": "IGS Series",
+      "description": "The RF series shutterless infrared camera core does not require shutter correction during operation. It can adapt to 1500g@0.4ms strong impact environment and solve problems of jamming or noise encountered by observers.\n\nIn order to meet the personalized needs of integrators, RF series infrared camera core is equipped with multiple functions such as a reticle, external OLED, keypads and provides various video interfaces and lenses for easy integration.\n\nThe outer diameter does not exceed φ36 and bare weight is no more than 28.6g. Such a powerful performance infrared camera core truly provides first-class observation experience under limited space and load conditions.",
+      "features": [
+        {"title": "Shutterless Solution", "description": "No need shutter correction during use"},
+        {"title": "Mute Operation", "description": "Mute operation for good concealment"},
+        {"title": "Strong Impact Resistance", "description": "Impact resistance up to 1500g, duration 0.4ms"},
+        {"title": "Tiny and Light", "description": "Max outer diameter≤φ36, weight ≤28.6g (bare module)"},
+        {"title": "Powerful Features", "description": "Support reticle, picture in picture, keypads etc."},
+        {"title": "Multiple Interfaces", "description": "Support various video interfaces"},
+        {"title": "Lens Options", "description": "Various lenses are available for different applications: manual focus/motorized lens/continuous zoom"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["RF412"]},
+        {"label": "Resolution", "values": ["384×288/12μm"]},
+        {"label": "Spectral Response", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["≤30mK@f1.0/25℃"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz/50Hz"]},
+        {"label": "Digital Video Format", "values": ["RAW/YUV"]},
+        {"label": "Image Algorithm", "values": ["NUC/3DNR/DNS/DRC/EE"]},
+        {"label": "Pseudo Color", "values": ["10 Types"]},
+        {"label": "Digital Zoom", "values": ["1x/2x/4x/8x"]},
+        {"label": "Working Voltage", "values": ["DC 2.7-5.3V"]},
+        {"label": "Power Consumption", "values": ["0.5W@23±3℃"]},
+        {"label": "Operating Temperature", "values": ["-40℃~+70℃"]},
+        {"label": "Shock", "values": ["1500g@0.4ms"]},
+        {"label": "Size (Bare Module)", "values": ["≤φ36mm"]},
+        {"label": "Weight (Bare Module)", "values": ["≤28.6g"]}
+      ],
+      "images": [
+        "/images/products/1746864280895-igs412-1.png",
+        "/images/products/1746864280896-igs412-2.png",
+        "/images/products/1746864280896-igs412-3.png",
+        "/images/products/1746864280896-igs412-4.png"
+      ]
+    },
+    {
+      "id": "igs612",
+      "name": "IGS612",
+      "subtitle": "Shutterless Uncooled Infrared Camera Core 640×512/12μm",
+      "category": "IGS Series",
+      "description": "The RF series shutterless infrared camera core does not require shutter correction during operation. It can adapt to 1500g@0.4ms strong impact environment and solve problems of jamming or noise encountered by observers.\n\nIn order to meet the personalized needs of integrators, RF series infrared camera core is equipped with multiple functions such as a reticle, external OLED, keypads and provides various video interfaces and lenses for easy integration.\n\nThe outer diameter does not exceed φ36 and bare weight is no more than 28.6g. Such a powerful performance infrared camera core truly provides first-class observation experience under limited space and load conditions.",
+      "features": [
+        {"title": "Shutterless Solution", "description": "No need shutter correction during use"},
+        {"title": "Mute Operation", "description": "Mute operation for good concealment"},
+        {"title": "Strong Impact Resistance", "description": "Impact resistance up to 1500g, duration 0.4ms"},
+        {"title": "Tiny and Light", "description": "Max outer diameter≤φ36, weight ≤28.6g (bare module)"},
+        {"title": "Powerful Features", "description": "Support reticle, picture in picture, keypads etc."},
+        {"title": "Multiple Interfaces", "description": "Support various video interfaces"},
+        {"title": "OLED Support", "description": "Support to drive various Micro OLEDs"},
+        {"title": "Lens Options", "description": "Various lenses are available for different applications: manual focus/motorized lens/continuous zoom"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["RF612"]},
+        {"label": "Resolution", "values": ["640×512/12μm"]},
+        {"label": "Spectral Response", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["≤30mK@f1.0/25℃"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz/50Hz"]},
+        {"label": "Digital Video Format", "values": ["RAW/YUV"]},
+        {"label": "Image Algorithm", "values": ["NUC/3DNR/DNS/DRC/EE"]},
+        {"label": "Pseudo Color", "values": ["10 Types"]},
+        {"label": "Digital Zoom", "values": ["1x/2x/4x/8x"]},
+        {"label": "Standard External Interface", "values": ["50pin"]},
+        {"label": "Digital Video Interface", "values": ["DVP8/DVP16/USB2.0/LVDS/BT.656"]},
+        {"label": "Working Voltage", "values": ["DC 2.7-5.3V"]},
+        {"label": "Power Consumption", "values": ["0.5W@23±3℃"]},
+        {"label": "Operating Temperature", "values": ["-40℃~+70℃"]},
+        {"label": "Storage Temperature", "values": ["-45℃~+85℃"]},
+        {"label": "Shock", "values": ["1500g@0.4ms"]},
+        {"label": "Size (Bare Module)", "values": ["≤φ36mm"]},
+        {"label": "Weight (Bare Module)", "values": ["≤28.6g"]},
+        {"label": "Optional Lens", "values": ["Manual Focus: 25mm/35mm/50mm", "Fixed Focus Athermal: 19mm/25mm/35mm/50mm/70mm/100mm", "Motorized Lens: 75mm/100mm/150mm", "Continuous Zoom: 28~90mm/30~180mm"]}
+      ],
+      "images": [
+        "/images/products/1746864108389-igs612-1.png",
+        "/images/products/1746864108389-igs612-2.png",
+        "/images/products/1746864108389-igs612-3.png",
+        "/images/products/1746864108389-igs612-4.png",
+        "/images/products/1746864108389-igs612-5.png"
+      ]
+    },
+    {
+      "id": "twin412",
+      "name": "TWIN412",
+      "subtitle": "Ceramic Package 384×288/12μm Thermal Module",
+      "category": "TWIN Series",
+      "description": "CR412/R thermal module is a new arrival infrared product developed by XINGHE. It uses 384×288/12μm ceramic package infrared detector. The thermal module supports 11 pseudo color in total (White Hot/Lava/Ironbow/Aqua/Hot Iron/Medical/Arctic/Rainbow1/Rainbow2/Red Hot/Black Hot). Different industries have different color palette choices.\n\nCeramic packaging is currently the most popular packaging technology on the market. The size, weight and power consumption of the detector can be significantly reduced.\n\nBy integrating the ceramic packaging infrared detector, the CR412/R thermal module presents clear and sharp images.\n\nThis new CR412 thermal module will give more choices for customers from various industries such as Industrial Automation, Intelligent Security, Unmanned Platform, Robot, Intelligent Hardware, Advanced Driver Assistant System, Firefighting etc.",
+      "features": [
+        {"title": "Optimized Solution", "description": "Mini size: 25.4mm×25.4mm×22.0mm (without lens)"},
+        {"title": "Light Weight", "description": "Light weight: as low as 20g (without lens)"},
+        {"title": "Low Power", "description": "Power consumption as low as 0.8W"},
+        {"title": "Outstanding Performance", "description": "Powerful image process algorithm: NUC/3DNR/DNS/DRC/EE"},
+        {"title": "Temperature Measurement", "description": "Temperature measurement range: -20℃~150℃, 0~550℃ (customizable)"},
+        {"title": "Good Stability", "description": "Good stability in various harsh environments"},
+        {"title": "SDK Support", "description": "Support Windows/Linux SDK; achieve video stream analysis and conversion from gray to temperature"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["CR412/R"]},
+        {"label": "Resolution", "values": ["384×288"]},
+        {"label": "Pixel Size", "values": ["12μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["＜30mK"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz/50Hz"]},
+        {"label": "Start-up Time", "values": ["5s"]},
+        {"label": "Digital Video", "values": ["YUV/BT.656"]},
+        {"label": "Image Display", "values": ["11 Types (White Hot/Lava/Iron Red/etc.)"]},
+        {"label": "Image Algorithm", "values": ["NUC/3DNR/DNS/DRC/EE"]},
+        {"label": "Standard External Interface", "values": ["50pin_HRS"]},
+        {"label": "Supply Voltage", "values": ["5V±0.5V"]},
+        {"label": "Typical Power Consumption", "values": ["0.8W"]},
+        {"label": "Temperature Measurement Range", "values": ["-20℃~150℃, 0℃~550℃"]},
+        {"label": "Temperature Accuracy", "values": ["Greater of ±2℃ or ±2%"]},
+        {"label": "Operating Temperature", "values": ["-40℃～+70℃"]},
+        {"label": "Storage Temperature", "values": ["-45℃～+85℃"]},
+        {"label": "Size (mm)", "values": ["25.4×25.4×22.0 (without lens)"]},
+        {"label": "Weight", "values": ["20g (without lens)"]}
+      ],
+      "images": [
+        "/images/products/1746865015987-twin-11.png",
+        "/images/products/1746865015988-twin412-1.jpg",
+        "/images/products/1746865015989-twin412-2.jpg",
+        "/images/products/1746865015989-twin412-3.jpg"
+      ]
+    },
+    {
+      "id": "twin612",
+      "name": "TWIN612",
+      "subtitle": "Ceramic Package 640×512/12μm Thermal Module",
+      "category": "TWIN Series",
+      "description": "CR612 thermal module is a new arrival product developed by XINGHE. It integrates 640×512/12µm ceramic package uncooled infrared detector. With typical NETD＜30mk, the CR612 thermal module could present clearer, sharper and more detailed image.\n\nWith temperature measurement range of -20℃~150℃/0~550℃, accuracy of ±2℃ or ±2% and frame rate up to 30Hz, the thermal module guarantees smooth thermal image and accurate temperature measurement.\n\nThe CR612 thermal module has the advantages of compact design, light weight structure and power consumption as low as 0.8w. With enhanced image algorithms and temperature measurement function, the CR612 thermal module presents more stable images and accurate temperature.\n\nCeramic packaging process is similar to metal packaging, which is a mature infrared detector packaging technology. Compared with metal packaging, the volume and weight of the packaged detector will be greatly reduced. Thus, the CR612 thermal module could be applied to industries that have strict requirements on size, weight and power consumption.",
+      "features": [
+        {"title": "Optimized Solution", "description": "Mini size: 25.4mm×25.4mm×22.0mm (without lens)"},
+        {"title": "Light Weight", "description": "Light weight: as low as 20g (without lens)"},
+        {"title": "Low Power", "description": "Power consumption as low as 0.8W"},
+        {"title": "Outstanding Performance", "description": "Powerful image process algorithm: NUC/3DNR/DNS/DRC/EE"},
+        {"title": "Temperature Measurement", "description": "Temperature measurement range: -20℃~150℃, 0~550℃ (customizable)"},
+        {"title": "Good Stability", "description": "Good stability in various harsh environments"},
+        {"title": "SDK Support", "description": "Support Windows/Linux SDK; achieve video stream analysis and conversion from gray to temperature"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["CR612/R"]},
+        {"label": "Resolution", "values": ["640×512"]},
+        {"label": "Pixel Size", "values": ["12μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["＜30mK"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz/50Hz"]},
+        {"label": "Start-up Time", "values": ["5s"]},
+        {"label": "Digital Video", "values": ["YUV/BT.1120"]},
+        {"label": "Image Display", "values": ["11 Types (White Hot/Lava/Iron Red/etc.)"]},
+        {"label": "Image Algorithm", "values": ["NUC/3DNR/DNS/DRC/EE"]},
+        {"label": "Standard External Interface", "values": ["50pin_HRS"]},
+        {"label": "Supply Voltage", "values": ["5V±0.5V"]},
+        {"label": "Typical Power Consumption", "values": ["0.8W"]},
+        {"label": "Temperature Measurement Range", "values": ["-20℃~150℃, 0℃~550℃"]},
+        {"label": "Temperature Accuracy", "values": ["Greater of ±2℃ or ±2%"]},
+        {"label": "Operating Temperature", "values": ["-40℃～+70℃"]},
+        {"label": "Storage Temperature", "values": ["-45℃～+85℃"]},
+        {"label": "Size (mm)", "values": ["25.4×25.4×22.0 (without lens)"]},
+        {"label": "Weight", "values": ["20g (without lens)"]}
+      ],
+      "images": [
+        "/images/products/1746864645504-twin-1.png",
+        "/images/products/1746864645504-twin612-1.jpg",
+        "/images/products/1746864645504-twin612-2.jpg",
+        "/images/products/1746864645504-twin612-3.jpg"
+      ]
+    },
+    {
+      "id": "twin1212",
+      "name": "TWIN1212",
+      "subtitle": "Uncooled HD 1280×1024/12µm Infrared Camera Core",
+      "category": "TWIN Series",
+      "description": "CR1212 uncooled infrared camera core integrates XINGHE self-developed ceramic package infrared detector, high performance signal processing circuit and brand new image algorithm to output ultra clear images and accurate temperature data. It is suitable for application scenarios with requirements of high quality image and high performance.\n\nThe CR1212 thermal module features compact design, light weight and low power consumption. With brand new image algorithm for excellent image presentation and accurate temperature measurement, the CR1212 is ideal for security monitoring, firefighting, outdoor, UAV payloads and scientific research.",
+      "features": [
+        {"title": "Optimized Solution", "description": "Mini size: 33mm×33.4mm×17.6mm (bare module)"},
+        {"title": "Light Weight", "description": "Weight as light as 20g (bare module)"},
+        {"title": "Low Power", "description": "Power consumption as low as 1W"},
+        {"title": "Outstanding Image Quality", "description": "Brand new image algorithm for excellent image presentation: NUC/3DNR/DNS/DRC/EE"},
+        {"title": "Accurate Temperature Measurement", "description": "Temperature measurement range: -20℃~150℃, 0~550℃ (customizable)"},
+        {"title": "High Accuracy", "description": "Temperature measurement accuracy: ±2℃ or ±2%"},
+        {"title": "SDK Support", "description": "Support Android/Windows/Linux/ARM SDK; achieve video stream analysis and conversion from gray to temperature"},
+        {"title": "Strong Universality", "description": "Good stability in various harsh environments"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["CR1212/R"]},
+        {"label": "Resolution", "values": ["1280×1024"]},
+        {"label": "Pixel Size", "values": ["12μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["＜30mK"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz/50Hz"]},
+        {"label": "Start-up Time", "values": ["5s"]},
+        {"label": "Digital Video", "values": ["YUV/BT.1120"]},
+        {"label": "Image Display", "values": ["11 Types (White Hot/Lava/Iron Red/etc.)"]},
+        {"label": "Image Algorithm", "values": ["NUC/3DNR/DNS/DRC/EE"]},
+        {"label": "Standard External Interface", "values": ["50pin_HRS"]},
+        {"label": "Communication Interface", "values": ["RS232/USB2.0"]},
+        {"label": "Supply Voltage", "values": ["5V±0.5V"]},
+        {"label": "Typical Power Consumption", "values": ["1W"]},
+        {"label": "Temperature Measurement Range", "values": ["-20℃~150℃, 0℃~550℃"]},
+        {"label": "Temperature Accuracy", "values": ["Greater of ±2℃ or ±2%"]},
+        {"label": "SDK", "values": ["Android/Windows/Linux/ARM"]},
+        {"label": "Operating Temperature", "values": ["-40℃～+70℃"]},
+        {"label": "Storage Temperature", "values": ["-45℃～+85℃"]},
+        {"label": "Vibration", "values": ["5.35grms, 3-axis"]},
+        {"label": "Shock", "values": ["Half Sine Wave, 40g/11ms"]},
+        {"label": "Size (mm)", "values": ["33×33.4×17.6 (Bare Module)"]},
+        {"label": "Weight", "values": ["20g (Bare Module)"]},
+        {"label": "Optional Lens", "values": ["Fixed Focus Athermal: 14mm/19mm/25mm/35mm/50mm", "Motorized Lens: 75mm/100mm/150mm", "Continuous Zoom: 28~90mm/30~180mm"]}
+      ],
+      "images": [
+        "/images/products/1746864499485-twin1212-1.png",
+        "/images/products/1746864499486-twin1212-2.png",
+        "/images/products/1746864499486-twin1212-3.png",
+        "/images/products/1746864499486-twin1212-4.png",
+        "/images/products/1746864499486-twin1212-5.png"
+      ]
+    },
+    {
+      "id": "plug417r",
+      "name": "PLUG417R",
+      "subtitle": "PG Series 384×288 Uncooled Thermal Module",
+      "category": "PLUG Series",
+      "description": "PG417/PG417R is one of the PG series uncooled thermal IR camera modules developed by XINGHE. It consists of 384x288/17μm uncooled infrared detector, full series of optical components, professional signal processing circuit and image processing algorithm.\n\nPG417/PG417R is a kind of uncooled infrared thermal imaging module applied in the field of industrial thermal imaging and temperature measurement. The temperature range is customizable, which can meet the specific requirements of industrial thermography and present a clear thermal image.\n\nWe are committed to opening a new vision for industrial temperature measurement. After years of technical accumulation and practical experience in the field of infrared temperature measurement, we have provided our customers a full range of machine thermal imaging vision solutions.",
+      "features": [
+        {"title": "High Sensitivity", "description": "Typical NETD<30mk, High Sensitivity"},
+        {"title": "Stable Performance", "description": "Stable Performance for reliable operation"},
+        {"title": "Easy Integration", "description": "Easy Integration & Plug-in design"},
+        {"title": "Clear Image Quality", "description": "Clear Image Quality & Details"},
+        {"title": "Customizable Range", "description": "Customizable Temperature Range"},
+        {"title": "Environmental Adaptability", "description": "Strong Environmental Adaptability"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["PG417/PG417R"]},
+        {"label": "Resolution", "values": ["384×288"]},
+        {"label": "Pixel Size", "values": ["17μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["＜30mK"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz"]},
+        {"label": "Start-up Time", "values": ["15s"]},
+        {"label": "Analog Video", "values": ["PAL/NTSC"]},
+        {"label": "Digital Video", "values": ["RAW/YUV/BT656/LVDS"]},
+        {"label": "Standard External Interface", "values": ["50pin_HRS"]},
+        {"label": "Supply Voltage", "values": ["4~6V"]},
+        {"label": "Typical Power Consumption", "values": ["1.5W"]},
+        {"label": "Temperature Measurement Range", "values": ["-20℃~150℃, 0℃~550℃"]},
+        {"label": "Temperature Accuracy", "values": ["Greater of ±2℃ or ±2%"]},
+        {"label": "Operating Temperature", "values": ["-40°C~+70°C"]},
+        {"label": "Storage Temperature", "values": ["-45°C~+85°C"]},
+        {"label": "Size (mm)", "values": ["44.5×45.95×36.6"]},
+        {"label": "Weight", "values": ["90g±3g"]},
+        {"label": "Optional Lens", "values": ["Fixed Focus Athermal: 7.5mm/13mm/19mm/25mm"]}
+      ],
+      "images": [
+        "/images/products/1746862250225-plug417r-0.png",
+        "/images/products/1746862250226-plug417r-1.png",
+        "/images/products/1746862250226-plug417r-2.png",
+        "/images/products/1746862250226-plug417r-3.png"
+      ]
+    },
+    {
+      "id": "plug612r",
+      "name": "PLUG612R",
+      "subtitle": "PG Series 640×512@12μm Uncooled Thermal Module",
+      "category": "PLUG Series",
+      "description": "PG612/PG612R is one of the PG series uncooled infrared modules developed by XINGHE. It consists of 640x512@12μm uncooled thermal infrared detector, full series of optical components, professional signal processing circuit and image processing algorithm.\n\nPG612/PG612R is a kind of uncooled infrared thermal imaging module applied in the field of industrial thermal imaging and temperature measurement. The temperature range is customizable, which can meet the specific requirements of industrial thermography and present a clear infrared thermal image.\n\nWe are committed to opening a new vision for industrial temperature measurement. After years of technical accumulation and practical experience in the field of infrared temperature measurement, we have provided our customers a full range of machine thermal imaging vision solutions.",
+      "features": [
+        {"title": "High Sensitivity", "description": "Typical NETD<30mk, High Sensitivity"},
+        {"title": "Stable Performance", "description": "Stable Performance for reliable operation"},
+        {"title": "Easy Integration", "description": "Easy Integration & Plug-in design"},
+        {"title": "Clear Image Quality", "description": "Clear Image Quality & Details"},
+        {"title": "Customizable Range", "description": "Customizable Temperature Range"},
+        {"title": "Environmental Adaptability", "description": "Strong Environmental Adaptability"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["PG612/PG612R"]},
+        {"label": "Resolution", "values": ["640×512"]},
+        {"label": "Pixel Size", "values": ["12μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["＜30mK"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz"]},
+        {"label": "Start-up Time", "values": ["15s"]},
+        {"label": "Analog Video", "values": ["PAL/NTSC"]},
+        {"label": "Digital Video", "values": ["RAW/YUV/BT656/LVDS"]},
+        {"label": "Standard External Interface", "values": ["50pin_HRS"]},
+        {"label": "Supply Voltage", "values": ["4~6V"]},
+        {"label": "Typical Power Consumption", "values": ["1.5W"]},
+        {"label": "Temperature Measurement Range", "values": ["-20℃~150℃, 0℃~550℃"]},
+        {"label": "Temperature Accuracy", "values": ["Greater of ±2℃ or ±2%"]},
+        {"label": "Operating Temperature", "values": ["-40°C~+70°C"]},
+        {"label": "Storage Temperature", "values": ["-45°C~+85°C"]},
+        {"label": "Size (mm)", "values": ["44.5×45.95×36.6"]},
+        {"label": "Weight", "values": ["90g±3g"]},
+        {"label": "Optional Lens", "values": ["Fixed Focus Athermal: 7.5mm/13mm/19mm/25mm/35mm"]}
+      ],
+      "images": [
+        "/images/products/1746862021994-plug612r-0.png",
+        "/images/products/1746862021995-plug612r-1.png",
+        "/images/products/1746862021995-plug612r-2.png",
+        "/images/products/1746862021995-plug612r-3.png"
+      ]
+    },
+    {
+      "id": "plug617r",
+      "name": "PLUG617R",
+      "subtitle": "PG Series 640×512/17μm Uncooled Thermal Module",
+      "category": "PLUG Series",
+      "description": "PG617/PG617R is one of the PG series uncooled thermal camera module developed by XINGHE. It consists of 640x512/17μm uncooled FPA infrared detector, full series of optical components, professional signal processing circuit and image processing algorithm.\n\nPG617/PG617R infrared thermal sensor module is a kind of uncooled camera module applied in the field of industrial thermal imaging and temperature measurement. The temperature range is customizable, which can meet the specific requirements of industrial thermography and present a clear thermal image.\n\nAs a leading thermal camera module manufacturer, XINGHE is committed to opening a new vision for industrial temperature measurement. After years of technical accumulation and practical experience in the field of infrared temperature measurement, we have provided our customers a full range of machine thermal imaging vision solutions.",
+      "features": [
+        {"title": "High Sensitivity", "description": "Typical NETD<30mk, High Sensitivity"},
+        {"title": "Stable Performance", "description": "Stable Performance for reliable operation"},
+        {"title": "Easy Integration", "description": "Easy Integration & Plug-in design"},
+        {"title": "Clear Image Quality", "description": "Clear Image Quality & Details"},
+        {"title": "Customizable Range", "description": "Customizable Temperature Range"},
+        {"title": "Environmental Adaptability", "description": "Strong Environmental Adaptability"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["PG617/PG617R"]},
+        {"label": "Resolution", "values": ["640×512"]},
+        {"label": "Pixel Size", "values": ["17μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["＜30mK"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz"]},
+        {"label": "Start-up Time", "values": ["15s"]},
+        {"label": "Analog Video", "values": ["PAL/NTSC"]},
+        {"label": "Digital Video", "values": ["RAW/YUV/BT656/LVDS"]},
+        {"label": "Expansion Components", "values": ["USB/VPC/Cameralink/Gig-E"]},
+        {"label": "Dimming Mode", "values": ["Linear/Histogram/Mixed"]},
+        {"label": "Digital Zoom", "values": ["1~8X Continual Zoom"]},
+        {"label": "Image Display", "values": ["Black Hot/White Hot/Pseudo Color"]},
+        {"label": "Image Algorithm", "values": ["NUC/AGC/IDE"]},
+        {"label": "Standard External Interface", "values": ["50pin_HRS"]},
+        {"label": "Communication Mode", "values": ["RS232-TTL, 115200bps"]},
+        {"label": "Supply Voltage", "values": ["4~6V"]},
+        {"label": "Typical Power Consumption", "values": ["1.5W"]},
+        {"label": "Temperature Measurement Range", "values": ["-20℃~150℃, 0℃~550℃"]},
+        {"label": "Temperature Accuracy", "values": ["Greater of ±2℃ or ±2%"]},
+        {"label": "SDK", "values": ["Support ARM/Windows/Linux SDK"]},
+        {"label": "Operating Temperature", "values": ["-40°C~+70°C"]},
+        {"label": "Storage Temperature", "values": ["-45°C~+85°C"]},
+        {"label": "Humidity", "values": ["5%~95%, non-condensing"]},
+        {"label": "Vibration", "values": ["Random Vibration 5.35grms, 3 Axis"]},
+        {"label": "Shock", "values": ["Half-sine Wave, 40g/11ms, 3 Axis 6 Direction"]},
+        {"label": "Size (mm)", "values": ["44.5×45.95×36.6"]},
+        {"label": "Weight", "values": ["90g±3g"]},
+        {"label": "Optional Lens", "values": ["Fixed Focus Athermal: 7.5mm/13mm/19mm/25mm"]}
+      ],
+      "images": [
+        "/images/products/1746860824674-plug617r-0.png",
+        "/images/products/1746860838143-plug617r-1.png",
+        "/images/products/1746860852863-plug617r-2.png",
+        "/images/products/1746860852864-plug617r-3.png"
+      ]
+    },
+    {
+      "id": "plug1212r",
+      "name": "PLUG1212R",
+      "subtitle": "PG Series 1280×1024 Uncooled Thermal Module",
+      "category": "PLUG Series",
+      "description": "PG1212/PG1212R is one of the PG series uncooled infrared camera module developed by XINGHE. It is based on metal level package detector with professional signal processing circuit and image processing platform, completely transforms the target infrared radiation into temperature data. Its temperature measurement is available.\n\nThe PG1212/PG1212R thermal module is suitable for security monitoring, fire fighting, scientific research and other fields that require high resolution thermal imaging.",
+      "features": [
+        {"title": "High Resolution", "description": "Pixel Size: 12μm, Resolution: 1280x1024"},
+        {"title": "Wide Spectral Range", "description": "Spectra Range: 8μm -14μm"},
+        {"title": "High Sensitivity", "description": "High Sensitivity: Typical NETD<50mK"},
+        {"title": "Temperature Measurement", "description": "Temperature Range: -20℃~150℃, 0℃~550℃"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["PG1212/PG1212R"]},
+        {"label": "Resolution", "values": ["1280×1024"]},
+        {"label": "Pixel Size", "values": ["12μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["＜50mK"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz"]},
+        {"label": "Digital Video", "values": ["RAW/YUV/BT1120"]},
+        {"label": "Temperature Measurement Range", "values": ["-20℃~150℃, 0℃~550℃"]},
+        {"label": "Standard External Interface", "values": ["50pin_HRS"]},
+        {"label": "Supply Voltage", "values": ["5V±0.5V"]},
+        {"label": "Typical Power Consumption", "values": ["2W"]},
+        {"label": "Operating Temperature", "values": ["-40°C~+70°C"]},
+        {"label": "Storage Temperature", "values": ["-45°C~+85°C"]}
+      ],
+      "images": [
+        "/images/products/1746776758459-new-plug1212-1.png",
+        "/images/products/1746776789630-plug1212r-4.jpg"
+      ]
+    },
+    {
+      "id": "coin612",
+      "name": "COIN612",
+      "subtitle": "LH Series WLP+ASIC 640×512/12μm VOx Uncooled Thermal Module",
+      "category": "COIN Series",
+      "description": "LH612 is one of the LH series infrared thermal camera cores developed by XINGHE. It adopts state-of-the-art 12μm VOx microbolometer technology and integrates 640x512 wafer level package (WLP) infrared thermal detector, high performance signal processing circuit and image processing algorithm.\n\nThe compact infrared camera core is designed for integration into handheld devices, drones and other thermal imaging equipment. It is a cost-effective and easy-to-integrate solution for customers for secondary development and integration in all kinds of infrared thermal cameras.\n\nAlso some customized OEM solutions are available to meet the requirements of customers. It is easily integrate into many kinds of devices like unmanned aerial vehicles (UAV), drones, as well as police and firefighting units.\n\nUntil now, we have provided our customers with various mature and stable infrared thermal imaging solutions. It's easier for LH series to be integrated into more terminal products and greatly reduces the cost for customers.",
+      "features": [
+        {"title": "Optimized Solution", "description": "Mini size: 25.4mm×25.4mm×14.1mm"},
+        {"title": "Light Weight", "description": "Light Weight: as low as 11.5g"},
+        {"title": "Low Power", "description": "Power consumption: as low as 0.8W"},
+        {"title": "Outstanding Image Quality", "description": "New generation image processing algorithm: NUC/3DNR/DNS/DRC/EE"},
+        {"title": "Temperature Measurement", "description": "Temperature measurement range: -20℃～150℃, 0~550℃ (support expansion & customization)"},
+        {"title": "Fast Integration", "description": "USB2.0/DVP/LVDS image output interfaces, RAW/YUV image data output, serial port control"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["LH612/R"]},
+        {"label": "Sensitive Material", "values": ["Vanadium Oxide"]},
+        {"label": "Resolution", "values": ["640×512"]},
+        {"label": "Pixel Size", "values": ["12μm"]},
+        {"label": "Spectral Range", "values": ["8μm~14μm"]},
+        {"label": "Typical NETD", "values": ["≤40mK"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz"]},
+        {"label": "Start-up Time", "values": ["5s"]},
+        {"label": "Analog Video", "values": ["PAL/NTSC"]},
+        {"label": "Digital Video", "values": ["RAW/YUV/BT656"]},
+        {"label": "Image Algorithm", "values": ["NUC/3DNR/DNS/DRC/EE"]},
+        {"label": "Image Display", "values": ["Black Hot/White Hot/Pseudo Color"]},
+        {"label": "Standard External Interface", "values": ["50Pin_HRS"]},
+        {"label": "USB Expansion Board", "values": ["Type-C"]},
+        {"label": "Supply Voltage", "values": ["4~5.5V"]},
+        {"label": "Typical Power Consumption", "values": ["0.8W"]},
+        {"label": "Temperature Measurement Range", "values": ["-20℃~150℃, 0℃~550℃"]},
+        {"label": "Temperature Accuracy", "values": ["Greater of ±3℃ or ±3%"]},
+        {"label": "SDK", "values": ["Windows/Linux/ARM"]},
+        {"label": "Operating Temperature", "values": ["-40°C~+70°C"]},
+        {"label": "Storage Temperature", "values": ["-45°C~+85°C"]},
+        {"label": "Size (mm)", "values": ["25.4×25.4×14.1 (Without Lens)"]},
+        {"label": "Weight", "values": ["11.5g (Without Lens)"]},
+        {"label": "Protection Level", "values": ["IP67 Rating (Front Lens)"]},
+        {"label": "Optional Lens", "values": ["Fixed Focus Athermal: 4.9mm/9.1mm/13mm/19mm/25mm/35mm/50mm/70mm"]}
+      ],
+      "images": [
+        "/images/products/1746865311727-coin612-thermal-module-1.png",
+        "/images/products/1746865311728-coin612-thermal-module-2.png",
+        "/images/products/1746865311728-coin612-thermal-module-3.png"
+      ]
+    },
+    {
+      "id": "coin417g2",
+      "name": "COIN417G2",
+      "subtitle": "LH Series 384×288/17μm WLP Thermal Module Gen2",
+      "category": "COIN Series",
+      "description": "LH417 uncooled infrared module is a new generation version of LH417 developed by XINGHE. It integrates 384x288/17μm wafer level package (WLP) infrared imaging detector, high performance signal processing circuit and image processing algorithm.\n\nThe LH417 infrared module features in sharp and crisp thermal image presentation, compact size and low cost. It also has an optional thermographic function with measurement range from -20℃~550 ℃ for industrial temperature measurement.\n\nUntil now, we have provided our customers with various mature and stable infrared thermal imaging solutions. It's easier for LH series thermal imaging common module to be integrated into more terminal products and greatly reduces the cost for customers.",
+      "features": [
+        {"title": "Outstanding Performance", "description": "Powerful image process algorithm: NUC/3DNR/DNS/DRC/EE"},
+        {"title": "Temperature Measurement", "description": "With range of -20℃～150℃, 0~550℃ (support customization & expansion)"},
+        {"title": "Fast Start-up", "description": "With start-up time at 3s and power consumption as low as 0.75W"},
+        {"title": "Faster Integration", "description": "Support USB2.0/DVP/LVDS image output interfaces, RAW/YUV image data output, serial port control"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["LH417"]},
+        {"label": "Sensitive Material", "values": ["Vanadium Oxide"]},
+        {"label": "Resolution", "values": ["384×288"]},
+        {"label": "Pixel Size", "values": ["17μm"]},
+        {"label": "Spectral Range", "values": ["8μm~14μm"]},
+        {"label": "Typical NETD", "values": ["≤40mK"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz"]},
+        {"label": "Start-up Time", "values": ["3s"]},
+        {"label": "Digital Video", "values": ["RAW/YUV/BT656"]},
+        {"label": "Digital Video Interface", "values": ["USB2.0/DVP/LVDS"]},
+        {"label": "Supply Voltage", "values": ["4~5.5V"]},
+        {"label": "Typical Power Consumption", "values": ["0.75W"]},
+        {"label": "Temperature Measurement Range", "values": ["-20℃~150℃, 0℃~550℃"]},
+        {"label": "Operating Temperature", "values": ["-40°C~+70°C"]},
+        {"label": "Storage Temperature", "values": ["-45°C~+85°C"]}
+      ],
+      "images": [
+        "/images/products/1746865496952-coin417g2-1.png",
+        "/images/products/1746865496952-coin417g2-2.png",
+        "/images/products/1746865496953-coin417g2-3.png"
+      ]
+    },
+    {
+      "id": "mini212",
+      "name": "MINI212",
+      "subtitle": "MN Series Miniature 256×192/12μm Thermal Module",
+      "category": "MINI Series",
+      "description": "MN212 uncooled miniature thermal module is developed based on the TM256 thermal module by XINGHE. The product has small size, low power consumption, low cost, and optional multi-view configuration. Its temperature matrices and images allow integrators to integrate and develop their own products more efficiently and simply.\n\nThe MN212 is ideal for handheld thermal cameras, smart phones and accessories, wearable and AR glasses, and AI vision application devices.",
+      "features": [
+        {"title": "Meeting Low-Cost Requirements", "description": "Utilizing self-developed 256x192/12μm wafer-level-package infrared detector"},
+        {"title": "Clear Imaging", "description": "Next-generation image algorithms for clearer imaging: NUC/3DNR/DNS/DRC/EE/SFFC etc"},
+        {"title": "Temperature Measurement", "description": "Temperature measurement range: -20℃~150℃, 100℃~550℃"},
+        {"title": "Ultra-compact Structure", "description": "Size 17mmx17mm (With PCBA) for more compact integration"},
+        {"title": "Lightweight & IP67", "description": "Lightweight design with weight as low as 3.8g, achieving up to IP67 with the complete system"},
+        {"title": "Rapid System Integration", "description": "Easy system integration for various applications"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["MN212"]},
+        {"label": "Resolution", "values": ["256×192"]},
+        {"label": "Pixel Size", "values": ["12μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["≤50mK"]},
+        {"label": "Frame Rate", "values": ["25Hz"]},
+        {"label": "Image Algorithm", "values": ["NUC/3DNR/DNS/DRC/EE/SFFC"]},
+        {"label": "Temperature Measurement Range", "values": ["-20℃~150℃, 100℃~550℃"]},
+        {"label": "Size (mm)", "values": ["17×17 (With PCBA)"]},
+        {"label": "Weight", "values": ["3.8g"]},
+        {"label": "Protection Level", "values": ["Up to IP67 with complete system"]},
+        {"label": "Operating Temperature", "values": ["-20℃~+60℃"]},
+        {"label": "Storage Temperature", "values": ["-40℃~+85℃"]}
+      ],
+      "images": [
+        "/images/products/1749629651636-mini212g22.1mm.png",
+        "/images/products/1749629651637-mini212g210mm.png",
+        "/images/products/1749629651637-mini212g23.2mm.png"
+      ]
+    },
+    {
+      "id": "min1212r",
+      "name": "MIN1212R",
+      "subtitle": "MIN Series Miniature 1280×1024/12μm Radiometric Thermal Module",
+      "category": "MINI Series",
+      "description": "As a leading manufacturer of cooled and uncooled infrared detectors and thermal imaging modules, XINGHE is developing the miniature and lightweight MIN1212/R thermal imaging core.\n\nFully focused on SWaP-C (size-weight-cost-power), the MIN1212/R infrared camera core's size and weight already lead the industry. It is the best choice for customers with limited size and weight requirements when integrating their own drones.\n\nThe MIN1212/R thermal imaging module features a native 1280x1024/12 μm wafer-level infrared detector, an IP67 lens protection rating, an image and temperature measurement version, and various SDK solutions. It offers a more powerful and energy-efficient solution, overcoming integration challenges in consumer electronics and providing more solutions for compact and portable products.",
+      "features": [
+        {"title": "Compact Dimensions", "description": "Dimensions: 27.8 x 27.8 x 19.6 mm"},
+        {"title": "Lightweight", "description": "Weight: 30 g"},
+        {"title": "Advanced Algorithm", "description": "Completely new image processing algorithm: NUC/3DNR/DNS/DRC/EE"},
+        {"title": "SDK Support", "description": "Windows/Linux/ARM SDK support"},
+        {"title": "Temperature Measurement", "description": "Support for regional, spot, and isothermal temperature measurements"},
+        {"title": "Easy Integration", "description": "Various interfaces for easy integration"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["MIN1212/R"]},
+        {"label": "Resolution", "values": ["1280×1024"]},
+        {"label": "Pixel Size", "values": ["12μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["≤35mK"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz"]},
+        {"label": "Image Algorithm", "values": ["NUC/3DNR/DNS/DRC/EE"]},
+        {"label": "SDK", "values": ["Windows/Linux/ARM"]},
+        {"label": "Size (mm)", "values": ["27.8×27.8×19.6"]},
+        {"label": "Weight", "values": ["30g"]},
+        {"label": "Operating Temperature", "values": ["-40℃~+70℃"]},
+        {"label": "Storage Temperature", "values": ["-45℃~+85℃"]}
+      ],
+      "images": [
+        "/images/products/1749628176947-_1749628140480.png",
+        "/images/products/1749628296038-_1749628281355.png",
+        "/images/products/1749628296040-_17496282694214.png"
+      ]
+    },
+    {
+      "id": "ilc212",
+      "name": "ILC212",
+      "subtitle": "MC Series Industrial 256×192/12μm WLP Thermal Module",
+      "category": "ILC Series",
+      "description": "The MC212/612 infrared camera consists of a 256×192/640×512 resolution infrared detector, a 10mm optical lens, an image processing motherboard and structural components. It transmits analog video to the internal integration platform via a 6-pin connector, greatly reducing development time. It is specially designed for FPV drones.\n\nCompared with similar low-resolution thermal imaging modules on the market, the MC series provides higher image quality through intelligent image processing algorithms such as non-uniformity correction (NUC), 3D noise reduction (3DNR), 2D noise reduction (DNS), dynamic range compression (DRC) and edge enhancement (EE).",
+      "features": [
+        {"title": "Compact Size", "description": "Compact size: only 21 x 22 mm (excluding lens)"},
+        {"title": "Lightweight", "description": "Weight: only 15 g"},
+        {"title": "Low Power", "description": "Power consumption: 350 mW"},
+        {"title": "Simple Development", "description": "Support analog CVBS video output with PAL/NTSC formats"},
+        {"title": "In-house Detector", "description": "In-house developed 256 x 192/12 μm infrared detector"},
+        {"title": "Easy Maintenance", "description": "Easy to repair, no need for additional structural changes"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["MC212/612"]},
+        {"label": "Resolution", "values": ["256×192"]},
+        {"label": "Pixel Size", "values": ["12μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["≤50mK"]},
+        {"label": "Frame Rate", "values": ["25Hz"]},
+        {"label": "Video Output", "values": ["CVBS (PAL/NTSC)"]},
+        {"label": "Power Consumption", "values": ["350mW"]},
+        {"label": "Size (mm)", "values": ["21×22 (excluding lens)"]},
+        {"label": "Weight", "values": ["15g"]},
+        {"label": "Operating Temperature", "values": ["-20℃~+60℃"]},
+        {"label": "Storage Temperature", "values": ["-40℃~+85℃"]}
+      ],
+      "images": [
+        "/images/products/0e6b34db-8271-4a91-9e23-3ed66d2bcab8.png"
+      ]
+    },
+    {
+      "id": "idas-384s",
+      "name": "IDAS-384S",
+      "subtitle": "Vehicle Series Vehicle-mounted 384×288/17μm Thermal Module",
+      "category": "IDAS Series",
+      "description": "Vehicle384 is one of the vehicle-mounted infrared modules developed by XINGHE. It integrates 384×288/17μm uncooled LWIR detector and can be used to enhance driver's visual capability in harsh environment such as total darkness, rain, snow, fog, dust etc.\n\nWith Vehicle384 automotive thermal camera, drivers can see clear image 300 meters away beyond the reach of vehicles' headlights and enhance their field of view so as to better avoid obstacles and identify targets. It provides intelligent alarm based on a lot of model trainings and a set of mature AI algorithms to identify pedestrians, cyclists, vehicles and give warning in advance.\n\nThis vehicle mounted thermal camera is also effective to eliminate the interference of high beams from oncoming vehicles, increasing drivers' perception towards the surrounding environment and seeing distance in darkness or bad weather so that the safety of drivers, passengers, pedestrians and vehicles can be guaranteed.",
+      "features": [
+        {"title": "Night Vision Enhancement", "description": "See clear image 300 meters away beyond the reach of vehicles' headlights"},
+        {"title": "Enhanced Field of View", "description": "Enhance drivers' field of view so as to better avoid obstacles and identify targets"},
+        {"title": "AI Algorithms", "description": "Base on a lot of model trainings and own a set of mature AI algorithms"},
+        {"title": "Object Recognition", "description": "Identify pedestrians, cyclists, vehicles and give warning in advance"},
+        {"title": "Anti-glare", "description": "Anti-glare interference from oncoming vehicles in dark night"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["Vehicle384"]},
+        {"label": "Resolution", "values": ["384×288"]},
+        {"label": "Pixel Size", "values": ["17μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["≤50mK"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz"]},
+        {"label": "Detection Range", "values": ["300m+"]},
+        {"label": "AI Features", "values": ["Pedestrian/Cyclist/Vehicle detection"]},
+        {"label": "Environmental Conditions", "values": ["Darkness, rain, snow, fog, dust"]},
+        {"label": "Operating Temperature", "values": ["-40℃~+85℃"]},
+        {"label": "Storage Temperature", "values": ["-45℃~+105℃"]}
+      ],
+      "images": [
+        "/images/products/1746775425051-idas384s.png"
+      ]
+    },
+    {
+      "id": "iha417w",
+      "name": "IHA417W",
+      "subtitle": "MED Series Medical 384×288/17μm Thermal Module",
+      "category": "IHA Series",
+      "description": "MED417W thermal module is specially developed for medical diagnosis. It is integrated with self-developed wafer level packaging 384×288/17μm infrared detector, 9.1mm lens, 30pin standard interface (Optional Type-C expansion board) and SDK for temperature measurement with accuracy up to ±0.5℃. The captured temperature data and heat distribution of target can be used to achieve radiation-free, non-invasive early disease diagnosis and long-distance, large-scale body temperature screening.\n\nWithout external black body, the MED417W thermal imaging module has a compact & light structure, which guarantees a lower integration cost. MED417W thermal camera module has an all-in-one standard Type-C interface with power supply, data transmission and control, customers can quickly develop and integrate various temperature measuring systems like medical diagnosis and epidemic prevention.\n\nThe MED417W thermal camera module can be quickly integrated into various medical thermal imaging devices, and it is expected to be widely used in the fields of Disease Screening, Traditional Chinese Medicine Physiotherapy, Health Check-up, Rehabilitation etc. at present and in the future.",
+      "features": [
+        {"title": "Compact Design", "description": "≤25.4×25.4×30.3 (With 9.1mm Lens)"},
+        {"title": "High Sensitivity", "description": "Typical NETD<40mk"},
+        {"title": "Flexible Detection", "description": "Detect Distance: 0.5m/5m"},
+        {"title": "Lightweight", "description": "Light Weight: 32.2±3g (With 9.1mm Lens)"},
+        {"title": "High Accuracy", "description": "Superior Temperature Measurement Accuracy: ≤±0.5℃"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["MED417W"]},
+        {"label": "Resolution", "values": ["384×288"]},
+        {"label": "Pixel Size", "values": ["17μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["<40mK"]},
+        {"label": "Frame Rate", "values": ["25Hz"]},
+        {"label": "Lens", "values": ["9.1mm"]},
+        {"label": "Interface", "values": ["30pin standard (Optional Type-C)"]},
+        {"label": "Detection Distance", "values": ["0.5m / 5m"]},
+        {"label": "Temperature Accuracy", "values": ["±0.5℃"]},
+        {"label": "Size (mm)", "values": ["≤25.4×25.4×30.3 (With Lens)"]},
+        {"label": "Weight", "values": ["32.2±3g (With Lens)"]},
+        {"label": "Operating Temperature", "values": ["-10℃~+50℃"]},
+        {"label": "Storage Temperature", "values": ["-40℃~+85℃"]}
+      ],
+      "images": [
+        "/images/products/1746776409042-iha417w-1.png"
+      ]
+    },
+    {
+      "id": "iha417",
+      "name": "IHA417",
+      "subtitle": "MED Series Fever Sensing 384×288/17μm Thermal Module",
+      "category": "IHA Series",
+      "description": "MED417 uncooled infrared thermal camera is specially developed for infrared (IR) fever sensing system in order to measure human body temperature anytime and anywhere. It consists of 384×288/17μm infrared detector, 7mm infrared optical lens and a specialized SDK for human body temperature measurement.\n\nData captured by MED417 can be transferred to the back-end integration platform via 50-pin or USB3.0 interface to achieve the display of full-screen temperature data and infrared thermal image and many other functions. With such infrared thermal imaging module, customers could develop and integrate their own IR fever sensing system quickly and efficiently.\n\nThe MED417 thermal camera is specially developed for elevated skin temperature screening. It is easy to be integrated into infrared thermographic system which has been used for fighting against COVID-19 and fast to detect elevated body temperature in places that have large volume of people, such as airports, subways, train stations, schools, shopping centers etc.",
+      "features": [
+        {"title": "High Precision", "description": "±0.5℃ high precision temperature measurement without external black body"},
+        {"title": "Flexible Detection", "description": "Detect distance: 0.5m (for medical diagnosis); 5m (for epidemic prevention and animal thermography)"},
+        {"title": "Type-C Interface", "description": "An all-in-one standard Type-C interface with power supply, data transmission and control"},
+        {"title": "SDK Support", "description": "Support Windows/Android/Linux SDK; Achieve video stream analysis and conversion from gray to temperature"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["MED417"]},
+        {"label": "Resolution", "values": ["384×288"]},
+        {"label": "Pixel Size", "values": ["17μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["≤50mK"]},
+        {"label": "Frame Rate", "values": ["25Hz"]},
+        {"label": "Lens", "values": ["7mm"]},
+        {"label": "Interface", "values": ["Type-C (Power/Data/Control)"]},
+        {"label": "Detection Distance", "values": ["0.5m (Medical) / 5m (Epidemic Prevention)"]},
+        {"label": "Temperature Accuracy", "values": ["±0.5℃ (without black body)"]},
+        {"label": "SDK", "values": ["Windows/Android/Linux"]},
+        {"label": "Operating Temperature", "values": ["-10℃~+50℃"]},
+        {"label": "Storage Temperature", "values": ["-40℃~+85℃"]}
+      ],
+      "images": [
+        "/images/products/1746776602367-plug417s-0.png"
+      ]
+    },
+    {
+      "id": "itl612r-pro",
+      "name": "ITL612R-PRO",
+      "subtitle": "MIN Series Professional 640×512/12μm Radiometric Thermal Module",
+      "category": "ITL Series",
+      "description": "As a leading manufacturer of cooled uncooled infrared detectors & thermal modules, XINGHE Technology developes a tiny size and lightweight infrared thermal imaging core MIN612R Pro, which is the compact version of infrared camera core MIN612R.\n\nFully oriented for SWaP-C (size-weight-and-power-cost), the size and weight of MIN612R Pro infrared camera core has already been at the forefront in the industry, it is the best choice for customers who have restrict requirements on size and weight when integrating their own drones.\n\nProviding 640×512/12μm self-developed wafer-level infrared detector, lens protection grade IP67, imaging and temperature measurement version, and various SDK solutions, the MIN612R Pro thermal module responds to space constraints with smaller size and lighter weight, achieves longer battery life with lower power consumption, overcomes integration problems in the consumer electronics field, and provides more solutions for compact and portable products.\n\nIt is specially developed for the field of Predictive Maintenance, Photovoltaic Inspection, Environmental Protection, Scientific Research, Aerial Photography, Police Investigation, Disaster Relief & Rescue, Forest Fire Prevention, Urban Safety etc.",
+      "features": [
+        {"title": "Ultra Compact", "description": "Size: 17mm×17mm×22mm (with 9.1mm lens)"},
+        {"title": "Ultra Lightweight", "description": "Weight: 13g (with 9.1mm lens)"},
+        {"title": "Low Power", "description": "Power consumption as low as 0.7W"},
+        {"title": "Clear Image & Accurate Radiometry", "description": "Brand new image process algorithm: NUC/3DNR/DNS/DRC/EE"},
+        {"title": "SDK Support", "description": "Support Windows/Linux/ARM SDK"},
+        {"title": "Regional Temperature Measurement", "description": "Support regional, point & isotherm temperature measurement"}
+      ],
+      "specifications": [
+        {"label": "Model", "values": ["MIN612R Pro"]},
+        {"label": "Resolution", "values": ["640×512"]},
+        {"label": "Pixel Size", "values": ["12μm"]},
+        {"label": "Spectral Range", "values": ["8~14μm"]},
+        {"label": "Typical NETD", "values": ["≤30mK"]},
+        {"label": "Frame Rate", "values": ["25Hz/30Hz/50Hz"]},
+        {"label": "Digital Video", "values": ["RAW/YUV"]},
+        {"label": "Image Algorithm", "values": ["NUC/3DNR/DNS/DRC/EE"]},
+        {"label": "SDK", "values": ["Windows/Linux/ARM"]},
+        {"label": "Size (mm)", "values": ["17×17×22 (with 9.1mm lens)"]},
+        {"label": "Weight", "values": ["13g (with 9.1mm lens)"]},
+        {"label": "Power Consumption", "values": ["0.7W"]},
+        {"label": "Operating Temperature", "values": ["-40℃~+70℃"]},
+        {"label": "Storage Temperature", "values": ["-45℃~+85℃"]}
+      ],
+      "images": [
+        "/images/products/1746863162635-itl612-g2-1.png",
+        "/images/products/1746863162633-itl612-2.jpg",
+        "/images/products/1746863162634-itl612-3.jpg"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Q1: What is infrared thermal imaging?",
+      "answer": "Infrared thermal imaging is a method of using infrared radiation and thermal energy to gather information about objects, in order to formulate images of them, even in low visibility environments. It's based on the fact that all objects emit infrared radiation depending on their temperature."
+    },
+    {
+      "question": "Q2: What is thermography?",
+      "answer": "Thermography is a non-invasive diagnostic method, based on object surface temperature detection. The infrared (IR) radiation emitted from an object is captured by an infrared camera and converted into thermal images or thermograms showing temperature distribution patterns."
+    },
+    {
+      "question": "Q3: What is the advantage of infrared thermal imaging?",
+      "answer": "See through total darkness; Identification under camouflage; Long range detection; Heat distribution detection; Non-contact temperature measurement; Occupation awareness"
+    },
+    {
+      "question": "Q4: What is infrared detector/thermal imaging sensor?",
+      "answer": "Infrared waves cannot be seen with the human eye. Infrared detector/thermal imaging sensor is an optical-electrical device to react to infrared radiation and convert the detected radiation into measurable electrical signals for subsequent signal processing and image display."
+    },
+    {
+      "question": "Q5: What is the difference between uncooled and cooled IR detectors?",
+      "answer": "Uncooled IR detectors operate at ambient temperature without additional cooling system, featuring lower cost, smaller size, lighter weight and lower power consumption. Cooled IR detectors need to be cooled to cryogenic temperatures (typically 77K) by built-in cryocoolers for higher sensitivity and faster response time."
+    },
+    {
+      "question": "Q6: What is thermal imaging module?",
+      "answer": "A thermal imaging module integrates the detector with optics and electronics into a complete imaging solution."
+    },
+    {
+      "question": "Q7: What is NETD?",
+      "answer": "NETD refers to 'Noise Equivalent Temperature Difference'. It is a measure of how well a thermal imaging detector is able to distinguish between very small differences in thermal radiation in the image. The lower the NETD value, the better the thermal sensitivity of the detector."
+    },
+    {
+      "question": "Q8: What is SWaP3?",
+      "answer": "SWaP3 refers to size, weight, power, performance and price. It indicates the technology trend of infrared industry."
+    },
+    {
+      "question": "Q9: What is DRI?",
+      "answer": "DRI usually refers detection, recognition and identification distance of a thermal imaging system. It is a crucial parameter to judge the performance of a thermal imaging system, especially in security and surveillance applications."
+    },
+    {
+      "question": "Q10: What is WLP? What's the advantage of WLP?",
+      "answer": "WLP refers to wafer level package. Together with metal package, ceramic package, they are the 3 main package formats of uncooled infrared detectors. WLP offers significant advantages including smaller size, lower cost at high volumes, and better integration possibilities for consumer applications."
+    }
+  ]
+}

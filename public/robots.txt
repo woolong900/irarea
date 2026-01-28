@@ -1,0 +1,20 @@
+# robots.txt for IR AREA
+# https://irarea.com
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://irarea.com/sitemap.xml
+
+# Host
+Host: https://irarea.com
