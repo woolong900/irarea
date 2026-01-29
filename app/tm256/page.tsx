@@ -5,7 +5,7 @@ import { getProduct } from '@/lib/products'
 import { getProductMainImage } from '@/lib/images'
 import { notFound } from 'next/navigation'
 
-const product = getProduct('timo256')
+const product = getProduct('tm256')
 const productImage = product ? getProductMainImage(product.id) : ''
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: `https://irarea.com/timo256`,
+    canonical: `https://irarea.com/tm256`,
   },
 }
 

@@ -1,0 +1,6 @@
+# Cloudflare Pages 配置
+name = "irarea"
+compatibility_date = "2024-01-01"
+
+# 静态资源目录 (Next.js 静态导出后的输出目录)
+pages_build_output_dir = "./out"

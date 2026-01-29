@@ -44,14 +44,14 @@ export const IMAGES = {
 
 // 产品图片映射 - 使用本地下载的图片
 export const PRODUCT_IMAGES: Record<string, string[]> = {
-  timo256: [
+  tm256: [
     '/images/products/1746866251195-timo256-0.webp',
     '/images/products/1746866251196-timo256-1.webp',
     '/images/products/1746866251196-timo256-2.webp',
     '/images/products/1746866251196-timo256-3.webp',
     '/images/products/1746866251196-timo256-4.webp',
   ],
-  timo120: [
+  tm120: [
     '/images/products/1746867654172-timo120-0.webp',
     '/images/products/1746867654173-timo120-1.webp',
     '/images/products/1746867654173-timo120-2.webp',

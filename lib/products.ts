@@ -20,7 +20,7 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: 'timo256',
+    id: 'tm256',
     name: 'TM256',
     subtitle: 'Miniature 256×192 VOx Uncooled Thermal Module',
     description:
@@ -58,7 +58,7 @@ Now TM series thermal imaging cores have been widely used in consumer electronic
     ],
   },
   {
-    id: 'timo120',
+    id: 'tm120',
     name: 'TM120',
     subtitle: 'Miniature 120×90 VOx Uncooled Thermal Module',
     description:

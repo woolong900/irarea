@@ -5,11 +5,11 @@ import { getProduct } from '@/lib/products'
 import { getProductMainImage } from '@/lib/images'
 import { notFound } from 'next/navigation'
 
-const product = getProduct('timo120')
+const product = getProduct('tm120')
 const productImage = product ? getProductMainImage(product.id) : ''
 
 export const metadata: Metadata = {
-  title: product ? `${product.name} - ${product.subtitle}` : 'TIMO120 Thermal Module',
+  title: product ? `${product.name} - ${product.subtitle}` : 'TM120 Thermal Module',
   description: product?.description?.substring(0, 155) + '...' || 'High-performance thermal imaging product from IR AREA.',
   keywords: product ? [product.name, product.category, 'thermal imaging', 'infrared', 'IR AREA'] : [],
   openGraph: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   alternates: {
-    canonical: `https://irarea.com/timo120`,
+    canonical: `https://irarea.com/tm120`,
   },
 }
 
