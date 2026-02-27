@@ -517,7 +517,18 @@
   "landingPage": {
     "ctaTitle": "Ottieni la tua soluzione ora",
     "ctaDesc": "Non sei sicuro di quale soluzione sia la migliore? Lascia che i nostri esperti trovino la soluzione giusta per te.",
-    "chatWhatsApp": "Chatta su WhatsApp"
+    "chatWhatsApp": "Chatta su WhatsApp",
+    "faqTitle": "Domande Frequenti",
+    "faq1_q": "Non sono sicuro se il mio progetto necessita di un modulo termico raffreddato o non raffreddato. Come dovrei decidere?",
+    "faq1_a": "Non devi indovinare. La scelta tra rilevatori raffreddati e non raffreddati dipende dalla distanza del bersaglio, velocità e ambiente. Non vendiamo prodotti standard, forniamo consulenza diretta con gli ingegneri. Contatta i nostri ingegneri per condividere i dettagli della tua missione, e forniremo confronti tecnici e soluzioni su misura per assicurarti di ottenere la tecnologia giusta per la tua missione.",
+    "faq2_q": "I vostri moduli termici possono integrarsi perfettamente con il mio sistema esistente?",
+    "faq2_a": "L'integrazione è la nostra specialità. Forniamo non solo hardware, ma anche supporto all'implementazione. Il nostro team di ingegneri può assistere con protocolli SDK/API, montaggio meccanico e sincronizzazione dell'alimentazione. Se non sei sicuro della compatibilità, inviaci le tue specifiche e il nostro team verificherà la soluzione di integrazione per te.",
+    "faq3_q": "Quali scenari applicativi specifici coprono i vostri prodotti di imaging termico?",
+    "faq3_a": "Questo è esattamente dove aggiungiamo valore. Non devi studiare il complesso pitch dei pixel o la sensibilità termica. Dicci semplicemente il tuo Scenario e Missione: Quanto è lontano il tuo obiettivo? Hai requisiti rigidi per il carico utile (peso/volume)? Il tuo ambiente è nebbioso, umido o ha differenze di temperatura estreme? I nostri ingegneri troveranno il percorso tecnico ottimale (raffreddato vs non raffreddato) basandosi su queste dimensioni principali.",
+    "faq4_q": "Se il mio progetto richiede operazioni di lunga durata, come risolvete il consumo energetico dei moduli termici?",
+    "faq4_a": "Bilanciamo consumo energetico e prestazioni ottimizzando i moduli di gestione dell'alimentazione e selezionando processi di produzione più avanzati. Comunicaci la capacità della tua batteria, e i nostri ingegneri calcoleranno il sovraccarico stimato del tempo di volo aggiuntivo per te.",
+    "faq5_q": "Devo rilevare persone a 3 chilometri di distanza. Quale modello dovrei scegliere?",
+    "faq5_a": "Questo dipende dall'umidità e dal contrasto del tuo ambiente. I nostri ingegneri possono stimare la tua portata di rilevamento effettiva attraverso simulazione matematica."
   },
   "servicesPage": {
     "title": "Servizi e Supporto",

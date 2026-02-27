@@ -517,7 +517,18 @@
   "landingPage": {
     "ctaTitle": "Holen Sie sich jetzt Ihre Lösung",
     "ctaDesc": "Nicht sicher, welche Lösung am besten passt? Lassen Sie unsere Experten die richtige Lösung für Sie finden.",
-    "chatWhatsApp": "Chat auf WhatsApp"
+    "chatWhatsApp": "Chat auf WhatsApp",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faq1_q": "Ich bin mir nicht sicher, ob mein Projekt ein gekühltes oder ungekühltes Wärmebildmodul benötigt. Wie soll ich entscheiden?",
+    "faq1_a": "Sie müssen nicht raten. Die Wahl zwischen gekühlten und ungekühlten Detektoren hängt von Zielentfernung, Geschwindigkeit und Umgebung ab. Wir verkaufen keine Standardprodukte – wir bieten direkte Ingenieurberatung. Kontaktieren Sie unsere Ingenieure, um Ihre Missionsdetails zu teilen, und wir liefern technische Vergleiche und maßgeschneiderte Lösungen, um sicherzustellen, dass Sie die richtige Technologie für Ihre Mission erhalten.",
+    "faq2_q": "Können Ihre Wärmebildmodule nahtlos in mein bestehendes System integriert werden?",
+    "faq2_a": "Integration ist unsere Spezialität. Wir bieten nicht nur Hardware, sondern auch Implementierungsunterstützung. Unser Ingenieurteam kann bei SDK/API-Protokollen, mechanischer Montage und Stromsynchronisation helfen. Wenn Sie sich über die Kompatibilität unsicher sind, senden Sie uns Ihre Spezifikationen und unser Team wird die Integrationslösung für Sie verifizieren.",
+    "faq3_q": "Welche spezifischen Anwendungsszenarien decken Ihre Wärmebildprodukte ab?",
+    "faq3_a": "Genau hier schaffen wir Mehrwert. Sie müssen keine komplexen Pixelabstände oder Wärmeempfindlichkeiten studieren. Sagen Sie uns einfach Ihr Szenario und Ihre Mission: Wie weit ist Ihr Ziel entfernt? Haben Sie harte Anforderungen an die Nutzlast (Gewicht/Volumen)? Ist Ihre Umgebung neblig, feucht oder hat extreme Temperaturunterschiede? Unsere Ingenieure werden den optimalen technischen Weg (gekühlt vs. ungekühlt) basierend auf diesen Kerndimensionen für Sie ermitteln.",
+    "faq4_q": "Wenn mein Projekt Langzeit-Betrieb erfordert, wie lösen Sie den Stromverbrauch für Wärmebildmodule?",
+    "faq4_a": "Wir gleichen Stromverbrauch und Leistung aus, indem wir Strommanagementmodule optimieren und fortschrittlichere Fertigungsprozesse auswählen. Teilen Sie uns Ihre Batteriekapazität mit, und unsere Ingenieure berechnen den geschätzten zusätzlichen Flugzeit-Overhead für Sie.",
+    "faq5_q": "Ich muss Menschen in 3 Kilometern Entfernung erkennen. Welches Modell sollte ich wählen?",
+    "faq5_a": "Das hängt von der Luftfeuchtigkeit und dem Kontrast Ihrer Umgebung ab. Unsere Ingenieure können Ihre effektive Erkennungsreichweite durch mathematische Simulation schätzen."
   },
   "servicesPage": {
     "title": "Service & Support",

@@ -517,7 +517,18 @@
   "landingPage": {
     "ctaTitle": "Obtenga su solución ahora",
     "ctaDesc": "¿No está seguro de qué solución se adapta mejor? Deje que nuestros expertos encuentren la solución adecuada para usted.",
-    "chatWhatsApp": "Chat en WhatsApp"
+    "chatWhatsApp": "Chat en WhatsApp",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1_q": "No estoy seguro si mi proyecto necesita un módulo térmico refrigerado o no refrigerado. ¿Cómo debo decidir?",
+    "faq1_a": "No necesita adivinar. La elección entre detectores refrigerados y no refrigerados depende de la distancia del objetivo, velocidad y entorno. No vendemos productos estándar, proporcionamos consulta directa con ingenieros. Contacte a nuestros ingenieros para compartir los detalles de su misión, y le proporcionaremos comparaciones técnicas y soluciones personalizadas para asegurar que obtenga la tecnología correcta para su misión.",
+    "faq2_q": "¿Pueden sus módulos térmicos integrarse perfectamente con mi sistema existente?",
+    "faq2_a": "La integración es nuestra especialidad. Proporcionamos no solo hardware, sino también soporte de implementación. Nuestro equipo de ingeniería puede ayudar con protocolos SDK/API, montaje mecánico y sincronización de energía. Si no está seguro de la compatibilidad, envíenos sus especificaciones y nuestro equipo verificará la solución de integración para usted.",
+    "faq3_q": "¿Qué escenarios de aplicación específicos cubren sus productos de imagen térmica?",
+    "faq3_a": "Aquí es exactamente donde agregamos valor. No necesita estudiar el paso de píxel complejo o la sensibilidad térmica. Solo díganos su Escenario y Misión: ¿A qué distancia está su objetivo? ¿Tiene requisitos estrictos de carga útil (peso/volumen)? ¿Su entorno es neblinoso, húmedo o tiene diferencias de temperatura extremas? Nuestros ingenieros encontrarán la ruta técnica óptima (refrigerado vs no refrigerado) basándose en estas dimensiones principales.",
+    "faq4_q": "Si mi proyecto requiere operación de larga duración, ¿cómo resuelven el consumo de energía de los módulos térmicos?",
+    "faq4_a": "Equilibramos el consumo de energía y el rendimiento optimizando los módulos de gestión de energía y seleccionando procesos de fabricación más avanzados. Díganos la capacidad de su batería, y nuestros ingenieros calcularán el tiempo de vuelo adicional estimado para usted.",
+    "faq5_q": "Necesito detectar personas a 3 kilómetros de distancia. ¿Qué modelo debo elegir?",
+    "faq5_a": "Esto depende de la humedad y el contraste de su entorno. Nuestros ingenieros pueden estimar su rango de detección efectivo mediante simulación matemática."
   },
   "servicesPage": {
     "title": "Servicios y Soporte",

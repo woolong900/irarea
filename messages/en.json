@@ -517,7 +517,18 @@
   "landingPage": {
     "ctaTitle": "Get Your Solution Now",
     "ctaDesc": "Not sure which solution fits best? Let our experts match the right solution for you.",
-    "chatWhatsApp": "Chat on WhatsApp"
+    "chatWhatsApp": "Chat on WhatsApp",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1_q": "I'm not sure if my project needs a cooled or uncooled thermal module. How should I decide?",
+    "faq1_a": "You don't need to guess. Choosing between cooled and uncooled detectors depends on target distance, speed, and environment. We don't push standard products—we provide direct engineer consultation. Contact our engineers to share your mission details, and we'll provide technical comparisons and tailored solutions to ensure you get the right technology for your mission.",
+    "faq2_q": "Can your thermal modules integrate seamlessly with my existing system?",
+    "faq2_a": "Integration is our specialty. We provide not just hardware, but implementation support. Our engineering team can assist with SDK/API protocols, mechanical mounting, and power synchronization. If you're unsure about compatibility, send us your specifications and our team will verify the integration solution for you.",
+    "faq3_q": "What specific application scenarios do your thermal imaging products cover?",
+    "faq3_a": "This is exactly where we add value. You don't need to study complex pixel pitch or thermal sensitivity. Just tell us your Scene and Mission: How far is your target? Do you have hard requirements for payload (weight/volume)? Is your environment foggy, humid, or has extreme temperature differences? Our engineers will match the optimal technical path (cooled vs uncooled) based on these core dimensions.",
+    "faq4_q": "If my project requires long-endurance operation, how do you solve power consumption for thermal modules?",
+    "faq4_a": "We balance power consumption and performance by optimizing power management modules and selecting more advanced manufacturing processes. Tell us your battery capacity, and our engineers will calculate the estimated additional flight time overhead for you.",
+    "faq5_q": "I need to detect people 3 kilometers away. Which model should I choose?",
+    "faq5_a": "This depends on your environment's humidity and contrast. Our engineers can estimate your effective detection range through mathematical simulation."
   },
   "servicesPage": {
     "title": "Services & Support",
