@@ -514,11 +514,17 @@
     "viewProducts": "Vedi Prodotti",
     "contactSales": "Contatta le Vendite"
   },
+  "landingPage": {
+    "ctaTitle": "Ottieni la tua soluzione ora",
+    "ctaDesc": "Non sei sicuro di quale soluzione sia la migliore? Lascia che i nostri esperti trovino la soluzione giusta per te.",
+    "chatWhatsApp": "Chatta su WhatsApp"
+  },
   "servicesPage": {
     "title": "Servizi e Supporto",
-    "description": "Soluzioni professionali di imaging termico e supporto tecnico esperto",
+    "description": "Il fornitore di rilevatori a infrarossi più popolare.",
+    "subtitle": "Creiamo solo soluzioni esclusive per i tuoi scenari.",
     "coreServicesTitle": "Servizi \"Core\" con Rilevatori a Infrarossi Autonomi",
-    "coreServicesDesc": "Dopo anni di esperienza nelle applicazioni industriali, ChengJing Technology è in grado di fornire soluzioni professionali, efficienti e convenienti per clienti in diversi settori.",
+    "coreServicesDesc": "Non più limitato dalla distanza geografica, non più vincolato dal carico delle attrezzature. Personalizziamo soluzioni di imaging termico a scenario completo per le tue attività specifiche, dal monitoraggio a lungo raggio alle applicazioni ultraleggere.",
     "coreService1": "Rilevatori IR sia non raffreddati che raffreddati in diversi formati e dimensioni di pixel",
     "coreService2": "Tre linee di produzione con capacità produttiva annuale fino a milioni di rilevatori.",
     "coreService3": "Tecnologia leader mondiale nel settore a infrarossi",

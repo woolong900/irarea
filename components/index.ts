@@ -11,6 +11,8 @@ export { default as Card, CardImage, CardContent, CardTitle, CardDescription } f
 export { default as ContactForm } from './ContactForm'
 export { HoverVideo } from './HoverVideo'
 export { ImageCarousel } from './ImageCarousel'
+export { CollapsibleFAQ } from './CollapsibleFAQ'
+export { ApplicationCarousel } from './ApplicationCarousel'
 export { default as WhatsAppButton } from './WhatsAppButton'
 export { default as WhatsAppCta } from './WhatsAppCta'
 export { default as LanguageSwitcher } from './LanguageSwitcher'

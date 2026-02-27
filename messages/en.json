@@ -514,11 +514,17 @@
     "viewProducts": "View Products",
     "contactSales": "Contact Sales"
   },
+  "landingPage": {
+    "ctaTitle": "Get Your Solution Now",
+    "ctaDesc": "Not sure which solution fits best? Let our experts match the right solution for you.",
+    "chatWhatsApp": "Chat on WhatsApp"
+  },
   "servicesPage": {
     "title": "Services & Support",
-    "description": "Professional thermal imaging solutions and expert technical support",
+    "description": "The most popular Infrared Detectors supplier.",
+    "subtitle": "We only create solutions exclusive to your scenarios.",
     "coreServicesTitle": "\u201CCore\u201D Services with Self-independent Infrared Detectors",
-    "coreServicesDesc": "After years of industrial application experience, ChengJing Technology is capable to provide professional, efficient and convenient solutions for customers in different industries.",
+    "coreServicesDesc": "No longer limited by geographic distance, no longer constrained by equipment load. We tailor full-scenario thermal imaging solutions for your specific tasks, from long-range monitoring to ultra-lightweight applications.",
     "coreService1": "Both uncooled and cooled IR detectors in different formats and pixel size",
     "coreService2": "Three production lines with annual production capability up to millions of detectors.",
     "coreService3": "World-leading technology in infrared industry",

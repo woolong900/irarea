@@ -514,11 +514,17 @@
     "viewProducts": "Produkte ansehen",
     "contactSales": "Vertrieb kontaktieren"
   },
+  "landingPage": {
+    "ctaTitle": "Holen Sie sich jetzt Ihre Lösung",
+    "ctaDesc": "Nicht sicher, welche Lösung am besten passt? Lassen Sie unsere Experten die richtige Lösung für Sie finden.",
+    "chatWhatsApp": "Chat auf WhatsApp"
+  },
   "servicesPage": {
     "title": "Service & Support",
-    "description": "Professionelle Wärmebildlösungen und fachkundiger technischer Support",
+    "description": "Der beliebteste Anbieter von Infrarot-Detektoren.",
+    "subtitle": "Wir erstellen nur Lösungen exklusiv für Ihre Szenarien.",
     "coreServicesTitle": "„Kern“-Services mit eigenentwickelten Infrarot-Detektoren",
-    "coreServicesDesc": "Nach jahrelanger industrieller Anwendungserfahrung ist ChengJing Technology in der Lage, professionelle, effiziente und komfortable Lösungen für Kunden verschiedener Branchen anzubieten.",
+    "coreServicesDesc": "Nicht mehr durch geografische Entfernung eingeschränkt, nicht mehr durch Gerätebelastung begrenzt. Wir maßschneidern Vollszenario-Wärmebildlösungen für Ihre spezifischen Aufgaben, von Langstreckenüberwachung bis hin zu ultraleichten Anwendungen.",
     "coreService1": "Sowohl ungekühlte als auch gekühlte IR-Detektoren in verschiedenen Formaten und Pixelgrößen",
     "coreService2": "Drei Produktionslinien mit einer jährlichen Produktionskapazität von bis zu Millionen von Detektoren.",
     "coreService3": "Weltweit führende Technologie in der Infrarotbranche",
