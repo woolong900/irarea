@@ -32,16 +32,31 @@ export default async function LandingPage({ params }: PageProps) {
   const lt = await getTranslations('landingPage')
 
   const faqs = [
-    { question: t('faq1_q'), answer: t('faq1_a'), list: null },
-    { question: t('faq2_q'), answer: t('faq2_a'), list: null },
-    { question: t('faq3_q'), answer: null, list: [t('faq3_l1'), t('faq3_l2'), t('faq3_l3'), t('faq3_l4'), t('faq3_l5'), t('faq3_l6')] },
-    { question: t('faq4_q'), answer: t('faq4_a'), list: null },
-    { question: t('faq5_q'), answer: t('faq5_a'), list: null },
-    { question: t('faq6_q'), answer: t('faq6_a'), list: null },
-    { question: t('faq7_q'), answer: t('faq7_a'), list: null },
-    { question: t('faq8_q'), answer: t('faq8_a'), list: null },
-    { question: t('faq9_q'), answer: t('faq9_a'), list: null },
-    { question: t('faq10_q'), answer: t('faq10_a'), list: null },
+    { 
+      question: '我不确定我的项目需要带冷却功能的散热模块还是不带冷却功能的散热模块。我应该如何决定？', 
+      answer: '您无需猜测。选择制冷型还是非制冷型探测器取决于目标的距离、速度和环境。我们不推销标准产品，而是提供工程师直接咨询服务。联系我们的工程师分享您的任务详情，我们将提供技术对比和量身定制的方案，确保您获得适合任务的正确技术。', 
+      list: null 
+    },
+    { 
+      question: '你们的热成像模块能否与我现有系统无缝集成？', 
+      answer: '集成是我们的专长。我们不仅提供硬件，还提供实施支持。我们的工程团队可以协助您处理 SDK/API 协议、机械安装和电源同步等问题。如果您不确定兼容性，请将您的规格发送给我们，我们的团队将为您验证集成方案。', 
+      list: null 
+    },
+    { 
+      question: '你们的热成像产品具体涵盖哪些应用场景？', 
+      answer: '这正是我们的价值所在。你无需钻研复杂的像元间距或热灵敏度。你只需要告诉我们你的场景（Scene）和任务（Mission）：你的目标距离有多远？你对负载（重量/体积）是否有硬性要求？使用环境是否有浓雾、高湿或极端温差？我们的工程师会根据这些核心维度，直接为你匹配最优的技术路径（制冷 vs 非制冷）。', 
+      list: null 
+    },
+    { 
+      question: '如果我的项目需要长航时作业，热成像模块的功耗如何解决？', 
+      answer: '我们会通过优化电源管理模块和选择更先进的工艺来平衡功耗与性能。告诉我们您的电池容量，我们的工程师会为您计算预估增加的航时开销。', 
+      list: null 
+    },
+    { 
+      question: '我需要探测 3 公里外的人员，应该选哪款？', 
+      answer: '这取决于您环境的湿度和对比度。我们的工程师可以通过数学模拟为您预估有效探测范围。', 
+      list: null 
+    },
   ]
 
   const solutions = [
