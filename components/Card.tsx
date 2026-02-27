@@ -1,6 +1,9 @@
+'use client'
+
 import { ReactNode } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useLocale } from 'next-intl'
 
 interface CardProps {
   children: ReactNode
@@ -15,14 +18,30 @@ export default function Card({
   href,
   hover = true,
 }: CardProps) {
+  const locale = useLocale()
   const baseStyles = `bg-white rounded-lg shadow-card ${
     hover ? 'transition-all duration-200 hover:shadow-card-hover hover:-translate-y-1' : ''
   }`
 
   if (href) {
+    // External links use regular anchor tag
+    if (href.startsWith('http')) {
+      return (
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`${baseStyles} block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 ${className}`}
+        >
+          {children}
+        </a>
+      )
+    }
+    // Internal links - prepend locale
+    const localizedHref = `/${locale}${href.startsWith('/') ? href : `/${href}`}`
     return (
       <Link
-        href={href}
+        href={localizedHref}
         className={`${baseStyles} block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 ${className}`}
       >
         {children}

@@ -1,39 +1,45 @@
 'use client'
 
 import { useState } from 'react'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { useTranslations } from 'next-intl'
+import { Link, usePathname } from '@/lib/i18n'
 
 interface NavLink {
   href: string
-  label: string
-  children?: { href: string; label: string }[]
+  labelKey: string
+  children?: { href: string; labelKey: string }[]
 }
 
 const navLinks: NavLink[] = [
-  { href: '/', label: 'Home' },
-  { href: '/products', label: 'Products' },
-  { href: '/servicesandsupport', label: 'Services&Support' },
-  { href: '/about-us', label: 'About Us' },
+  { href: '/', labelKey: 'home' },
+  { href: '/products', labelKey: 'products' },
+  { href: '/servicesandsupport', labelKey: 'services' },
+  { href: '/about-us', labelKey: 'about' },
   {
     href: '/industrial-solutions',
-    label: 'Industrial Solutions',
+    labelKey: 'solutions',
     children: [
-      { href: '/industrial-solutions/thermography', label: 'Thermography' },
-      { href: '/industrial-solutions/security-monitoring', label: 'Security Monitoring' },
-      { href: '/industrial-solutions/optical-gas-imaging', label: 'Optical Gas Imaging' },
-      { href: '/industrial-solutions/firefighting-rescue', label: 'Firefighting & Rescue' },
-      { href: '/industrial-solutions/uavs-payload', label: 'UAVs Payload' },
-      { href: '/industrial-solutions/personal-vision', label: 'Personal Vision' },
+      { href: '/industrial-solutions/thermography', labelKey: 'thermography' },
+      { href: '/industrial-solutions/security-monitoring', labelKey: 'securityMonitoring' },
+      { href: '/industrial-solutions/optical-gas-imaging', labelKey: 'opticalGasImaging' },
+      { href: '/industrial-solutions/firefighting-rescue', labelKey: 'firefightingRescue' },
+      { href: '/industrial-solutions/uavs-payload', labelKey: 'uavsPayload' },
+      { href: '/industrial-solutions/personal-vision', labelKey: 'personalVision' },
     ],
   },
 ]
 
 export default function Nav() {
+  const t = useTranslations('nav')
+  const tSolutions = useTranslations('solutions')
   const [isOpen, setIsOpen] = useState(false)
   const [openDropdown, setOpenDropdown] = useState<string | null>(null)
   const [openMobileSubmenu, setOpenMobileSubmenu] = useState<string | null>(null)
   const pathname = usePathname()
+
+  const getLabel = (key: string, isSolution: boolean = false) => {
+    return isSolution ? tSolutions(key) : t(key)
+  }
 
   const isActive = (href: string) => {
     if (href === '/') {
@@ -59,7 +65,7 @@ export default function Nav() {
                 isActive(link.href) ? 'nav-link-active' : ''
               }`}
             >
-              {link.label}
+              {getLabel(link.labelKey)}
               {link.children && (
                 <svg
                   className={`w-4 h-4 transition-transform ${openDropdown === link.href ? 'rotate-180' : ''}`}
@@ -85,7 +91,7 @@ export default function Nav() {
                             : 'text-neutral-700 hover:text-primary-600 hover:bg-neutral-50'
                         }`}
                       >
-                        {child.label}
+                        {getLabel(child.labelKey, true)}
                       </Link>
                     </li>
                   ))}
@@ -102,9 +108,9 @@ export default function Nav() {
         className="lg:hidden p-2 rounded-md text-neutral-700 hover:text-neutral-900 hover:bg-neutral-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500"
         onClick={() => setIsOpen(!isOpen)}
         aria-expanded={isOpen}
-        aria-label={isOpen ? 'Close menu' : 'Open menu'}
+        aria-label={isOpen ? t('closeMenu') : t('openMenu')}
       >
-        <span className="sr-only">{isOpen ? 'Close menu' : 'Open menu'}</span>
+        <span className="sr-only">{isOpen ? t('closeMenu') : t('openMenu')}</span>
         {isOpen ? (
           <svg
             className="h-6 w-6"
@@ -146,12 +152,12 @@ export default function Nav() {
         }`}
       >
         <div className="flex items-center justify-between p-4 border-b border-neutral-200">
-          <span className="text-lg font-semibold text-neutral-900">Menu</span>
+          <span className="text-lg font-semibold text-neutral-900">{t('menu')}</span>
           <button
             type="button"
             className="p-2 rounded-md text-neutral-500 hover:text-neutral-700 hover:bg-neutral-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500"
             onClick={() => setIsOpen(false)}
-            aria-label="Close menu"
+            aria-label={t('closeMenu')}
           >
             <svg
               className="h-6 w-6"
@@ -179,7 +185,7 @@ export default function Nav() {
                     }`}
                     onClick={() => setOpenMobileSubmenu(openMobileSubmenu === link.href ? null : link.href)}
                   >
-                    {link.label}
+                    {getLabel(link.labelKey)}
                     <svg
                       className={`w-4 h-4 transition-transform ${openMobileSubmenu === link.href ? 'rotate-180' : ''}`}
                       fill="none"
@@ -201,7 +207,7 @@ export default function Nav() {
                           }`}
                           onClick={() => setIsOpen(false)}
                         >
-                          Overview
+                          {t('overview')}
                         </Link>
                       </li>
                       {link.children.map((child) => (
@@ -215,7 +221,7 @@ export default function Nav() {
                             }`}
                             onClick={() => setIsOpen(false)}
                           >
-                            {child.label}
+                            {getLabel(child.labelKey, true)}
                           </Link>
                         </li>
                       ))}
@@ -232,7 +238,7 @@ export default function Nav() {
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
-                  {link.label}
+                  {getLabel(link.labelKey)}
                 </Link>
               )}
             </li>

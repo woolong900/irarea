@@ -1,7 +1,8 @@
-import Link from 'next/link'
 import Image from 'next/image'
+import { Link } from '@/lib/i18n'
 import Container from './Container'
 import Nav from './Nav'
+import LanguageSwitcher from './LanguageSwitcher'
 
 export default function Header() {
   return (
@@ -23,8 +24,11 @@ export default function Header() {
             />
           </Link>
 
-          {/* Navigation */}
-          <Nav />
+          {/* Navigation & Language Switcher */}
+          <div className="flex items-center gap-4">
+            <Nav />
+            <LanguageSwitcher />
+          </div>
         </div>
       </Container>
     </header>

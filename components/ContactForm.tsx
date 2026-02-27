@@ -1,12 +1,15 @@
 'use client'
 
 import { useState, FormEvent } from 'react'
+import { useTranslations } from 'next-intl'
 import Button from './Button'
+import { trackFormSubmission } from './GoogleAnalytics'
 
-// 替换为您的 Formspree 表单 ID
-const FORMSPREE_ID = 'YOUR_FORM_ID'
+// Formspree 表单 ID
+const FORMSPREE_ID = 'mykjedgg'
 
 export default function ContactForm() {
+  const t = useTranslations('contact')
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -29,12 +32,15 @@ export default function ContactForm() {
       if (response.ok) {
         setSubmitted(true)
         setFormData({ name: '', email: '', message: '' })
+        
+        // 追踪表单提交转化
+        trackFormSubmission('contact_form')
       } else {
         throw new Error('Form submission failed')
       }
     } catch (error) {
       console.error('Form submission error:', error)
-      alert('Failed to submit form. Please try again.')
+      alert(t('error'))
     } finally {
       setIsSubmitting(false)
     }
@@ -48,16 +54,16 @@ export default function ContactForm() {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
           </svg>
         </div>
-        <h4 className="text-xl font-semibold text-neutral-900 mb-2">Message Sent!</h4>
+        <h4 className="text-xl font-semibold text-neutral-900 mb-2">{t('success')}</h4>
         <p className="text-neutral-600 mb-6">
-          Thank you for your inquiry. We will get back to you soon.
+          {t('successMessage')}
         </p>
         <button
           type="button"
           onClick={() => setSubmitted(false)}
           className="text-primary-600 hover:text-primary-700 font-medium transition-colors"
         >
-          Send another message
+          {t('sendAnother')}
         </button>
       </div>
     )
@@ -67,7 +73,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-3">
       <div>
         <label htmlFor="name" className="label">
-          Name*
+          {t('name')}*
         </label>
         <input
           type="text"
@@ -77,13 +83,13 @@ export default function ContactForm() {
           value={formData.name}
           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
           className="input"
-          placeholder="Your name"
+          placeholder={t('namePlaceholder')}
         />
       </div>
 
       <div>
         <label htmlFor="email" className="label">
-          Email*
+          {t('email')}*
         </label>
         <input
           type="email"
@@ -93,13 +99,13 @@ export default function ContactForm() {
           value={formData.email}
           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
           className="input"
-          placeholder="your@email.com"
+          placeholder={t('emailPlaceholder')}
         />
       </div>
 
       <div>
         <label htmlFor="message" className="label">
-          Message*
+          {t('message')}*
         </label>
         <textarea
           id="message"
@@ -109,12 +115,12 @@ export default function ContactForm() {
           value={formData.message}
           onChange={(e) => setFormData({ ...formData, message: e.target.value })}
           className="input resize-none"
-          placeholder="How can we help you?"
+          placeholder={t('messagePlaceholder')}
         />
       </div>
 
       <Button type="submit" disabled={isSubmitting} className="w-full">
-        {isSubmitting ? 'Submitting...' : 'Submit'}
+        {isSubmitting ? t('submitting') : t('submit')}
       </Button>
     </form>
   )

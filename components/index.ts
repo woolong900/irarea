@@ -12,9 +12,15 @@ export { default as ContactForm } from './ContactForm'
 export { HoverVideo } from './HoverVideo'
 export { ImageCarousel } from './ImageCarousel'
 export { default as WhatsAppButton } from './WhatsAppButton'
+export { default as WhatsAppCta } from './WhatsAppCta'
+export { default as LanguageSwitcher } from './LanguageSwitcher'
 
 // Page Components
 export { default as ProductPage } from './ProductPage'
+export { default as RelatedSolutionProducts } from './RelatedSolutionProducts'
 
 // SEO Components
 export { OrganizationJsonLd, WebSiteJsonLd, ProductJsonLd, BreadcrumbJsonLd } from './JsonLd'
+
+// Analytics Components
+export { default as GoogleAnalytics, trackFormSubmission, trackWhatsAppClick, trackProductView, trackCustomEvent } from './GoogleAnalytics'

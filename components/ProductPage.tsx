@@ -2,15 +2,20 @@
 
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
+import { useTranslations, useLocale } from 'next-intl'
 import { Container, Button } from '@/components'
+import { Link } from '@/lib/i18n'
 import type { Product } from '@/lib/products'
-import { getProductImages } from '@/lib/images'
+import { getProductImages, getProductMainImage } from '@/lib/images'
 
 interface ProductPageProps {
   product: Product
+  relatedProducts?: Product[]
 }
 
-export default function ProductPage({ product }: ProductPageProps) {
+export default function ProductPage({ product, relatedProducts = [] }: ProductPageProps) {
+  const t = useTranslations('product')
+  const locale = useLocale()
   const images = getProductImages(product.id)
   const [selectedImageIndex, setSelectedImageIndex] = useState(0)
   const [thumbnailStartIndex, setThumbnailStartIndex] = useState(0)
@@ -57,7 +62,7 @@ export default function ProductPage({ product }: ProductPageProps) {
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-dark self-start md:self-center"
             >
-              Contact Sales
+              {t('contactSales')}
             </Button>
           </div>
         </Container>
@@ -97,7 +102,7 @@ export default function ProductPage({ product }: ProductPageProps) {
                         ? 'border-neutral-300 hover:border-primary-500 hover:bg-primary-50 text-neutral-600 hover:text-primary-600'
                         : 'border-neutral-200 text-neutral-300 cursor-not-allowed'
                     }`}
-                    aria-label="Previous image"
+                    aria-label={t('previousImage')}
                   >
                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
@@ -139,7 +144,7 @@ export default function ProductPage({ product }: ProductPageProps) {
                         ? 'border-neutral-300 hover:border-primary-500 hover:bg-primary-50 text-neutral-600 hover:text-primary-600'
                         : 'border-neutral-200 text-neutral-300 cursor-not-allowed'
                     }`}
-                    aria-label="Next image"
+                    aria-label={t('nextImage')}
                   >
                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
@@ -157,7 +162,7 @@ export default function ProductPage({ product }: ProductPageProps) {
 
             {/* Right: Product Description */}
             <div className="flex flex-col">
-              <h2 className="text-2xl font-bold text-neutral-900 mb-6">Product Description</h2>
+              <h2 className="text-2xl font-bold text-neutral-900 mb-6">{t('description')}</h2>
               <div className="prose prose-neutral max-w-none space-y-4 flex-1">
                 {product.description.split('\n\n').map((paragraph, index) => (
                   <p key={index} className="text-neutral-700 leading-relaxed">{paragraph}</p>
@@ -172,7 +177,7 @@ export default function ProductPage({ product }: ProductPageProps) {
       {product.features.length > 0 && (
         <section className="py-12 md:py-16 bg-neutral-50">
           <Container>
-            <h2 className="text-2xl font-bold text-neutral-900 mb-8">Main Features</h2>
+            <h2 className="text-2xl font-bold text-neutral-900 mb-8">{t('features')}</h2>
             <div className="grid sm:grid-cols-2 gap-4">
               {product.features.map((feature, index) => (
                 <div 
@@ -192,13 +197,13 @@ export default function ProductPage({ product }: ProductPageProps) {
       {product.specifications.length > 0 && (
         <section className="py-12 md:py-16 bg-white">
           <Container>
-            <h2 className="text-2xl font-bold text-neutral-900 mb-6">Specifications</h2>
+            <h2 className="text-2xl font-bold text-neutral-900 mb-6">{t('specifications')}</h2>
             <div className="overflow-hidden rounded-xl border border-neutral-200">
               <table className="w-full">
                 <thead>
                   <tr className="bg-neutral-100">
-                    <th className="px-6 py-4 text-left font-semibold text-neutral-700 w-1/3">Parameter</th>
-                    <th className="px-6 py-4 text-left font-semibold text-neutral-700">Value</th>
+                    <th className="px-6 py-4 text-left font-semibold text-neutral-700 w-1/3">{t('parameter')}</th>
+                    <th className="px-6 py-4 text-left font-semibold text-neutral-700">{t('value')}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -220,26 +225,75 @@ export default function ProductPage({ product }: ProductPageProps) {
         </section>
       )}
 
+      {/* Related Products */}
+      {relatedProducts.length > 0 && (
+        <section className="py-12 md:py-16 bg-neutral-50">
+          <Container>
+            <div className="text-center mb-10">
+              <h2 className="text-2xl md:text-3xl font-bold text-neutral-900 mb-2">
+                {t('relatedProducts')}
+              </h2>
+              <p className="text-neutral-600">{t('relatedDescription')}</p>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {relatedProducts.map((relatedProduct) => {
+                const productImage = getProductMainImage(relatedProduct.id)
+                return (
+                  <Link
+                    key={relatedProduct.id}
+                    href={`/${relatedProduct.id}`}
+                    className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-neutral-200"
+                  >
+                    <div className="aspect-square bg-neutral-100 relative overflow-hidden">
+                      {productImage ? (
+                        <Image
+                          src={productImage}
+                          alt={relatedProduct.name}
+                          fill
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                          className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+                        />
+                      ) : (
+                        <div className="w-full h-full flex items-center justify-center">
+                          <span className="text-2xl font-bold text-neutral-300">{relatedProduct.name}</span>
+                        </div>
+                      )}
+                    </div>
+                    <div className="p-4">
+                      <span className="text-xs text-primary-600 font-medium">{relatedProduct.category}</span>
+                      <h3 className="font-semibold text-neutral-900 mt-1 group-hover:text-primary-600 transition-colors">
+                        {relatedProduct.name}
+                      </h3>
+                      <p className="text-sm text-neutral-600 mt-1 line-clamp-2">{relatedProduct.subtitle}</p>
+                    </div>
+                  </Link>
+                )
+              })}
+            </div>
+          </Container>
+        </section>
+      )}
+
       {/* CTA Section */}
       <section className="py-12 md:py-16 bg-neutral-100">
         <Container>
           <div className="text-center max-w-2xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-neutral-900 mb-4">
-              Interested in {product.name}?
+              {t('interested', { name: product.name })}
             </h2>
             <p className="text-neutral-600 mb-8">
-              Contact our sales team for pricing, samples, and technical support.
+              {t('ctaDescription')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button href="https://wa.me/8615080329022">
-                Contact Sales
+                {t('contactSales')}
               </Button>
-              <Button 
-                href="/products" 
-                variant="outline"
+              <Link 
+                href="/products"
+                className="btn btn-outline"
               >
-                View All Products
-              </Button>
+                {t('viewAll')}
+              </Link>
             </div>
           </div>
         </Container>

@@ -1,7 +1,13 @@
-import Link from 'next/link'
+'use client'
+
+import { useTranslations } from 'next-intl'
+import { Link } from '@/lib/i18n'
 import Container from './Container'
 
 export default function Footer() {
+  const t = useTranslations('footer')
+  const tSolutions = useTranslations('solutions')
+
   return (
     <footer className="bg-dark text-white">
       <Container>
@@ -10,7 +16,7 @@ export default function Footer() {
             {/* Products */}
             <div>
               <h3 className="text-sm font-semibold uppercase tracking-wider text-neutral-400 mb-4">
-                PRODUCTS
+                {t('products')}
               </h3>
               <ul className="space-y-3">
                 <li>
@@ -18,7 +24,7 @@ export default function Footer() {
                     href="/products?category=uncooled-detectors"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
-                    Uncooled Infrared Detectors
+                    {t('uncooledDetectors')}
                   </Link>
                 </li>
                 <li>
@@ -26,7 +32,7 @@ export default function Footer() {
                     href="/products?category=uncooled-modules"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
-                    Uncooled Thermal Modules
+                    {t('uncooledModules')}
                   </Link>
                 </li>
                 <li>
@@ -34,7 +40,7 @@ export default function Footer() {
                     href="/products?category=cooled-detectors"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
-                    Cooled Infrared Detectors
+                    {t('cooledDetectors')}
                   </Link>
                 </li>
                 <li>
@@ -42,7 +48,7 @@ export default function Footer() {
                     href="/products?category=cooled-modules"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
-                    Cooled Thermal Modules
+                    {t('cooledModules')}
                   </Link>
                 </li>
               </ul>
@@ -51,7 +57,7 @@ export default function Footer() {
             {/* Solutions */}
             <div>
               <h3 className="text-sm font-semibold uppercase tracking-wider text-neutral-400 mb-4">
-                SOLUTIONS
+                {t('solutions')}
               </h3>
               <ul className="space-y-3">
                 <li>
@@ -59,7 +65,7 @@ export default function Footer() {
                     href="/industrial-solutions/thermography"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
-                    Thermography
+                    {tSolutions('thermography')}
                   </Link>
                 </li>
                 <li>
@@ -67,7 +73,7 @@ export default function Footer() {
                     href="/industrial-solutions/security-monitoring"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
-                    Security Monitoring
+                    {tSolutions('securityMonitoring')}
                   </Link>
                 </li>
                 <li>
@@ -75,7 +81,7 @@ export default function Footer() {
                     href="/industrial-solutions/optical-gas-imaging"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
-                    Optical Gas Imaging
+                    {tSolutions('opticalGasImaging')}
                   </Link>
                 </li>
                 <li>
@@ -83,7 +89,7 @@ export default function Footer() {
                     href="/industrial-solutions/firefighting-rescue"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
-                    Firefighting & Rescue
+                    {tSolutions('firefightingRescue')}
                   </Link>
                 </li>
                 <li>
@@ -91,7 +97,7 @@ export default function Footer() {
                     href="/industrial-solutions/uavs-payload"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
-                    UAVs Payload
+                    {tSolutions('uavsPayload')}
                   </Link>
                 </li>
                 <li>
@@ -99,7 +105,7 @@ export default function Footer() {
                     href="/industrial-solutions/personal-vision"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
-                    Personal Vision
+                    {tSolutions('personalVision')}
                   </Link>
                 </li>
               </ul>
@@ -108,7 +114,7 @@ export default function Footer() {
             {/* Company */}
             <div>
               <h3 className="text-sm font-semibold uppercase tracking-wider text-neutral-400 mb-4">
-                COMPANY
+                {t('company')}
               </h3>
               <ul className="space-y-3">
                 <li>
@@ -116,7 +122,7 @@ export default function Footer() {
                     href="/about-us"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
-                    About Us
+                    {t('aboutUs')}
                   </Link>
                 </li>
                 <li>
@@ -124,16 +130,16 @@ export default function Footer() {
                     href="/servicesandsupport"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
-                    Services & Support
+                    {t('servicesSupport')}
                   </Link>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="https://wa.me/8615080329022"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
-                    Contact Us
-                  </Link>
+                    {t('contactUs')}
+                  </a>
                 </li>
               </ul>
             </div>
@@ -141,7 +147,7 @@ export default function Footer() {
             {/* Contact */}
             <div>
               <h3 className="text-sm font-semibold uppercase tracking-wider text-neutral-400 mb-4">
-                CONTACT
+                {t('contact')}
               </h3>
               <ul className="space-y-3 text-neutral-300">
                 <li className="flex items-start gap-3">
@@ -172,7 +178,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                   <span>
-                    6th Floor, WanLian Building, Baoan Street, Baoan District, Shenzhen
+                    {t('address')}
                   </span>
                 </li>
               </ul>
@@ -184,7 +190,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-neutral-800 py-6">
           <p className="text-center text-neutral-400 text-sm">
-            © 2025 ShenZhen ChengJing Technology Co., Ltd. All rights reserved.
+            {t('copyright')}
           </p>
         </div>
       </Container>

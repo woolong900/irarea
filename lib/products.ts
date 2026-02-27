@@ -18,6 +18,37 @@ export interface Product {
   specifications: ProductSpec[]
 }
 
+export const productTypes = ['uncooled-detectors', 'uncooled-modules', 'cooled-detectors', 'cooled-modules'] as const
+export type ProductType = (typeof productTypes)[number]
+
+const categoryTypeMap: Record<string, ProductType> = {
+  'TIMO Series': 'uncooled-detectors',
+  'COIN Series': 'uncooled-detectors',
+  'IGS Series': 'uncooled-modules',
+  'TWIN Series': 'uncooled-modules',
+  'PLUG Series': 'uncooled-modules',
+  'MINI Series': 'uncooled-modules',
+  'ILC Series': 'uncooled-modules',
+  'IDAS Series': 'uncooled-modules',
+  'IHA Series': 'uncooled-modules',
+  'ITL Series': 'uncooled-modules',
+  'YXW Series': 'uncooled-modules',
+  'YXP Series': 'uncooled-modules',
+  'YXI Series': 'uncooled-modules',
+  'XH Series': 'cooled-modules',
+}
+
+const cooledDetectorIds = new Set(['xh330'])
+
+export function getProductType(product: Product): ProductType {
+  if (cooledDetectorIds.has(product.id)) return 'cooled-detectors'
+  return categoryTypeMap[product.category] || 'uncooled-modules'
+}
+
+export function getProductsByType(type: ProductType): Product[] {
+  return products.filter((p) => getProductType(p) === type)
+}
+
 export const products: Product[] = [
   {
     id: 'tm256',
@@ -1526,4 +1557,30 @@ export function getProduct(id: string): Product | undefined {
 
 export function getAllProductIds(): string[] {
   return products.map((p) => p.id)
+}
+
+export function getRelatedProducts(productId: string, limit: number = 4): Product[] {
+  const currentProduct = getProduct(productId)
+  if (!currentProduct) return []
+
+  // Get products from the same category (excluding current product)
+  const sameCategoryProducts = products.filter(
+    (p) => p.category === currentProduct.category && p.id !== productId
+  )
+
+  // If we have enough products from the same category, return them
+  if (sameCategoryProducts.length >= limit) {
+    return sameCategoryProducts.slice(0, limit)
+  }
+
+  // If not enough, add random products from other categories
+  const otherCategoryProducts = products.filter(
+    (p) => p.category !== currentProduct.category && p.id !== productId
+  )
+
+  // Shuffle and pick remaining needed
+  const shuffled = otherCategoryProducts.sort(() => Math.random() - 0.5)
+  const remaining = limit - sameCategoryProducts.length
+  
+  return [...sameCategoryProducts, ...shuffled.slice(0, remaining)]
 }

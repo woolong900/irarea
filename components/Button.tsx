@@ -1,5 +1,8 @@
+'use client'
+
 import { ReactNode, ButtonHTMLAttributes } from 'react'
 import Link from 'next/link'
+import { useLocale } from 'next-intl'
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode
@@ -34,14 +37,25 @@ export default function Button({
   className = '',
   ...props
 }: ButtonProps) {
+  const locale = useLocale()
   const baseStyles =
     'inline-flex items-center justify-center font-medium rounded-md transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2'
 
   const combinedClassName = `${baseStyles} ${variantStyles[variant]} ${sizeStyles[size]} ${className}`
 
   if (href) {
+    // External links use regular anchor tag
+    if (href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('tel:')) {
+      return (
+        <a href={href} className={combinedClassName} target={href.startsWith('http') ? '_blank' : undefined} rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}>
+          {children}
+        </a>
+      )
+    }
+    // Internal links - prepend locale
+    const localizedHref = `/${locale}${href.startsWith('/') ? href : `/${href}`}`
     return (
-      <Link href={href} className={combinedClassName}>
+      <Link href={localizedHref} className={combinedClassName}>
         {children}
       </Link>
     )
