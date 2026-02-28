@@ -63,7 +63,7 @@ export default async function ProductsPage({ params }: ProductsPageProps) {
         </Container>
       </section>
 
-      <section className="py-10 md:py-14 bg-white">
+      <section className="py-10 md:py-14 bg-neutral-50">
         <Container>
           <h2 className="text-2xl font-bold text-neutral-900 mb-8">{t('browseByCategory')}</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
