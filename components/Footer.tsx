@@ -21,7 +21,7 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    href="/products?category=uncooled-detectors"
+                    href="/products/uncooled-detectors"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
                     {t('uncooledDetectors')}
@@ -29,7 +29,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/products?category=uncooled-modules"
+                    href="/products/uncooled-modules"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
                     {t('uncooledModules')}
@@ -37,7 +37,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/products?category=cooled-detectors"
+                    href="/products/cooled-detectors"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
                     {t('cooledDetectors')}
@@ -45,7 +45,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/products?category=cooled-modules"
+                    href="/products/cooled-modules"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
                     {t('cooledModules')}
@@ -182,7 +182,6 @@ export default function Footer() {
                   </span>
                 </li>
               </ul>
-              
             </div>
           </div>
         </div>

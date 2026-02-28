@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
-import { Container, ContactForm } from '@/components'
+import { Container, ContactForm, SolutionCta } from '@/components'
 
 export const metadata: Metadata = {
   title: 'About Us - Leading Infrared Detector Manufacturer in China',
@@ -208,6 +208,8 @@ export default async function AboutUsPage({ params }: PageProps) {
           </div>
         </Container>
       </section>
+
+      <SolutionCta />
     </>
   )
 }

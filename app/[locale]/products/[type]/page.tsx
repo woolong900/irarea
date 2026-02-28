@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { setRequestLocale } from 'next-intl/server'
 import { getTranslations } from 'next-intl/server'
 import { notFound } from 'next/navigation'
-import { Container, Card, CardContent, CardTitle, CardDescription } from '@/components'
+import { Container, Card, CardContent, CardTitle, CardDescription, SolutionCta } from '@/components'
 import { Link } from '@/lib/i18n'
 import { getProductMainImage } from '@/lib/images'
 import { productTypes, type ProductType } from '@/lib/products'
@@ -134,6 +134,8 @@ export default async function ProductTypePage({ params }: PageProps) {
           ))}
         </Container>
       </section>
+
+      <SolutionCta />
     </>
   )
 }

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import { setRequestLocale } from 'next-intl/server'
 import { getTranslations } from 'next-intl/server'
-import { Container, Card, CardContent, CardTitle, CardDescription } from '@/components'
+import { Container, Card, CardContent, CardTitle, CardDescription, SolutionCta } from '@/components'
 import { Link } from '@/lib/i18n'
 import { getProductMainImage } from '@/lib/images'
 import { productTypes, getProductsByType } from '@/lib/products'
@@ -136,6 +136,8 @@ export default async function ProductsPage({ params }: ProductsPageProps) {
           ))}
         </Container>
       </section>
+
+      <SolutionCta />
     </>
   )
 }

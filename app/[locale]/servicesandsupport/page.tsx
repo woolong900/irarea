@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
-import { Container } from '@/components'
+import { Container, SolutionCta } from '@/components'
 
 export const metadata: Metadata = {
   title: 'Technical Support & Services - Thermal Imaging Solutions',
@@ -237,6 +237,8 @@ export default async function ServicesAndSupportPage({ params }: PageProps) {
           </div>
         </Container>
       </section>
+
+      <SolutionCta />
     </>
   )
 }
