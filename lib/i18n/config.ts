@@ -1,4 +1,4 @@
-export const locales = ['en', 'de', 'it', 'es', 'uk', 'fr', 'pt', 'nl', 'pl'] as const
+export const locales = ['en', 'de', 'it', 'es', 'uk', 'fr', 'pt', 'nl', 'pl', 'ru', 'tr', 'ro', 'el', 'cs', 'hu', 'sv', 'bg', 'da', 'fi', 'no', 'sk', 'hr', 'sr', 'lt', 'sl', 'lv', 'et'] as const
 export const defaultLocale = 'en' as const
 
 export type Locale = (typeof locales)[number]
@@ -13,6 +13,24 @@ export const localeNames: Record<Locale, string> = {
   pt: 'Português',
   nl: 'Nederlands',
   pl: 'Polski',
+  ru: 'Русский',
+  tr: 'Türkçe',
+  ro: 'Română',
+  el: 'Ελληνικά',
+  cs: 'Čeština',
+  hu: 'Magyar',
+  sv: 'Svenska',
+  bg: 'Български',
+  da: 'Dansk',
+  fi: 'Suomi',
+  no: 'Norsk',
+  sk: 'Slovenčina',
+  hr: 'Hrvatski',
+  sr: 'Српски',
+  lt: 'Lietuvių',
+  sl: 'Slovenščina',
+  lv: 'Latviešu',
+  et: 'Eesti',
 }
 
 export const localeFlags: Record<Locale, string> = {
@@ -25,4 +43,22 @@ export const localeFlags: Record<Locale, string> = {
   pt: '🇵🇹',
   nl: '🇳🇱',
   pl: '🇵🇱',
+  ru: '🇷🇺',
+  tr: '🇹🇷',
+  ro: '🇷🇴',
+  el: '🇬🇷',
+  cs: '🇨🇿',
+  hu: '🇭🇺',
+  sv: '🇸🇪',
+  bg: '🇧🇬',
+  da: '🇩🇰',
+  fi: '🇫🇮',
+  no: '🇳🇴',
+  sk: '🇸🇰',
+  hr: '🇭🇷',
+  sr: '🇷🇸',
+  lt: '🇱🇹',
+  sl: '🇸🇮',
+  lv: '🇱🇻',
+  et: '🇪🇪',
 }
