@@ -129,7 +129,11 @@
     "de": "Deutsch",
     "it": "Italiano",
     "es": "Español",
-    "uk": "Українська"
+    "uk": "Українська",
+    "fr": "Français",
+    "pt": "Português",
+    "nl": "Nederlands",
+    "pl": "Polski"
   },
   "isPage": {
     "title": "Industrielle Lösungen",
