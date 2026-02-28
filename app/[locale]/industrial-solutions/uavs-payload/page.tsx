@@ -3,9 +3,44 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Container, ImageCarousel, Button, RelatedSolutionProducts, WhatsAppCta } from '@/components'
 
 export const metadata: Metadata = {
-  title: 'UAVs Payload Solutions',
+  title: 'UAV Thermal Camera & Drone Infrared Payload Solutions | IR AREA',
   description:
-    'Thermal imaging solutions for UAV equipment inspection, enforcement & rescue, firefighting applications, and animal observation.',
+    'Lightweight thermal imaging payloads for drones and UAVs. Compact infrared camera modules for aerial inspection, search & rescue, precision agriculture, wildlife monitoring, and surveillance. SWaP-optimized gimbal-ready solutions.',
+  keywords: [
+    'drone thermal camera',
+    'UAV thermal imaging',
+    'drone infrared camera',
+    'UAV thermal payload',
+    'drone thermal sensor',
+    'aerial thermal imaging',
+    'drone thermal module',
+    'UAV infrared payload',
+    'thermal camera for drone',
+    'drone thermal inspection',
+    'UAV thermal surveillance',
+    'drone night vision camera',
+    'aerial infrared camera',
+    'drone FLIR camera',
+    'UAV thermal gimbal',
+    'drone thermal imaging camera',
+    'thermal drone payload',
+    'infrared drone camera module',
+    'lightweight thermal camera',
+    'SWaP thermal module',
+    'drone search and rescue thermal',
+    'precision agriculture thermal drone',
+    'wildlife monitoring drone thermal',
+    'solar panel inspection drone',
+    'power line inspection UAV thermal',
+  ],
+  openGraph: {
+    title: 'UAV Thermal Camera & Drone Infrared Payload Solutions | IR AREA',
+    description: 'Lightweight, high-performance thermal imaging payloads for drones. Ideal for inspection, surveillance, SAR, and precision agriculture.',
+    images: ['/images/products-hero-bg.webp'],
+  },
+  alternates: {
+    canonical: 'https://irarea.com/industrial-solutions/uavs-payload',
+  },
 }
 
 interface PageProps {

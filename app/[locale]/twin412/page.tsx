@@ -14,7 +14,7 @@ const productImage = product ? getProductMainImage(product.id) : ''
 export const metadata: Metadata = {
   title: product ? `${product.name} - ${product.subtitle}` : 'TWIN412 Thermal Module',
   description: product?.description?.substring(0, 155) + '...' || 'High-performance thermal imaging product from IR AREA.',
-  keywords: product ? [product.name, product.category, 'thermal imaging', 'infrared', 'IR AREA'] : [],
+  keywords: product ? [product.name, product.category, 'thermal imaging', 'infrared', 'IR AREA', 'UAV thermal payload', 'drone infrared camera', 'compact thermal module', 'drone thermal sensor'] : [],
   openGraph: {
     title: product ? `${product.name} | IR AREA` : 'Thermal Product',
     description: product?.description?.substring(0, 155) || 'High-performance thermal imaging product.',

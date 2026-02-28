@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Thermal Imaging Solutions - Custom Solutions for Your Scenarios | IR AREA',
   description:
     'Professional thermal imaging solutions provider. From long-range monitoring to ultra-lightweight applications, we tailor thermal imaging solutions for your specific needs.',
-  keywords: ['thermal imaging', 'infrared detector', 'thermal camera', 'custom thermal solution', 'UAV thermal', 'security thermal'],
+  keywords: ['thermal imaging', 'infrared detector', 'thermal camera', 'custom thermal solution', 'UAV thermal camera', 'drone thermal imaging', 'security thermal', 'drone infrared camera', 'aerial thermal payload'],
   openGraph: {
     title: 'Custom Thermal Imaging Solutions | IR AREA',
     description: 'Professional thermal imaging solutions tailored for your specific scenarios.',

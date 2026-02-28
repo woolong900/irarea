@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Thermal Imaging Solutions - Industrial Applications & Use Cases',
   description:
     'Explore IR AREA thermal imaging solutions: Thermography for predictive maintenance, security monitoring, optical gas imaging (OGI), firefighting & rescue, UAV payloads, and personal night vision applications.',
-  keywords: ['thermal imaging solutions', 'thermography', 'security monitoring', 'optical gas imaging', 'firefighting thermal', 'UAV thermal camera', 'night vision'],
+  keywords: ['thermal imaging solutions', 'thermography', 'security monitoring', 'optical gas imaging', 'firefighting thermal', 'UAV thermal camera', 'drone thermal imaging', 'drone infrared payload', 'aerial thermal camera', 'night vision'],
   openGraph: {
     title: 'Industrial Thermal Imaging Solutions | IR AREA',
     description: 'Complete thermal imaging solutions for thermography, security, gas detection, firefighting, UAVs and personal vision.',
