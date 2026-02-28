@@ -12,8 +12,9 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   
-  // 尾部斜杠配置（可选，根据需要开启）
-  trailingSlash: false,
+  // 尾部斜杠配置 - 必须开启以生成正确的目录结构
+  // 这样会生成 /de/index.html 而不是 /de.html
+  trailingSlash: true,
   
   // 严格模式
   reactStrictMode: true,

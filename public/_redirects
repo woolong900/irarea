@@ -1,63 +1,44 @@
 # Cloudflare Pages redirects and rewrites
-# Root path: index.html handles browser language detection (no redirect rule here)
+
+# Root path redirect to English (client-side will detect and redirect if needed)
+/ /en/ 302
 
 # Rewrite old URLs (without locale prefix) to serve English content
 # Using 200 status code = rewrite (URL stays the same, content from target)
 # Main pages
-/about-us /en/about-us 200
-/products /en/products 200
-/store /en/store 200
-/servicesandsupport /en/servicesandsupport 200
+/about-us /en/about-us/ 200
+/about-us/ /en/about-us/ 200
+/products /en/products/ 200
+/products/ /en/products/ 200
+/store /en/store/ 200
+/store/ /en/store/ 200
+/servicesandsupport /en/servicesandsupport/ 200
+/servicesandsupport/ /en/servicesandsupport/ 200
+/landing /en/landing/ 200
+/landing/ /en/landing/ 200
 
 # Product categories
-/products/uncooled-detectors /en/products/uncooled-detectors 200
-/products/uncooled-modules /en/products/uncooled-modules 200
-/products/cooled-detectors /en/products/cooled-detectors 200
-/products/cooled-modules /en/products/cooled-modules 200
+/products/uncooled-detectors /en/products/uncooled-detectors/ 200
+/products/uncooled-detectors/ /en/products/uncooled-detectors/ 200
+/products/uncooled-modules /en/products/uncooled-modules/ 200
+/products/uncooled-modules/ /en/products/uncooled-modules/ 200
+/products/cooled-detectors /en/products/cooled-detectors/ 200
+/products/cooled-detectors/ /en/products/cooled-detectors/ 200
+/products/cooled-modules /en/products/cooled-modules/ 200
+/products/cooled-modules/ /en/products/cooled-modules/ 200
 
 # Industrial Solutions
-/industrial-solutions /en/industrial-solutions 200
-/industrial-solutions/thermography /en/industrial-solutions/thermography 200
-/industrial-solutions/security-monitoring /en/industrial-solutions/security-monitoring 200
-/industrial-solutions/personal-vision /en/industrial-solutions/personal-vision 200
-/industrial-solutions/firefighting-rescue /en/industrial-solutions/firefighting-rescue 200
-/industrial-solutions/optical-gas-imaging /en/industrial-solutions/optical-gas-imaging 200
-/industrial-solutions/uavs-payload /en/industrial-solutions/uavs-payload 200
-
-# Product pages
-/coin417g2 /en/coin417g2 200
-/coin612 /en/coin612 200
-/idas-384s /en/idas-384s 200
-/igs412 /en/igs412 200
-/igs612 /en/igs612 200
-/iha417 /en/iha417 200
-/iha417w /en/iha417w 200
-/ilc212 /en/ilc212 200
-/itl612r-pro /en/itl612r-pro 200
-/min1212r /en/min1212r 200
-/mini212 /en/mini212 200
-/plug1212r /en/plug1212r 200
-/plug417r /en/plug417r 200
-/plug612r /en/plug612r 200
-/plug617r /en/plug617r 200
-/tm120 /en/tm120 200
-/tm256 /en/tm256 200
-/twin1212 /en/twin1212 200
-/twin412 /en/twin412 200
-/twin612 /en/twin612 200
-/xh1207mb /en/xh1207mb 200
-/xh1210hmf /en/xh1210hmf 200
-/xh1210lc /en/xh1210lc 200
-/xh1212ma /en/xh1212ma 200
-/xh330 /en/xh330 200
-/xh615hmg /en/xh615hmg 200
-/xh615la /en/xh615la 200
-/xh615ma /en/xh615ma 200
-/yxi80 /en/yxi80 200
-/yxi96 /en/yxi96 200
-/yxi96-pro /en/yxi96-pro 200
-/yxi160 /en/yxi160 200
-/yxi256 /en/yxi256 200
-/yxp160 /en/yxp160 200
-/yxp256 /en/yxp256 200
-/yxw256 /en/yxw256 200
+/industrial-solutions /en/industrial-solutions/ 200
+/industrial-solutions/ /en/industrial-solutions/ 200
+/industrial-solutions/thermography /en/industrial-solutions/thermography/ 200
+/industrial-solutions/thermography/ /en/industrial-solutions/thermography/ 200
+/industrial-solutions/security-monitoring /en/industrial-solutions/security-monitoring/ 200
+/industrial-solutions/security-monitoring/ /en/industrial-solutions/security-monitoring/ 200
+/industrial-solutions/personal-vision /en/industrial-solutions/personal-vision/ 200
+/industrial-solutions/personal-vision/ /en/industrial-solutions/personal-vision/ 200
+/industrial-solutions/firefighting-rescue /en/industrial-solutions/firefighting-rescue/ 200
+/industrial-solutions/firefighting-rescue/ /en/industrial-solutions/firefighting-rescue/ 200
+/industrial-solutions/optical-gas-imaging /en/industrial-solutions/optical-gas-imaging/ 200
+/industrial-solutions/optical-gas-imaging/ /en/industrial-solutions/optical-gas-imaging/ 200
+/industrial-solutions/uavs-payload /en/industrial-solutions/uavs-payload/ 200
+/industrial-solutions/uavs-payload/ /en/industrial-solutions/uavs-payload/ 200
