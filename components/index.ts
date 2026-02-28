@@ -16,6 +16,7 @@ export { ApplicationCarousel } from './ApplicationCarousel'
 export { default as WhatsAppButton } from './WhatsAppButton'
 export { default as WhatsAppCta } from './WhatsAppCta'
 export { default as LanguageSwitcher } from './LanguageSwitcher'
+export { default as LocaleDetector } from './LocaleDetector'
 
 // Page Components
 export { default as ProductPage } from './ProductPage'

@@ -8,5 +8,5 @@ export const config = {
   // - api routes
   // - _next (Next.js internals)
   // - static files (images, etc.)
-  matcher: ['/', '/(de|it|es|en|uk)/:path*'],
+  matcher: ['/', '/(en|de|it|es|uk|fr|pt|nl|pl|ru|tr|ro|el|cs|hu|sv|bg|da|fi|no|sk|hr|sr|lt|sl|lv|et)/:path*'],
 }

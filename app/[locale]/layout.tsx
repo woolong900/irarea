@@ -3,7 +3,7 @@ import { Roboto } from 'next/font/google'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
-import { Header, Footer, WhatsAppButton, OrganizationJsonLd, WebSiteJsonLd, GoogleAnalytics } from '@/components'
+import { Header, Footer, WhatsAppButton, OrganizationJsonLd, WebSiteJsonLd, GoogleAnalytics, LocaleDetector } from '@/components'
 import { locales, type Locale } from '@/lib/i18n/config'
 import '@/styles/globals.css'
 
@@ -132,6 +132,7 @@ export default async function LocaleLayout({
       <body className={`${roboto.className} min-h-screen flex flex-col`}>
         <GoogleAnalytics />
         <NextIntlClientProvider messages={messages}>
+          <LocaleDetector />
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
