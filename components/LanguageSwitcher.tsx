@@ -52,7 +52,7 @@ export default function LanguageSwitcher() {
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-40 bg-white rounded-lg shadow-lg border border-neutral-100 py-1 z-50">
+        <div className="absolute right-0 mt-2 w-40 max-h-80 overflow-y-auto bg-white rounded-lg shadow-lg border border-neutral-100 py-1 z-50">
           <ul role="listbox" aria-label="Select language">
             {locales.map((loc) => (
               <li key={loc}>
