@@ -163,12 +163,12 @@ export default function ProductPage({ product, relatedProducts = [] }: ProductPa
             {/* Right: Product Description */}
             <div className="flex flex-col">
               <h2 className="text-2xl font-bold text-neutral-900 mb-6">{t('description')}</h2>
-              <div className="prose prose-neutral max-w-none space-y-4 flex-1">
+              <div className="prose prose-neutral max-w-none space-y-4">
                 {product.description.split('\n\n').map((paragraph, index) => (
                   <p key={index} className="text-neutral-700 leading-relaxed">{paragraph}</p>
                 ))}
               </div>
-              <div className="mt-10 flex items-center gap-4 p-5 bg-primary-50 rounded-xl border border-primary-100">
+              <div className="mt-8 flex items-center gap-4 p-5 bg-primary-50 rounded-xl border border-primary-100">
                 <p className="text-neutral-800 font-medium">
                   {t('interested', { name: product.name })}
                 </p>
