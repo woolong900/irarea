@@ -168,6 +168,14 @@ export default function ProductPage({ product, relatedProducts = [] }: ProductPa
                   <p key={index} className="text-neutral-700 leading-relaxed">{paragraph}</p>
                 ))}
               </div>
+              <div className="mt-auto pt-10 flex items-center gap-4 p-5 bg-primary-50 rounded-xl border border-primary-100">
+                <p className="text-neutral-800 font-medium">
+                  {t('interested', { name: product.name })}
+                </p>
+                <Button href="https://wa.me/8615080329022" className="flex-shrink-0">
+                  {t('contactSales')}
+                </Button>
+              </div>
             </div>
           </div>
         </Container>
