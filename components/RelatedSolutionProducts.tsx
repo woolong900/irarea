@@ -7,7 +7,7 @@ import { getLocalizedProduct } from '@/lib/i18n/products'
 import type { Locale } from '@/lib/i18n/config'
 
 const scenarioProducts: Record<string, string[]> = {
-  thermography: ['plug617r', 'min612r-pro', 'yxi256', 'iha417w'],
+  thermography: ['plug617r', 'itl612r-pro', 'yxi256', 'iha417w'],
   'security-monitoring': ['twin1212', 'plug1212r', 'xh1207mb', 'igs612'],
   'optical-gas-imaging': ['xh615hmg', 'xh615la', 'xh1210lc', 'plug617r'],
   'firefighting-rescue': ['twin612', 'yxi160', 'yxw256', 'plug612r'],

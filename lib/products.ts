@@ -769,6 +769,42 @@ The MED417 thermal camera is specially developed for elevated skin temperature s
     ],
   },
   {
+    id: 'itl612r-pro',
+    name: 'ITL612R-PRO',
+    subtitle: 'MIN Series Professional 640×512/12μm Radiometric Thermal Module',
+    description:
+      `As a leading manufacturer of infrared detectors & thermal modules, ChengJing Technology develops the ITL612R-PRO, a professional-grade radiometric thermal module featuring a 640×512/12μm self-developed wafer-level infrared detector.
+
+The ITL612R-PRO provides IP67 lens protection, imaging and temperature measurement capabilities, and various SDK solutions. It responds to space constraints with compact size and lighter weight, achieves longer battery life with lower power consumption, and overcomes integration challenges in various fields.
+
+It is specially developed for Predictive Maintenance, Photovoltaic Inspection, Environmental Protection, Scientific Research, Aerial Photography, Police Investigation, Disaster Relief & Rescue, Forest Fire Prevention, Urban Safety etc.`,
+    category: 'ITL Series',
+    features: [
+      { title: 'Ultra Compact', description: 'Size: 17mm×17mm×22mm (with 9.1mm lens)' },
+      { title: 'Ultra Lightweight', description: 'Weight: 13g (with 9.1mm lens)' },
+      { title: 'Low Power', description: 'Power consumption as low as 0.7W' },
+      { title: 'Clear Image & Accurate Radiometry', description: 'Brand new image process algorithm: NUC/3DNR/DNS/DRC/EE' },
+      { title: 'SDK Support', description: 'Support Windows/Linux/ARM SDK' },
+      { title: 'Regional Temperature Measurement', description: 'Support regional, point & isotherm temperature measurement' },
+    ],
+    specifications: [
+      { label: 'Model', values: ['ITL612R-PRO'] },
+      { label: 'Resolution', values: ['640×512'] },
+      { label: 'Pixel Size', values: ['12μm'] },
+      { label: 'Spectral Range', values: ['8~14μm'] },
+      { label: 'Typical NETD', values: ['≤30mK'] },
+      { label: 'Frame Rate', values: ['25Hz/30Hz/50Hz'] },
+      { label: 'Digital Video', values: ['RAW/YUV'] },
+      { label: 'Image Algorithm', values: ['NUC/3DNR/DNS/DRC/EE'] },
+      { label: 'SDK', values: ['Windows/Linux/ARM'] },
+      { label: 'Size (mm)', values: ['17×17×22 (with 9.1mm lens)'] },
+      { label: 'Weight', values: ['13g (with 9.1mm lens)'] },
+      { label: 'Power Consumption', values: ['0.7W'] },
+      { label: 'Operating Temperature', values: ['-40°C~+70°C'] },
+      { label: 'Storage Temperature', values: ['-45°C~+85°C'] },
+    ],
+  },
+  {
     id: 'min612r-pro',
     name: 'MIN612R Pro',
     subtitle: '640×512/12μm Compact Thermal Camera Core for Drones',

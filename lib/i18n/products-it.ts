@@ -648,7 +648,7 @@ La termocamera MED417 è stata sviluppata appositamente per lo screening della t
     ],
   },
   {
-    id: 'min612r-pro',
+    id: 'itl612r-pro',
     name: 'ITL612R-PRO',
     subtitle: 'Modulo Termico Radiometrico Professionale 640×512/12μm Serie MIN',
     description: `Come produttore leader di rilevatori a infrarossi raffreddati non raffreddati e moduli termici, ChengJing Technology sviluppa un core di imaging termico a infrarossi di dimensioni ridotte e leggero MIN612R Pro, che è la versione compatta del core fotocamera a infrarossi MIN612R.
