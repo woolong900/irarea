@@ -18,7 +18,7 @@ export interface Product {
   specifications: ProductSpec[]
 }
 
-export const productTypes = ['uncooled-detectors', 'uncooled-modules', 'cooled-detectors', 'cooled-modules'] as const
+export const productTypes = ['uncooled-modules', 'cooled-detectors', 'cooled-modules'] as const
 export type ProductType = (typeof productTypes)[number]
 
 export function getProductType(product: Product): ProductType {

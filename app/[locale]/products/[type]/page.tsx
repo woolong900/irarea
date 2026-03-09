@@ -26,7 +26,7 @@ export default async function ProductTypePage({ params }: PageProps) {
   }
 
   const t = await getTranslations('products')
-  const typeKey = type.replace(/-/g, '_') as 'uncooled_detectors' | 'uncooled_modules' | 'cooled_detectors' | 'cooled_modules'
+  const typeKey = type.replace(/-/g, '_') as 'uncooled_modules' | 'cooled_detectors' | 'cooled_modules'
 
   const filteredProducts = getLocalizedProductsByType(type as ProductType, locale as Locale)
 

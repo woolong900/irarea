@@ -18,8 +18,8 @@
 /landing/ /en/landing/ 200
 
 # Product categories
-/products/uncooled-detectors /en/products/uncooled-detectors/ 200
-/products/uncooled-detectors/ /en/products/uncooled-detectors/ 200
+/products/uncooled-detectors /en/products/uncooled-modules/ 301
+/products/uncooled-detectors/ /en/products/uncooled-modules/ 301
 /products/uncooled-modules /en/products/uncooled-modules/ 200
 /products/uncooled-modules/ /en/products/uncooled-modules/ 200
 /products/cooled-detectors /en/products/cooled-detectors/ 200

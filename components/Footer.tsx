@@ -21,14 +21,6 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    href="/products/uncooled-detectors"
-                    className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
-                  >
-                    {t('uncooledDetectors')}
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     href="/products/uncooled-modules"
                     className="text-neutral-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:text-white"
                   >
