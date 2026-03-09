@@ -22,8 +22,8 @@ export const productTypes = ['uncooled-detectors', 'uncooled-modules', 'cooled-d
 export type ProductType = (typeof productTypes)[number]
 
 const categoryTypeMap: Record<string, ProductType> = {
-  'TIMO Series': 'uncooled-detectors',
-  'COIN Series': 'uncooled-detectors',
+  'TIMO Series': 'uncooled-modules',
+  'COIN Series': 'uncooled-modules',
   'IGS Series': 'uncooled-modules',
   'TWIN Series': 'uncooled-modules',
   'PLUG Series': 'uncooled-modules',
@@ -35,13 +35,10 @@ const categoryTypeMap: Record<string, ProductType> = {
   'YXW Series': 'uncooled-modules',
   'YXP Series': 'uncooled-modules',
   'YXI Series': 'uncooled-modules',
-  'XH Series': 'cooled-modules',
+  'XH Series': 'uncooled-modules',
 }
 
-const cooledDetectorIds = new Set(['xh330'])
-
 export function getProductType(product: Product): ProductType {
-  if (cooledDetectorIds.has(product.id)) return 'cooled-detectors'
   return categoryTypeMap[product.category] || 'uncooled-modules'
 }
 
