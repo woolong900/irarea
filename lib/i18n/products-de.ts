@@ -775,7 +775,7 @@ Die MED417 Wärmebildkamera wurde speziell für erhöhte Hauttemperatur-Screenin
     ],
   },
   {
-    id: 'itl612r-pro',
+    id: 'min612r-pro',
     name: 'ITL612R-PRO',
     subtitle: 'MIN Serie Professionelles 640×512/12μm Radiometrisches Wärmebildmodul',
     description: `Als führender Hersteller von gekühlten ungekühlten Infrarotdetektoren & Wärmebildmodulen entwickelt ChengJing Technology einen winzigen und leichten Infrarot-Wärmebildkern MIN612R Pro, der die kompakte Version des MIN612R ist.

@@ -133,7 +133,7 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
   ilc212: [
     '/images/products/0e6b34db-8271-4a91-9e23-3ed66d2bcab8.webp',
   ],
-  'itl612r-pro': [
+  'min612r-pro': [
     '/images/products/1746863162635-itl612-g2-1.webp',
     '/images/products/1746863162633-itl612-2.webp',
     '/images/products/1746863162634-itl612-3.webp',

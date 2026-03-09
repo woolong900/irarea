@@ -644,7 +644,7 @@ La cámara térmica MED417 fue desarrollada especialmente para detección de tem
     ],
   },
   {
-    id: 'itl612r-pro',
+    id: 'min612r-pro',
     name: 'ITL612R-PRO',
     subtitle: 'Módulo Térmico Radiométrico Profesional 640×512/12μm Serie MIN',
     description: `Como fabricante líder de detectores infrarrojos refrigerados no refrigerados y módulos térmicos, ChengJing Technology desarrolla un núcleo de imagen térmica infrarroja de tamaño pequeño y ligero MIN612R Pro, que es la versión compacta del núcleo de cámara infrarroja MIN612R.
