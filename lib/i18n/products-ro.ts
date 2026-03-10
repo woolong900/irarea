@@ -1345,6 +1345,44 @@ Seria HT U dispune de un câmp vizual ultra-larg de până la 58,91°×48,62°, 
       { label: 'Greutate (fără suport)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'Modul termic infraroșu neracit USB2.0',
+    description:
+      `Modulele infraroșu USB2.0 din seria HT T oferă imagistică termică de înaltă rezoluție 640×512 printr-o interfață USB2.0 simplă, făcând integrarea în sistemele existente rapidă și directă. Disponibilă în trei modele — HT T01, HT T02 și HT T03 — seria oferă opțiuni profesionale de lentile cu distanțe focale de 25mm, 35mm și 50mm pentru a satisface diverse cerințe de observare și supraveghere.
+
+Alimentate de tehnologia detectorului termic neracit VOx cu dimensiunea pixelului de 12μm și intervalul spectral de 8~14μm, aceste module ating o sensibilitate termică excelentă (NETD >35mK @F1.0, 300K). Interfața USB2.0 gestionează atât ieșirea imaginii, cât și controlul funcțiilor printr-o singură conexiune, simplificând semnificativ designul sistemului.
+
+Cu șase opțiuni de palete de culori (Alb cald, Negru cald, Foc, Curcubeu, Roșu fier, Rece), dimensiuni compacte începând de la doar 60×31×31mm și consum de energie ultra-redus sub 2W, seria HT T este ideală pentru inspecții industriale, monitorizare de securitate, diagnosticarea clădirilor și aplicații de cercetare științifică. Modulele funcționează fiabil într-un interval larg de temperaturi de la -20°C la +60°C.`,
+    category: 'Seria HT T',
+    features: [
+      { title: 'Rezoluție înaltă', description: 'Rezoluție infraroșu 640×512 cu dimensiunea pixelului de 12μm și detector termic neracit VOx' },
+      { title: 'Interfață USB2.0', description: 'O singură conexiune USB2.0 pentru ieșirea imaginii și controlul funcțiilor, simplificând integrarea' },
+      { title: 'Opțiuni multiple de lentile', description: 'Trei distanțe focale profesionale — 25mm, 35mm și 50mm — pentru diverse distanțe de observare' },
+      { title: 'Palete de culori bogate', description: 'Șase moduri de pseudo-culoare: Alb cald, Negru cald, Foc, Curcubeu, Roșu fier și Rece' },
+      { title: 'Consum ultra-redus', description: 'Consum de energie sub 2W cu alimentare DC5V, potrivit pentru sisteme portabile și integrate' },
+      { title: 'Design compact', description: 'Începând de la doar 60×31×31mm, ușor de integrat în diverse echipamente și carcase' },
+    ],
+    specifications: [
+      { label: 'Tip detector', values: ['Detector termic neracit VOx'] },
+      { label: 'Rezoluție infraroșu', values: ['640×512'] },
+      { label: 'Dimensiune pixel', values: ['12μm'] },
+      { label: 'Interval spectral', values: ['8~14μm'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'Număr F', values: ['F1.0'] },
+      { label: 'Câmp vizual', values: ['HT T01: 17.5°×14.0°', 'HT T02: 12.5°×10.0°', 'HT T03: 8.8°×7.0°'] },
+      { label: 'Metodă de focalizare', values: ['Focalizare manuală'] },
+      { label: 'Distanță focală', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Rezoluție imagine', values: ['640×480, 25fps'] },
+      { label: 'Palete de culori', values: ['Alb cald, Negru cald, Foc, Curcubeu, Roșu fier, Rece'] },
+      { label: 'Interfață', values: ['1× USB2.0 (Ieșire imagine și control funcții)'] },
+      { label: 'Temperatură funcționare', values: ['-20°C~+60°C'] },
+      { label: 'Alimentare', values: ['DC5V ±10%, 0.4A'] },
+      { label: 'Consum de energie', values: ['<2W'] },
+      { label: 'Dimensiuni', values: ['HT T01: 60×31×31mm', 'HT T02: 70×45×45mm', 'HT T03: 90×63×63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

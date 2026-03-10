@@ -1349,6 +1349,44 @@ Die HT U Serie verfügt über ein ultrabreites Sichtfeld von bis zu 58,91°×48,
       { label: 'Gewicht (ohne Halterung)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'USB2.0 Ungekühltes Infrarot-Wärmebildmodul',
+    description:
+      `Die USB2.0-Infrarotmodule der HT T Serie liefern hochauflösende Wärmebilder mit 640×512 Pixeln über eine einfache USB2.0-Schnittstelle und ermöglichen so eine schnelle und unkomplizierte Integration in bestehende Systeme. Die Serie ist in drei Modellen erhältlich — HT T01, HT T02 und HT T03 — und bietet professionelle Objektivoptionen mit Brennweiten von 25mm, 35mm und 50mm für unterschiedliche Beobachtungs- und Überwachungsanforderungen.
+
+Angetrieben von VOx-ungekühlter Thermodetektortechnologie mit 12μm Pixelgröße und 8~14μm Spektralbereich erreichen diese Module eine hervorragende thermische Empfindlichkeit (NETD >35mK @F1.0, 300K). Die USB2.0-Schnittstelle übernimmt sowohl die Bildausgabe als auch die Funktionssteuerung über eine einzige Verbindung und vereinfacht so das Systemdesign erheblich.
+
+Mit sechs Farbpalettenoptionen (Weiß Heiß, Schwarz Heiß, Feuer, Regenbogen, Eisenrot, Kühl), kompakten Abmessungen ab nur 60×31×31mm und einem extrem niedrigen Stromverbrauch unter 2W ist die HT T Serie ideal für industrielle Inspektion, Sicherheitsüberwachung, Gebäudediagnostik und wissenschaftliche Forschungsanwendungen. Die Module arbeiten zuverlässig in einem breiten Temperaturbereich von -20°C bis +60°C.`,
+    category: 'HT T Serie',
+    features: [
+      { title: 'Hohe Auflösung', description: '640×512 Infrarotauflösung mit 12μm Pixelgröße und VOx-ungekühltem Thermodetektor' },
+      { title: 'USB2.0-Schnittstelle', description: 'Einzelne USB2.0-Verbindung für Bildausgabe und Funktionssteuerung, vereinfacht die Integration' },
+      { title: 'Mehrere Objektivoptionen', description: 'Drei professionelle Brennweiten — 25mm, 35mm und 50mm — für verschiedene Beobachtungsentfernungen' },
+      { title: 'Vielfältige Farbpaletten', description: 'Sechs Pseudofarb-Modi: Weiß Heiß, Schwarz Heiß, Feuer, Regenbogen, Eisenrot und Kühl' },
+      { title: 'Extrem niedriger Stromverbrauch', description: 'Weniger als 2W Leistungsaufnahme bei DC5V-Versorgung, geeignet für tragbare und eingebettete Systeme' },
+      { title: 'Kompaktes Design', description: 'Ab nur 60×31×31mm, einfache Integration in verschiedene Geräte und Gehäuse' },
+    ],
+    specifications: [
+      { label: 'Detektortyp', values: ['VOx-ungekühlter Thermodetektor'] },
+      { label: 'Infrarotauflösung', values: ['640×512'] },
+      { label: 'Pixelgröße', values: ['12μm'] },
+      { label: 'Spektralbereich', values: ['8~14μm'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'Blendenzahl', values: ['F1.0'] },
+      { label: 'Sichtfeld', values: ['HT T01: 17.5°×14.0°', 'HT T02: 12.5°×10.0°', 'HT T03: 8.8°×7.0°'] },
+      { label: 'Fokussierungsmethode', values: ['Manueller Fokus'] },
+      { label: 'Brennweite', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Bildauflösung', values: ['640×480, 25fps'] },
+      { label: 'Farbpaletten', values: ['Weiß Heiß, Schwarz Heiß, Feuer, Regenbogen, Eisenrot, Kühl'] },
+      { label: 'Schnittstelle', values: ['1× USB2.0 (Bildausgabe & Funktionssteuerung)'] },
+      { label: 'Betriebstemperatur', values: ['-20°C~+60°C'] },
+      { label: 'Stromversorgung', values: ['DC5V ±10%, 0.4A'] },
+      { label: 'Leistungsaufnahme', values: ['<2W'] },
+      { label: 'Abmessungen', values: ['HT T01: 60×31×31mm', 'HT T02: 70×45×45mm', 'HT T03: 90×63×63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

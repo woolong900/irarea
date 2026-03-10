@@ -1345,6 +1345,44 @@ HT U serija pasizymi ypac placiu matymo lauku iki 58.91x48.62 laipsniu, karsciau
       { label: 'Svoris (be laikiklio)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'USB2.0 neatshaldytas infraraudonuju spinduliu terminis modulis',
+    description:
+      `HT T serijos USB2.0 infraraudonuju spinduliu moduliai uztikrina 640x512 aukstos rezoliucijos termini vaizda per paprasta USB2.0 sasaja, toduel integracija i esamas sistemas yra greita ir paprasta. Serija siuloma trimis modeliais — HT T01, HT T02 ir HT T03 — su profesionaliais objektyvu pasirinkimais 25mm, 35mm ir 50mm zidinio nuotoliu, kad butu patenkinti ivairius stebejimo ir prieziuros reikalavimus.
+
+Naudojant VOx neatshaldyto terminio detektoriaus technologija su 12um pikselio dydziu ir 8~14um spektriniu diapazonu, sie moduliai pasiekia puiku termini jautruma (NETD >35mK @F1.0, 300K). USB2.0 sasaja valdo vaizdo isvestis ir funkciju valdyma per viena junti, kas zymiai supaprastina sistemos projekta.
+
+Su sesiais spalvu paleciu pasirinkimais (Balta karsta, Juoda karsta, Ugnis, Vaivorykste, Gelezies raudona, Vesi), kompaktiskais formomis nuo vos 60x31x31mm ir itin mazomis energijos sanaudomis maziau nei 2W, HT T serija idealiai tinka pramoninei inspekcijai, saugumo stebejimui, pastatu diagnostikai ir moksliniams tyrimams. Moduliai patikimai veikia placiame temperaturos diapazone nuo -20 iki +60.`,
+    category: 'HT T serija',
+    features: [
+      { title: 'Auksta rezoliucija', description: '640x512 infraraudonoji rezoliucija su 12um pikselio dydziu ir VOx neatshaldytu terminiu detektoriumi' },
+      { title: 'USB2.0 sasaja', description: 'Viena USB2.0 jungtis vaizdo isvedimui ir funkciju valdymui, supaprastinant integracija' },
+      { title: 'Keli objektyvu pasirinkimai', description: 'Trys profesionalus zidinio nuotoliai — 25mm, 35mm ir 50mm — skirtingiems stebejimo atstumams' },
+      { title: 'Turtingos spalvu paletes', description: 'Sesi pseudospalvu rezimai: Balta karsta, Juoda karsta, Ugnis, Vaivorykste, Gelezies raudona ir Vesi' },
+      { title: 'Itin mazos sanaudos', description: 'Energijos sanaudos maziau nei 2W su DC5V maitinimu, tinkama nesiojamiems ir iterptiniams sistemoms' },
+      { title: 'Kompaktiskas dizainas', description: 'Nuo vos 60x31x31mm, lengva integracija i ivairia iranga ir korpusus' },
+    ],
+    specifications: [
+      { label: 'Detektoriaus tipas', values: ['VOx neatshaldytas terminis detektorius'] },
+      { label: 'Infraraudonoji rezoliucija', values: ['640x512'] },
+      { label: 'Pikselio dydis', values: ['12um'] },
+      { label: 'Spektrinis diapazonas', values: ['8~14um'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'F skaicius', values: ['F1.0'] },
+      { label: 'Matymo laukas', values: ['HT T01: 17.5x14.0', 'HT T02: 12.5x10.0', 'HT T03: 8.8x7.0'] },
+      { label: 'Fokusavimo budas', values: ['Rankinis fokusavimas'] },
+      { label: 'Zidinio nuotolis', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Vaizdo rezoliucija', values: ['640x480, 25fps'] },
+      { label: 'Spalvu paletes', values: ['Balta karsta, Juoda karsta, Ugnis, Vaivorykste, Gelezies raudona, Vesi'] },
+      { label: 'Sasaja', values: ['1x USB2.0 (Vaizdo isvestis ir funkciju valdymas)'] },
+      { label: 'Darbo temperatura', values: ['-20~+60'] },
+      { label: 'Maitinimas', values: ['DC5V +-10%, 0.4A'] },
+      { label: 'Energijos sanaudos', values: ['<2W'] },
+      { label: 'Matmenys', values: ['HT T01: 60x31x31mm', 'HT T02: 70x45x45mm', 'HT T03: 90x63x63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

@@ -1345,6 +1345,44 @@ Seria HT U oferuje ultraszerokie pole widzenia do 58,91°×48,62°, śledzenie p
       { label: 'Waga (bez uchwytu)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'Modul termowizyjny USB2.0 z niechlodzonym detektorem podczerwieni',
+    description:
+      `Moduly podczerwieni USB2.0 serii HT T zapewniaja obrazowanie termiczne o wysokiej rozdzielczosci 640x512 poprzez prosty interfejs USB2.0, co sprawia, ze integracja z istniejacymi systemami jest szybka i prosta. Dostepna w trzech modelach — HT T01, HT T02 i HT T03 — seria oferuje profesjonalne opcje obiektywow o ogniskowych 25mm, 35mm i 50mm, aby sprostac roznorodnym wymaganiom obserwacji i nadzoru.
+
+Zasilane technologia niechłodzonego detektora termicznego VOx z rozmiarem piksela 12μm i zakresem spektralnym 8~14μm, moduły te osiągają doskonałą czułość termiczną (NETD >35mK @F1.0, 300K). Interfejs USB2.0 obsługuje zarówno wyjście obrazu, jak i sterowanie funkcjami przez pojedyncze połączenie, znacznie upraszczając projektowanie systemu.
+
+Z sześcioma opcjami palet kolorów (Biały gorący, Czarny gorący, Ogień, Tęcza, Żelazo czerwone, Chłodny), kompaktowymi wymiarami od zaledwie 60×31×31mm oraz ultraniskim zużyciem energii poniżej 2W, seria HT T jest idealna do inspekcji przemysłowych, monitoringu bezpieczeństwa, diagnostyki budynków i zastosowań badawczych. Moduły działają niezawodnie w szerokim zakresie temperatur od -20°C do +60°C.`,
+    category: 'Seria HT T',
+    features: [
+      { title: 'Wysoka rozdzielczość', description: 'Rozdzielczość podczerwieni 640×512 z rozmiarem piksela 12μm i niechłodzonym detektorem termicznym VOx' },
+      { title: 'Interfejs USB2.0', description: 'Pojedyncze połączenie USB2.0 do wyjścia obrazu i sterowania funkcjami, upraszczające integrację' },
+      { title: 'Wiele opcji obiektywów', description: 'Trzy profesjonalne ogniskowe — 25mm, 35mm i 50mm — do różnych odległości obserwacji' },
+      { title: 'Bogate palety kolorów', description: 'Sześć trybów pseudokolorów: Biały gorący, Czarny gorący, Ogień, Tęcza, Żelazo czerwone i Chłodny' },
+      { title: 'Ultraniski pobór mocy', description: 'Pobór mocy poniżej 2W przy zasilaniu DC5V, odpowiedni dla systemów przenośnych i wbudowanych' },
+      { title: 'Kompaktowa konstrukcja', description: 'Od zaledwie 60×31×31mm, łatwa integracja z różnymi urządzeniami i obudowami' },
+    ],
+    specifications: [
+      { label: 'Typ detektora', values: ['Niechłodzony detektor termiczny VOx'] },
+      { label: 'Rozdzielczość podczerwieni', values: ['640×512'] },
+      { label: 'Rozmiar piksela', values: ['12μm'] },
+      { label: 'Zakres spektralny', values: ['8~14μm'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'Liczba F', values: ['F1.0'] },
+      { label: 'Pole widzenia', values: ['HT T01: 17.5°×14.0°', 'HT T02: 12.5°×10.0°', 'HT T03: 8.8°×7.0°'] },
+      { label: 'Metoda ogniskowania', values: ['Ręczna ostrość'] },
+      { label: 'Ogniskowa', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Rozdzielczość obrazu', values: ['640×480, 25fps'] },
+      { label: 'Palety kolorów', values: ['Biały gorący, Czarny gorący, Ogień, Tęcza, Żelazo czerwone, Chłodny'] },
+      { label: 'Interfejs', values: ['1× USB2.0 (Wyjście obrazu i sterowanie funkcjami)'] },
+      { label: 'Temperatura pracy', values: ['-20°C~+60°C'] },
+      { label: 'Zasilanie', values: ['DC5V ±10%, 0.4A'] },
+      { label: 'Pobór mocy', values: ['<2W'] },
+      { label: 'Wymiary', values: ['HT T01: 60×31×31mm', 'HT T02: 70×45×45mm', 'HT T03: 90×63×63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

@@ -1345,6 +1345,44 @@ HT U-serien har et ultrabredt synsfelt op til 58,91°×48,62°, hotspot-sporing,
       { label: 'Vaegt (ekskl. beslag)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'USB2.0 ukoelet infrarodt termisk modul',
+    description:
+      `HT T-seriens USB2.0 infraroede moduler leverer 640x512 hoejoplosende termisk billeddannelse via en enkel USB2.0-graenseflade, hvilket goer integrationen i eksisterende systemer hurtig og ligetil. Tilgaengelig i tre modeller — HT T01, HT T02 og HT T03 — tilbyder serien professionelle linsevalg med 25mm, 35mm og 50mm braendvidder for at imoedekomme forskellige observations- og overvaagningsbehov.
+
+Drevet af VOx ukoelet termisk detektorteknologi med 12μm pixelstorrelse og 8~14μm spektralomraade opnaar disse moduler fremragende termisk folsomhed (NETD >35mK @F1.0, 300K). USB2.0-graensefladen haandterer baade billedudgang og funktionskontrol via en enkelt forbindelse, hvilket i hoj grad forenkler systemdesignet.
+
+Med seks farvepaletmuligheder (Hvid varm, Sort varm, Ild, Regnbue, Jernrod, Koel), kompakte formfaktorer fra kun 60x31x31mm og ultralav effektforbrug under 2W er HT T-serien ideel til industriel inspektion, sikkerhedsovervaagning, bygningsdiagnostik og videnskabelig forskning. Modulerne fungerer paalideligt over et bredt temperaturomraade fra -20°C til +60°C.`,
+    category: 'HT T-serien',
+    features: [
+      { title: 'Hoej oplosning', description: '640x512 infrarod oplosning med 12μm pixelstorrelse og VOx ukoelet termisk detektor' },
+      { title: 'USB2.0-graenseflade', description: 'En enkelt USB2.0-forbindelse til baade billedudgang og funktionskontrol, forenkler integrationen' },
+      { title: 'Flere linsevalg', description: 'Tre professionelle braendvidder — 25mm, 35mm og 50mm — til forskellige observationsafstande' },
+      { title: 'Rige farvepaletter', description: 'Seks pseudofarvetilstande: Hvid varm, Sort varm, Ild, Regnbue, Jernrod og Koel' },
+      { title: 'Ultralav effektforbrug', description: 'Mindre end 2W effektforbrug med DC5V forsyning, velegnet til baerbare og indlejrede systemer' },
+      { title: 'Kompakt design', description: 'Fra kun 60x31x31mm, nem at integrere i forskellige udstyr og kabinetter' },
+    ],
+    specifications: [
+      { label: 'Detektortype', values: ['VOx ukoelet termisk detektor'] },
+      { label: 'Infrarod oplosning', values: ['640x512'] },
+      { label: 'Pixelstorrelse', values: ['12μm'] },
+      { label: 'Spektralomraade', values: ['8~14μm'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'F-nummer', values: ['F1.0'] },
+      { label: 'Synsfelt', values: ['HT T01: 17.5°x14.0°', 'HT T02: 12.5°x10.0°', 'HT T03: 8.8°x7.0°'] },
+      { label: 'Fokuseringsmetode', values: ['Manuel fokus'] },
+      { label: 'Braendvidde', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Billedoplosning', values: ['640x480, 25fps'] },
+      { label: 'Farvepaletter', values: ['Hvid varm, Sort varm, Ild, Regnbue, Jernrod, Koel'] },
+      { label: 'Graenseflade', values: ['1x USB2.0 (Billedudgang & Funktionskontrol)'] },
+      { label: 'Driftstemperatur', values: ['-20°C~+60°C'] },
+      { label: 'Stroemforsyning', values: ['DC5V ±10%, 0.4A'] },
+      { label: 'Effektforbrug', values: ['<2W'] },
+      { label: 'Dimensioner', values: ['HT T01: 60x31x31mm', 'HT T02: 70x45x45mm', 'HT T03: 90x63x63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

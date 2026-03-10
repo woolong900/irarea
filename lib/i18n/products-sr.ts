@@ -1349,6 +1349,44 @@ HT U serija ima ultra-široko vidno polje do 58.91°×48.62°, praćenje vrućih
       { label: 'Težina (bez nosača)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'USB2.0 nehlađeni infracrveni termički modul',
+    description:
+      `Infracrveni moduli HT T serije USB2.0 isporučuju termoviziju visoke rezolucije 640x512 putem jednostavnog USB2.0 interfejsa, čineći integraciju u postojeće sisteme brzom i jednostavnom. Dostupni u tri modela — HT T01, HT T02 i HT T03 — serija nudi profesionalne opcije objektiva od 25mm, 35mm i 50mm žižne daljine za raznovrsne zahteve posmatranja i nadzora.
+
+Pogonjeni VOx nehlađenom tehnologijom termičkog detektora sa veličinom piksela od 12μm i spektralnim opsegom od 8~14μm, ovi moduli postižu odličnu termičku osetljivost (NETD >35mK @F1.0, 300K). USB2.0 interfejs upravlja izlazom slike i kontrolom funkcija putem jedne konekcije, što značajno pojednostavljuje dizajn sistema.
+
+Sa šest opcija paleta boja (Belo toplo, Crno toplo, Vatra, Duga, Gvozdeno crveno, Hladno), kompaktnim oblicima počev od samo 60x31x31mm i ultra niskom potrošnjom energije ispod 2W, HT T serija je idealna za industrijsku inspekciju, bezbednosni nadzor, građevinsku dijagnostiku i naučna istraživanja. Moduli pouzdano rade u širokom temperaturnom opsegu od -20°C do +60°C.`,
+    category: 'HT T serija',
+    features: [
+      { title: 'Visoka rezolucija', description: '640x512 infracrvena rezolucija sa veličinom piksela od 12μm i VOx nehlađenim termičkim detektorom' },
+      { title: 'USB2.0 interfejs', description: 'Jedan USB2.0 priključak za izlaz slike i kontrolu funkcija, pojednostavljujući integraciju' },
+      { title: 'Višestruke opcije objektiva', description: 'Tri profesionalne žižne daljine — 25mm, 35mm i 50mm — za različita rastojanja posmatranja' },
+      { title: 'Bogate palete boja', description: 'Šest pseudo-boja režima: Belo toplo, Crno toplo, Vatra, Duga, Gvozdeno crveno i Hladno' },
+      { title: 'Ultra niska potrošnja', description: 'Potrošnja energije manja od 2W sa DC5V napajanjem, pogodno za prenosive i ugrađene sisteme' },
+      { title: 'Kompaktan dizajn', description: 'Počev od samo 60x31x31mm, jednostavna integracija u raznu opremu i kućišta' },
+    ],
+    specifications: [
+      { label: 'Tip detektora', values: ['VOx nehlađeni termički detektor'] },
+      { label: 'Infracrvena rezolucija', values: ['640x512'] },
+      { label: 'Veličina piksela', values: ['12μm'] },
+      { label: 'Spektralni opseg', values: ['8~14μm'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'F broj', values: ['F1.0'] },
+      { label: 'Vidno polje', values: ['HT T01: 17.5°x14.0°', 'HT T02: 12.5°x10.0°', 'HT T03: 8.8°x7.0°'] },
+      { label: 'Metoda fokusiranja', values: ['Ručno fokusiranje'] },
+      { label: 'Žižna daljina', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Rezolucija slike', values: ['640x480, 25fps'] },
+      { label: 'Palete boja', values: ['Belo toplo, Crno toplo, Vatra, Duga, Gvozdeno crveno, Hladno'] },
+      { label: 'Interfejs', values: ['1x USB2.0 (Izlaz slike i kontrola funkcija)'] },
+      { label: 'Radna temperatura', values: ['-20°C~+60°C'] },
+      { label: 'Napajanje', values: ['DC5V ±10%, 0.4A'] },
+      { label: 'Potrošnja energije', values: ['<2W'] },
+      { label: 'Dimenzije', values: ['HT T01: 60x31x31mm', 'HT T02: 70x45x45mm', 'HT T03: 90x63x63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

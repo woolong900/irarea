@@ -1633,6 +1633,44 @@ The HT U Series features an ultra-wide field of view up to 58.91°×48.62°, hot
       { label: 'Weight (excl. bracket)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'USB2.0 Uncooled Infrared Thermal Module',
+    description:
+      `The HT T Series USB2.0 infrared modules deliver 640×512 high-resolution thermal imaging through a simple USB2.0 interface, making integration into existing systems fast and straightforward. Available in three models — HT T01, HT T02, and HT T03 — the series offers professional lens options of 25mm, 35mm, and 50mm focal lengths to meet diverse observation and surveillance requirements.
+
+Powered by VOx uncooled thermal detector technology with 12μm pixel size and 8~14μm spectral range, these modules achieve excellent thermal sensitivity (NETD >35mK @F1.0, 300K). The USB2.0 interface handles both image output and function control through a single connection, greatly simplifying system design.
+
+With six color palette options (White Hot, Black Hot, Fire, Rainbow, Iron Red, Cool), compact form factors starting from just 60×31×31mm, and ultra-low power consumption under 2W, the HT T Series is ideal for industrial inspection, security monitoring, building diagnostics, and scientific research applications. The modules operate reliably across a wide temperature range from -20°C to +60°C.`,
+    category: 'HT T Series',
+    features: [
+      { title: 'High Resolution', description: '640×512 infrared resolution with 12μm pixel size and VOx uncooled thermal detector' },
+      { title: 'USB2.0 Interface', description: 'Single USB2.0 connection for both image output and function control, simplifying integration' },
+      { title: 'Multiple Lens Options', description: 'Three professional focal lengths — 25mm, 35mm, and 50mm — for various observation distances' },
+      { title: 'Rich Color Palettes', description: 'Six pseudo-color modes: White Hot, Black Hot, Fire, Rainbow, Iron Red, and Cool' },
+      { title: 'Ultra-Low Power', description: 'Less than 2W power consumption with DC5V supply, suitable for portable and embedded systems' },
+      { title: 'Compact Design', description: 'Starting from just 60×31×31mm, easy to integrate into various equipment and enclosures' },
+    ],
+    specifications: [
+      { label: 'Detector Type', values: ['VOx Uncooled Thermal Detector'] },
+      { label: 'Infrared Resolution', values: ['640×512'] },
+      { label: 'Pixel Size', values: ['12μm'] },
+      { label: 'Spectral Range', values: ['8~14μm'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'F Number', values: ['F1.0'] },
+      { label: 'Field of View', values: ['HT T01: 17.5°×14.0°', 'HT T02: 12.5°×10.0°', 'HT T03: 8.8°×7.0°'] },
+      { label: 'Focusing Method', values: ['Manual Focus'] },
+      { label: 'Focal Length', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Image Resolution', values: ['640×480, 25fps'] },
+      { label: 'Color Palettes', values: ['White Hot, Black Hot, Fire, Rainbow, Iron Red, Cool'] },
+      { label: 'Interface', values: ['1× USB2.0 (Image Output & Function Control)'] },
+      { label: 'Operating Temperature', values: ['-20°C~+60°C'] },
+      { label: 'Power Supply', values: ['DC5V ±10%, 0.4A'] },
+      { label: 'Power Consumption', values: ['<2W'] },
+      { label: 'Dimensions', values: ['HT T01: 60×31×31mm', 'HT T02: 70×45×45mm', 'HT T03: 90×63×63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

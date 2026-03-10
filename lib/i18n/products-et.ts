@@ -1345,6 +1345,44 @@ HT U seeria pakub ulilaia vaatevalja kuni 58.91x48.62 kraadi, kuumade punktide j
       { label: 'Kaal (ilma kinnituseta)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'USB2.0 jahutamata infrapuna soojusmoodul',
+    description:
+      `HT T seeria USB2.0 infrapunamoodulid pakuvad 640x512 korge eraldusvoimega soojuskuvamist lihtsa USB2.0 liidese kaudu, muutes olemasolevasse susteemidesse integreerimise kiireks ja lihtsaks. Saadaval kolmes mudelis — HT T01, HT T02 ja HT T03 — seeria pakub professionaalseid objektiivivalikuid 25mm, 35mm ja 50mm fookuskaugustega erinevate vaatlus- ja jalgimisnoauete rahuldamiseks.
+
+VOx jahutamata soojusdetektori tehnoloogiaga 12um piksli suuruse ja 8~14um spektraalvahemikuga saavutavad need moodulid suureparase soojustundlikkuse (NETD >35mK @F1.0, 300K). USB2.0 liides haldab nii pildivaaljundit kui ka funktsioonide juhtimist uhe uhenduse kaudu, lihtsustades oluliselt susteemidisaini.
+
+Kuue varvpaleti valikuga (Valge kuum, Must kuum, Tuli, Vikerkaar, Raudpunane, Jahe), kompaktsete vormidega alates vaid 60x31x31mm ja ulimadala energiatarbega alla 2W on HT T seeria ideaalne toostuslikuks ulevaatuseks, turvajalgimiseks, hoonete diagnostikaks ja teadusuuringuteks. Moodulid tooimivad usaldusvaarselt laias temperatuurivahemikus -20 kuni +60.`,
+    category: 'HT T seeria',
+    features: [
+      { title: 'Korge eraldusvoimne', description: '640x512 infrapuna eraldusvoimne 12um piksli suuruse ja VOx jahutamata soojusdetektoriga' },
+      { title: 'USB2.0 liides', description: 'Uks USB2.0 uhendus nii pildivaaljundi kui ka funktsioonide juhtimise jaoks, lihtsustades integratsiooni' },
+      { title: 'Mitu objektiivivalikut', description: 'Kolm professionaalset fookuskaugust — 25mm, 35mm ja 50mm — erinevatele vaatluskaugustele' },
+      { title: 'Rikkalikud varvpaletid', description: 'Kuus pseudovarvi reziimi: Valge kuum, Must kuum, Tuli, Vikerkaar, Raudpunane ja Jahe' },
+      { title: 'Ulimadal tarve', description: 'Energiatarve alla 2W DC5V toitega, sobib kaasaskantavatele ja manusssusteemidele' },
+      { title: 'Kompaktne disain', description: 'Alates vaid 60x31x31mm, lihtne integreerida erinevatesse seadmetesse ja korpustesse' },
+    ],
+    specifications: [
+      { label: 'Detektori tuup', values: ['VOx jahutamata soojusdetektor'] },
+      { label: 'Infrapuna eraldusvoimne', values: ['640x512'] },
+      { label: 'Piksli suurus', values: ['12um'] },
+      { label: 'Spektraalvahemik', values: ['8~14um'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'F-arv', values: ['F1.0'] },
+      { label: 'Vaatevalja', values: ['HT T01: 17.5x14.0', 'HT T02: 12.5x10.0', 'HT T03: 8.8x7.0'] },
+      { label: 'Fokuseerimisviis', values: ['Kaesitsi fokuseerimine'] },
+      { label: 'Fookuskaugus', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Pildi eraldusvoimne', values: ['640x480, 25fps'] },
+      { label: 'Varvpaletid', values: ['Valge kuum, Must kuum, Tuli, Vikerkaar, Raudpunane, Jahe'] },
+      { label: 'Liides', values: ['1x USB2.0 (Pildivaaljund ja funktsioonide juhtimine)'] },
+      { label: 'Tootemperatuur', values: ['-20~+60'] },
+      { label: 'Toide', values: ['DC5V +-10%, 0.4A'] },
+      { label: 'Energiatarve', values: ['<2W'] },
+      { label: 'Mootmed', values: ['HT T01: 60x31x31mm', 'HT T02: 70x45x45mm', 'HT T03: 90x63x63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

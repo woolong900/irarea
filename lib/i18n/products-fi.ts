@@ -1345,6 +1345,44 @@ HT U-sarjassa on ultralaaja nakokentta jopa 58,91°×48,62°, kuumapisteen seura
       { label: 'Paino (ilman kiinniketta)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'USB2.0 jaahdyttamaton infrapunalampomoduuli',
+    description:
+      `HT T-sarjan USB2.0 infrapunamoduulit tarjoavat 640x512 korkearesoluutioisen lampokuvantamisen yksinkertaisen USB2.0-liitannan kautta, tehden integroinnin olemassa oleviin jarjestelmiin nopeaksi ja vaivattomaksi. Saatavana kolmena mallina — HT T01, HT T02 ja HT T03 — sarja tarjoaa ammattimaiset linssivaihtoehdot 25mm, 35mm ja 50mm polttovaleilla erilaisten havainto- ja valvontatarpeiden tayttamiseksi.
+
+VOx jaahdyttamattomalla lampoilmaisinteknologialla, 12μm pikselikoolla ja 8~14μm spektrialueella nama moduulit saavuttavat erinomaisen lampoherkkyyen (NETD >35mK @F1.0, 300K). USB2.0-liitanta hoitaa seka kuvaulostuloa etta toimintojen ohjausta yhden liitannan kautta, mikka yksinkertaistaa jarjestelmasuunnittelua merkittavasti.
+
+Kuudella varipalettivaihtoehdolla (Valkoinen kuuma, Musta kuuma, Tuli, Sateenkaari, Rautapunainen, Viilea), kompakteilla muototekijoilla alkaen vain 60x31x31mm ja ultramatalalla tehonkulutuksella alle 2W, HT T-sarja on ihanteellinen teollisuustarkastuksiin, turvallisuusvalvontaan, rakennusdiagnostiikkaan ja tieteelliseen tutkimukseen. Moduulit toimivat luotettavasti laajalla lampotila-alueella -20°C - +60°C.`,
+    category: 'HT T-sarja',
+    features: [
+      { title: 'Korkea resoluutio', description: '640x512 infrapunaresoluutio 12μm pikselikoolla ja VOx jaahdyttamaton lampoilmaisin' },
+      { title: 'USB2.0-liitanta', description: 'Yksi USB2.0-liitanta seka kuvaulostuloa etta toimintojen ohjausta varten, yksinkertaistaa integrointia' },
+      { title: 'Useita linssivaihtoehtoja', description: 'Kolme ammattimaista polttovalia — 25mm, 35mm ja 50mm — eri havaitsemisetaisyyksille' },
+      { title: 'Monipuoliset varipaletit', description: 'Kuusi pseudovaritilaa: Valkoinen kuuma, Musta kuuma, Tuli, Sateenkaari, Rautapunainen ja Viilea' },
+      { title: 'Ultramatala tehonkulutus', description: 'Alle 2W tehonkulutus DC5V syotolla, sopii kannettaviin ja sulautettuihin jarjestelmiin' },
+      { title: 'Kompakti muotoilu', description: 'Alkaen vain 60x31x31mm, helppo integroida erilaisiin laitteisiin ja koteloihin' },
+    ],
+    specifications: [
+      { label: 'Ilmaisintyyppi', values: ['VOx jaahdyttamaton lampoilmaisin'] },
+      { label: 'Infrapunaresoluutio', values: ['640x512'] },
+      { label: 'Pikselikoko', values: ['12μm'] },
+      { label: 'Spektrialue', values: ['8~14μm'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'F-luku', values: ['F1.0'] },
+      { label: 'Nakokentta', values: ['HT T01: 17.5°x14.0°', 'HT T02: 12.5°x10.0°', 'HT T03: 8.8°x7.0°'] },
+      { label: 'Tarkennusmenetelma', values: ['Manuaalinen tarkennus'] },
+      { label: 'Polttovaali', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Kuvaresoluutio', values: ['640x480, 25fps'] },
+      { label: 'Varipaletit', values: ['Valkoinen kuuma, Musta kuuma, Tuli, Sateenkaari, Rautapunainen, Viilea'] },
+      { label: 'Liitanta', values: ['1x USB2.0 (Kuvaulostulo & Toimintojen ohjaus)'] },
+      { label: 'Kayttolampotila', values: ['-20°C~+60°C'] },
+      { label: 'Virransyotto', values: ['DC5V ±10%, 0.4A'] },
+      { label: 'Tehonkulutus', values: ['<2W'] },
+      { label: 'Mitat', values: ['HT T01: 60x31x31mm', 'HT T02: 70x45x45mm', 'HT T03: 90x63x63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

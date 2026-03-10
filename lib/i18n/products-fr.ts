@@ -1345,6 +1345,44 @@ La serie HT U dispose d'un champ de vision ultra-large allant jusqu'a 58,91°×4
       { label: 'Poids (sans support)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'Module thermique infrarouge non refroidi USB2.0',
+    description:
+      `Les modules infrarouges USB2.0 de la serie HT T offrent une imagerie thermique haute resolution de 640×512 via une simple interface USB2.0, rendant l'integration dans les systemes existants rapide et simple. Disponible en trois modeles — HT T01, HT T02 et HT T03 — la serie propose des options de lentilles professionnelles avec des distances focales de 25mm, 35mm et 50mm pour repondre a divers besoins d'observation et de surveillance.
+
+Alimentes par la technologie de detecteur thermique non refroidi VOx avec une taille de pixel de 12μm et une plage spectrale de 8~14μm, ces modules atteignent une excellente sensibilite thermique (NETD >35mK @F1.0, 300K). L'interface USB2.0 gere a la fois la sortie d'image et le controle des fonctions via une seule connexion, simplifiant considerablement la conception du systeme.
+
+Avec six options de palette de couleurs (Blanc chaud, Noir chaud, Feu, Arc-en-ciel, Rouge fer, Froid), des formats compacts a partir de seulement 60×31×31mm et une consommation d'energie ultra-faible inferieure a 2W, la serie HT T est ideale pour l'inspection industrielle, la surveillance de securite, le diagnostic des batiments et les applications de recherche scientifique. Les modules fonctionnent de maniere fiable dans une large plage de temperature de -20°C a +60°C.`,
+    category: 'Serie HT T',
+    features: [
+      { title: 'Haute resolution', description: 'Resolution infrarouge 640×512 avec taille de pixel de 12μm et detecteur thermique non refroidi VOx' },
+      { title: 'Interface USB2.0', description: 'Connexion USB2.0 unique pour la sortie d\'image et le controle des fonctions, simplifiant l\'integration' },
+      { title: 'Options multi-lentilles', description: 'Trois distances focales professionnelles — 25mm, 35mm et 50mm — pour diverses distances d\'observation' },
+      { title: 'Palettes de couleurs riches', description: 'Six modes pseudo-couleur : Blanc chaud, Noir chaud, Feu, Arc-en-ciel, Rouge fer et Froid' },
+      { title: 'Consommation ultra-faible', description: 'Consommation d\'energie inferieure a 2W avec alimentation DC5V, adapte aux systemes portables et integres' },
+      { title: 'Conception compacte', description: 'A partir de seulement 60×31×31mm, facile a integrer dans divers equipements et boitiers' },
+    ],
+    specifications: [
+      { label: 'Type de detecteur', values: ['Detecteur thermique non refroidi VOx'] },
+      { label: 'Resolution infrarouge', values: ['640×512'] },
+      { label: 'Taille de pixel', values: ['12μm'] },
+      { label: 'Plage spectrale', values: ['8~14μm'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'Nombre F', values: ['F1.0'] },
+      { label: 'Champ de vision', values: ['HT T01: 17.5°×14.0°', 'HT T02: 12.5°×10.0°', 'HT T03: 8.8°×7.0°'] },
+      { label: 'Methode de mise au point', values: ['Mise au point manuelle'] },
+      { label: 'Distance focale', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Resolution d\'image', values: ['640×480, 25fps'] },
+      { label: 'Palettes de couleurs', values: ['Blanc chaud, Noir chaud, Feu, Arc-en-ciel, Rouge fer, Froid'] },
+      { label: 'Interface', values: ['1× USB2.0 (Sortie d\'image & Controle des fonctions)'] },
+      { label: 'Temperature de fonctionnement', values: ['-20°C~+60°C'] },
+      { label: 'Alimentation', values: ['DC5V ±10%, 0.4A'] },
+      { label: 'Consommation d\'energie', values: ['<2W'] },
+      { label: 'Dimensions', values: ['HT T01: 60×31×31mm', 'HT T02: 70×45×45mm', 'HT T03: 90×63×63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

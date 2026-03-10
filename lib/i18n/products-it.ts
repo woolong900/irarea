@@ -1281,6 +1281,44 @@ La serie HT U presenta un campo visivo ultra-ampio fino a 58,91°×48,62°, capa
       { label: 'Peso (escl. staffa)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'Modulo Termico Infrarosso Non Raffreddato USB2.0',
+    description:
+      `I moduli infrarossi USB2.0 della serie HT T offrono imaging termico ad alta risoluzione 640×512 attraverso una semplice interfaccia USB2.0, rendendo l'integrazione nei sistemi esistenti rapida e diretta. Disponibile in tre modelli — HT T01, HT T02 e HT T03 — la serie offre opzioni professionali di lenti con lunghezze focali di 25mm, 35mm e 50mm per soddisfare diverse esigenze di osservazione e sorveglianza.
+
+Alimentati dalla tecnologia del rilevatore termico non raffreddato VOx con dimensione pixel di 12μm e gamma spettrale di 8~14μm, questi moduli raggiungono un'eccellente sensibilità termica (NETD >35mK @F1.0, 300K). L'interfaccia USB2.0 gestisce sia l'uscita delle immagini che il controllo delle funzioni attraverso una singola connessione, semplificando notevolmente la progettazione del sistema.
+
+Con sei opzioni di palette di colori (Bianco Caldo, Nero Caldo, Fuoco, Arcobaleno, Rosso Ferro, Freddo), fattori di forma compatti a partire da soli 60×31×31mm e consumo energetico ultra-basso inferiore a 2W, la serie HT T è ideale per ispezioni industriali, monitoraggio della sicurezza, diagnostica degli edifici e applicazioni di ricerca scientifica. I moduli operano in modo affidabile in un ampio intervallo di temperatura da -20°C a +60°C.`,
+    category: 'Serie HT T',
+    features: [
+      { title: 'Alta Risoluzione', description: 'Risoluzione infrarosso 640×512 con dimensione pixel di 12μm e rilevatore termico non raffreddato VOx' },
+      { title: 'Interfaccia USB2.0', description: 'Singola connessione USB2.0 per uscita immagini e controllo funzioni, semplificando l\'integrazione' },
+      { title: 'Opzioni Multi-Lente', description: 'Tre lunghezze focali professionali — 25mm, 35mm e 50mm — per varie distanze di osservazione' },
+      { title: 'Palette Colori Ricche', description: 'Sei modalità pseudo-colore: Bianco Caldo, Nero Caldo, Fuoco, Arcobaleno, Rosso Ferro e Freddo' },
+      { title: 'Consumo Ultra-Basso', description: 'Consumo energetico inferiore a 2W con alimentazione DC5V, adatto per sistemi portatili e integrati' },
+      { title: 'Design Compatto', description: 'A partire da soli 60×31×31mm, facile da integrare in varie attrezzature e involucri' },
+    ],
+    specifications: [
+      { label: 'Tipo Rilevatore', values: ['Rilevatore Termico Non Raffreddato VOx'] },
+      { label: 'Risoluzione Infrarosso', values: ['640×512'] },
+      { label: 'Dimensione Pixel', values: ['12μm'] },
+      { label: 'Gamma Spettrale', values: ['8~14μm'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'Numero F', values: ['F1.0'] },
+      { label: 'Campo Visivo', values: ['HT T01: 17.5°×14.0°', 'HT T02: 12.5°×10.0°', 'HT T03: 8.8°×7.0°'] },
+      { label: 'Metodo di Messa a Fuoco', values: ['Messa a Fuoco Manuale'] },
+      { label: 'Lunghezza Focale', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Risoluzione Immagine', values: ['640×480, 25fps'] },
+      { label: 'Palette di Colori', values: ['Bianco Caldo, Nero Caldo, Fuoco, Arcobaleno, Rosso Ferro, Freddo'] },
+      { label: 'Interfaccia', values: ['1× USB2.0 (Uscita Immagini & Controllo Funzioni)'] },
+      { label: 'Temperatura Operativa', values: ['-20°C~+60°C'] },
+      { label: 'Alimentazione', values: ['DC5V ±10%, 0.4A'] },
+      { label: 'Consumo Energetico', values: ['<2W'] },
+      { label: 'Dimensioni', values: ['HT T01: 60×31×31mm', 'HT T02: 70×45×45mm', 'HT T03: 90×63×63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

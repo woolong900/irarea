@@ -1345,6 +1345,44 @@ Serie HT U nabizi ultra siroke zorny pole az 58,91°×48,62°, sledovani horkych
       { label: 'Hmotnost (bez drzaku)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'USB2.0 nechlazeny infracerveny tepelny modul',
+    description:
+      `Infracervene moduly USB2.0 serie HT T poskytuji tepelne zobrazovani s vysokym rozlisenim 640×512 prostrednictvim jednoducheho rozhrani USB2.0, coz umoznuje rychlou a snadnou integraci do stavajicich systemu. K dispozici ve trech modelech — HT T01, HT T02 a HT T03 — serie nabizi profesionalni moznosti objektivu s ohniskovymi vzdalenostmi 25mm, 35mm a 50mm pro splneni ruznych pozadavku na pozorovani a sledovani.
+
+Pohaneny technologii nechlazeneho tepelneho detektoru VOx s velikosti pixelu 12μm a spektralnim rozsahem 8~14μm, tyto moduly dosahuji vynikajici tepelne citlivosti (NETD >35mK @F1.0, 300K). Rozhrani USB2.0 zajistuje vystup obrazu i ovladani funkci prostrednictvim jedineho pripojeni, coz vyrazne zjednodusuje navrh systemu.
+
+Se sesti moznostmi barevnych palet (Bila horka, Cerna horka, Ohen, Duha, Zelezna cervena, Chladny), kompaktnimi rozmery od pouhych 60×31×31mm a ultra nizkym prikonem pod 2W je serie HT T idealni pro prumyslove inspekce, bezpecnostni monitoring, diagnostiku budov a vedecky vyzkum. Moduly spolehive pracuji v sirokem rozsahu teplot od -20°C do +60°C.`,
+    category: 'Serie HT T',
+    features: [
+      { title: 'Vysoke rozliseni', description: 'Infracervene rozliseni 640×512 s velikosti pixelu 12μm a nechlazenym tepelnym detektorem VOx' },
+      { title: 'Rozhrani USB2.0', description: 'Jedine pripojeni USB2.0 pro vystup obrazu i ovladani funkci, zjednodusujici integraci' },
+      { title: 'Vice moznosti objektivu', description: 'Tri profesionalni ohniskove vzdalenosti — 25mm, 35mm a 50mm — pro ruzne pozorovaci vzdalenosti' },
+      { title: 'Bohate barevne palety', description: 'Sest rezimu pseudobarev: Bila horka, Cerna horka, Ohen, Duha, Zelezna cervena a Chladny' },
+      { title: 'Ultra nizky prikon', description: 'Spotreba energie pod 2W pri napajeni DC5V, vhodne pro prenosne a vestavenesystemy' },
+      { title: 'Kompaktni design', description: 'Od pouhych 60×31×31mm, snadno integrovatelny do ruznych zarizeni a skrni' },
+    ],
+    specifications: [
+      { label: 'Typ detektoru', values: ['Nechlazeny tepelny detektor VOx'] },
+      { label: 'Infracervene rozliseni', values: ['640×512'] },
+      { label: 'Velikost pixelu', values: ['12μm'] },
+      { label: 'Spektralni rozsah', values: ['8~14μm'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'Cislo F', values: ['F1.0'] },
+      { label: 'Zorny uhel', values: ['HT T01: 17.5°×14.0°', 'HT T02: 12.5°×10.0°', 'HT T03: 8.8°×7.0°'] },
+      { label: 'Metoda ostreni', values: ['Rucni ostreni'] },
+      { label: 'Ohniskova vzdalenost', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Rozliseni obrazu', values: ['640×480, 25fps'] },
+      { label: 'Barevne palety', values: ['Bila horka, Cerna horka, Ohen, Duha, Zelezna cervena, Chladny'] },
+      { label: 'Rozhrani', values: ['1× USB2.0 (Obrazovy vystup a ovladani funkci)'] },
+      { label: 'Provozni teplota', values: ['-20°C~+60°C'] },
+      { label: 'Napajeni', values: ['DC5V ±10%, 0.4A'] },
+      { label: 'Spotreba energie', values: ['<2W'] },
+      { label: 'Rozmery', values: ['HT T01: 60×31×31mm', 'HT T02: 70×45×45mm', 'HT T03: 90×63×63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

@@ -260,6 +260,9 @@ export const PRODUCT_IMAGES: Record<string, string[]> = {
   'ht-u-series': [
     '/images/products/1746862250225-plug417r-0.webp',
   ],
+  'ht-t-series': [
+    '/images/products/1746862250225-plug417r-0.webp',
+  ],
 }
 
 // 获取产品图片的辅助函数

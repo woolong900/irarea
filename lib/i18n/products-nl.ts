@@ -1345,6 +1345,44 @@ De HT U Serie beschikt over een ultrabreed gezichtsveld tot 58,91°×48,62°, ho
       { label: 'Gewicht (excl. beugel)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'USB2.0 ongekoeld infrarood thermisch module',
+    description:
+      `De HT T Serie USB2.0 infraroodmodules leveren 640×512 hoge-resolutie thermische beeldvorming via een eenvoudige USB2.0-interface, waardoor integratie in bestaande systemen snel en eenvoudig is. Beschikbaar in drie modellen — HT T01, HT T02 en HT T03 — biedt de serie professionele lensopties met brandpuntsafstanden van 25mm, 35mm en 50mm om aan diverse observatie- en bewakingsvereisten te voldoen.
+
+Aangedreven door VOx ongekoelde thermische detectortechnologie met 12μm pixelgrootte en 8~14μm spectraalbereik, bereiken deze modules een uitstekende thermische gevoeligheid (NETD >35mK @F1.0, 300K). De USB2.0-interface verwerkt zowel beelduitvoer als functiebesturing via een enkele verbinding, wat het systeemontwerp aanzienlijk vereenvoudigt.
+
+Met zes kleurpaletopties (Wit heet, Zwart heet, Vuur, Regenboog, IJzerrood, Koel), compacte vormfactoren vanaf slechts 60×31×31mm en een ultralage stroomverbruik van minder dan 2W, is de HT T Serie ideaal voor industriele inspectie, beveiligingsmonitoring, gebouwdiagnostiek en wetenschappelijk onderzoek. De modules werken betrouwbaar over een breed temperatuurbereik van -20°C tot +60°C.`,
+    category: 'HT T Serie',
+    features: [
+      { title: 'Hoge resolutie', description: '640×512 infraroodresolutie met 12μm pixelgrootte en VOx ongekoelde thermische detector' },
+      { title: 'USB2.0-interface', description: 'Enkele USB2.0-verbinding voor beelduitvoer en functiebesturing, vereenvoudigt integratie' },
+      { title: 'Meerdere lensopties', description: 'Drie professionele brandpuntsafstanden — 25mm, 35mm en 50mm — voor diverse observatieafstanden' },
+      { title: 'Rijke kleurpaletten', description: 'Zes pseudo-kleurmodi: Wit heet, Zwart heet, Vuur, Regenboog, IJzerrood en Koel' },
+      { title: 'Ultralaag stroomverbruik', description: 'Minder dan 2W stroomverbruik met DC5V-voeding, geschikt voor draagbare en ingebedde systemen' },
+      { title: 'Compact ontwerp', description: 'Vanaf slechts 60×31×31mm, eenvoudig te integreren in diverse apparatuur en behuizingen' },
+    ],
+    specifications: [
+      { label: 'Detectortype', values: ['VOx ongekoelde thermische detector'] },
+      { label: 'Infraroodresolutie', values: ['640×512'] },
+      { label: 'Pixelgrootte', values: ['12μm'] },
+      { label: 'Spectraalbereik', values: ['8~14μm'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'F-nummer', values: ['F1.0'] },
+      { label: 'Gezichtsveld', values: ['HT T01: 17.5°×14.0°', 'HT T02: 12.5°×10.0°', 'HT T03: 8.8°×7.0°'] },
+      { label: 'Scherpstelmethode', values: ['Handmatige scherpstelling'] },
+      { label: 'Brandpuntsafstand', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Beeldresolutie', values: ['640×480, 25fps'] },
+      { label: 'Kleurpaletten', values: ['Wit heet, Zwart heet, Vuur, Regenboog, IJzerrood, Koel'] },
+      { label: 'Interface', values: ['1× USB2.0 (Beelduitvoer & Functiebesturing)'] },
+      { label: 'Bedrijfstemperatuur', values: ['-20°C~+60°C'] },
+      { label: 'Voeding', values: ['DC5V ±10%, 0.4A'] },
+      { label: 'Stroomverbruik', values: ['<2W'] },
+      { label: 'Afmetingen', values: ['HT T01: 60×31×31mm', 'HT T02: 70×45×45mm', 'HT T03: 90×63×63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

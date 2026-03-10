@@ -1345,6 +1345,44 @@ A HT U sorozat ultra széles látómezőt kínál akár 58,91°×48,62°-ig, for
       { label: 'Tömeg (tartó nélkül)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'USB2.0 hűtés nélküli infravörös termikus modul',
+    description:
+      `A HT T sorozat USB2.0 infravörös moduljai 640×512 nagy felbontású hőképalkotást biztosítanak egyszerű USB2.0 interfészen keresztül, így a meglévő rendszerekbe történő integráció gyors és egyszerű. Három modellben elérhető — HT T01, HT T02 és HT T03 — a sorozat 25mm, 35mm és 50mm fókusztávolságú professzionális objektív opciókat kínál a különböző megfigyelési és felügyeleti igények kielégítésére.
+
+A VOx hűtés nélküli termikus detektor technológiával, 12μm pixelmérettel és 8~14μm spektrális tartománnyal működő modulok kiváló hőérzékenységet érnek el (NETD >35mK @F1.0, 300K). Az USB2.0 interfész egyetlen csatlakozáson keresztül kezeli a képkimenetet és a funkcióvezérlést, jelentősen egyszerűsítve a rendszertervezést.
+
+Hat színpaletta opcióval (Fehér meleg, Fekete meleg, Tűz, Szivárvány, Vasvörös, Hűvös), mindössze 60×31×31mm-től induló kompakt méretekkel és 2W alatti ultra alacsony energiafogyasztással a HT T sorozat ideális ipari ellenőrzéshez, biztonsági megfigyeléshez, épületdiagnosztikához és tudományos kutatási alkalmazásokhoz. A modulok megbízhatóan működnek -20°C-tól +60°C-ig terjedő széles hőmérsékleti tartományban.`,
+    category: 'HT T Sorozat',
+    features: [
+      { title: 'Nagy felbontás', description: '640×512 infravörös felbontás 12μm pixelmérettel és VOx hűtés nélküli termikus detektorral' },
+      { title: 'USB2.0 interfész', description: 'Egyetlen USB2.0 csatlakozás a képkimenethez és funkcióvezérléshez, egyszerűsítve az integrációt' },
+      { title: 'Többféle objektív opció', description: 'Három professzionális fókusztávolság — 25mm, 35mm és 50mm — különböző megfigyelési távolságokhoz' },
+      { title: 'Gazdag színpaletták', description: 'Hat pszeudoszín mód: Fehér meleg, Fekete meleg, Tűz, Szivárvány, Vasvörös és Hűvös' },
+      { title: 'Ultra alacsony energiafogyasztás', description: '2W alatti energiafogyasztás DC5V tápellátással, alkalmas hordozható és beágyazott rendszerekhez' },
+      { title: 'Kompakt kialakítás', description: 'Mindössze 60×31×31mm-től, könnyen integrálható különféle berendezésekbe és házakba' },
+    ],
+    specifications: [
+      { label: 'Detektor típus', values: ['VOx hűtés nélküli termikus detektor'] },
+      { label: 'Infravörös felbontás', values: ['640×512'] },
+      { label: 'Pixelméret', values: ['12μm'] },
+      { label: 'Spektrális tartomány', values: ['8~14μm'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'F szám', values: ['F1.0'] },
+      { label: 'Látómező', values: ['HT T01: 17.5°×14.0°', 'HT T02: 12.5°×10.0°', 'HT T03: 8.8°×7.0°'] },
+      { label: 'Fókuszálási módszer', values: ['Kézi fókuszálás'] },
+      { label: 'Fókusztávolság', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Képfelbontás', values: ['640×480, 25fps'] },
+      { label: 'Színpaletták', values: ['Fehér meleg, Fekete meleg, Tűz, Szivárvány, Vasvörös, Hűvös'] },
+      { label: 'Csatlakozó', values: ['1× USB2.0 (Képkimenet és funkcióvezérlés)'] },
+      { label: 'Üzemi hőmérséklet', values: ['-20°C~+60°C'] },
+      { label: 'Tápellátás', values: ['DC5V ±10%, 0.4A'] },
+      { label: 'Energiafogyasztás', values: ['<2W'] },
+      { label: 'Méretek', values: ['HT T01: 60×31×31mm', 'HT T02: 70×45×45mm', 'HT T03: 90×63×63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

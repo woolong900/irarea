@@ -1345,6 +1345,44 @@ HT U serijai ir ipasi plats redzamibas lauks lidz 58.91x48.62 gradiem, karstako 
       { label: 'Svars (bez kronsteina)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'USB2.0 neatdzeseta infrasarkanais termiskais modulis',
+    description:
+      `HT T serijas USB2.0 infrasarkanajie moduli nodrosina 640x512 augstas izskirtspejas termisko attelosanu caur vienkarsamu USB2.0 saskarni, padarot integrciju esosajas sistemas atru un vienkarsamu. Serija ir pieejama tris modelos — HT T01, HT T02 un HT T03 — piedavajot profesionalas objektivu iespejas ar 25mm, 35mm un 50mm fokusa attlumiem dazadam noverosanas un uzraudzibas prasibam.
+
+Darbinati ar VOx neatdzeseta termiska detektora tehnologiju ar 12um piksela izmeru un 8~14um spektralo diapazonu, sie moduli sasniegs izcilu termisko jutibu (NETD >35mK @F1.0, 300K). USB2.0 saskarne parlava gan attela izvadi, gan funkciju vadibu caur vienu savienojumu, kas ievurojami vienkarsamo sistemas dizainu.
+
+Ar sesam krasu palesmu iespejam (Balta karsta, Melna karsta, Uguns, Varavksne, Dzelzs sarkana, Vesa), kompaktam formam saikot no tikai 60x31x31mm un ultra zemu energijas paterinu zem 2W, HT T serija ir ideala rupnieciskai inspekcijai, drosibas uzraudzibai, eeku diagnostikai un zinatviskiem petijumiem. Moduli drosmamigi darbojas plasa temperaturas diapazana no -20 lidz +60.`,
+    category: 'HT T serija',
+    features: [
+      { title: 'Augsta izskirtspejas', description: '640x512 infrasarkana izskirtspejas ar 12um piksela izmeru un VOx neatdzesetu termisko detektoru' },
+      { title: 'USB2.0 saskarne', description: 'Viens USB2.0 savienojums gan attela izvadei, gan funkciju vadibai, vienkarsaajot integrciju' },
+      { title: 'Vairakas objektivu iespejas', description: 'Tris profesionali fokusa attlumi — 25mm, 35mm un 50mm — dazadiem noverosanas attlumiem' },
+      { title: 'Bagatas krasu paletes', description: 'Sesi pseidokrasu rezimi: Balta karsta, Melna karsta, Uguns, Varavksne, Dzelzs sarkana un Vesa' },
+      { title: 'Ultra zems paterins', description: 'Energijas paterins zem 2W ar DC5V barosanu, piemeerots portatvam un iebuvetam sistemam' },
+      { title: 'Kompakts dizains', description: 'Saikot no tikai 60x31x31mm, viegli integrejams dazada aprikojuma un korpusos' },
+    ],
+    specifications: [
+      { label: 'Detektora tips', values: ['VOx neatdzeseta termiskais detektors'] },
+      { label: 'Infrasarkana izskirtspejas', values: ['640x512'] },
+      { label: 'Piksela izmers', values: ['12um'] },
+      { label: 'Spektralais diapazons', values: ['8~14um'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'F skaitlis', values: ['F1.0'] },
+      { label: 'Redzamibas lauks', values: ['HT T01: 17.5x14.0', 'HT T02: 12.5x10.0', 'HT T03: 8.8x7.0'] },
+      { label: 'Fokusesanas metode', values: ['Manuala fokusesana'] },
+      { label: 'Fokusa attalums', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Attela izskirtspejas', values: ['640x480, 25fps'] },
+      { label: 'Krasu paletes', values: ['Balta karsta, Melna karsta, Uguns, Varavksne, Dzelzs sarkana, Vesa'] },
+      { label: 'Saskarne', values: ['1x USB2.0 (Attela izvade un funkciju vadiba)'] },
+      { label: 'Darba temperatura', values: ['-20~+60'] },
+      { label: 'Barosana', values: ['DC5V +-10%, 0.4A'] },
+      { label: 'Energijas paterins', values: ['<2W'] },
+      { label: 'Izmeri', values: ['HT T01: 60x31x31mm', 'HT T02: 70x45x45mm', 'HT T03: 90x63x63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

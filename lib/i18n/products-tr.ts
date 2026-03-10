@@ -1345,6 +1345,44 @@ HT U Serisi, 58,91°×48,62°'ye kadar ultra genis görüs alani, sicak nokta ta
       { label: 'Agirlik (braket hariç)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
     ],
   },
+  {
+    id: 'ht-t-series',
+    name: 'HT T01/T02/T03',
+    subtitle: 'USB2.0 Sogutmasiz Kizilötesi Termal Modül',
+    description:
+      `HT T Serisi USB2.0 kizilötesi modüller, basit bir USB2.0 arayüzü araciligiyla 640×512 yüksek çözünürlüklü termal görüntüleme saglar ve mevcut sistemlere entegrasyonu hizli ve kolay kilar. Üç modelde mevcut — HT T01, HT T02 ve HT T03 — seri, çesitli gözlem ve gözetim gereksinimlerini karsilamak için 25mm, 35mm ve 50mm odak uzakliklarinda profesyonel lens seçenekleri sunar.
+
+12μm piksel boyutu ve 8~14μm spektral aralikli VOx sogutmasiz termal dedektör teknolojisi ile çalistirilan bu modüller, mükemmel termal hassasiyet (NETD >35mK @F1.0, 300K) elde eder. USB2.0 arayüzü, tek bir baglanti üzerinden hem görüntü çikisi hem de fonksiyon kontrolünü saglar ve sistem tasarimini büyük ölçüde basitlestirir.
+
+Alti renk paleti seçenegi (Beyaz Sicak, Siyah Sicak, Ates, Gökkusagi, Demir Kirmizi, Serin), 60×31×31mm'den baslayan kompakt boyutlar ve 2W'nin altinda ultra düsük güç tüketimi ile HT T Serisi, endüstriyel muayene, güvenlik izleme, bina teshisi ve bilimsel arastirma uygulamalari için idealdir. Modüller -20°C ile +60°C arasinda genis bir sicaklik araliginda güvenilir sekilde çalisir.`,
+    category: 'HT T Serisi',
+    features: [
+      { title: 'Yüksek Çözünürlük', description: '12μm piksel boyutu ve VOx sogutmasiz termal dedektör ile 640×512 kizilötesi çözünürlük' },
+      { title: 'USB2.0 Arayüzü', description: 'Entegrasyonu basitlestiren, hem görüntü çikisi hem de fonksiyon kontrolü için tek USB2.0 baglantisi' },
+      { title: 'Çoklu Lens Seçenekleri', description: 'Çesitli gözlem mesafeleri için üç profesyonel odak uzakligi — 25mm, 35mm ve 50mm' },
+      { title: 'Zengin Renk Paletleri', description: 'Alti sahte renk modu: Beyaz Sicak, Siyah Sicak, Ates, Gökkusagi, Demir Kirmizi ve Serin' },
+      { title: 'Ultra Düsük Güç Tüketimi', description: 'DC5V besleme ile 2W altinda güç tüketimi, tasinabilir ve gömülü sistemler için uygun' },
+      { title: 'Kompakt Tasarim', description: 'Sadece 60×31×31mm boyutlardan baslayan, çesitli ekipman ve muhafazalara kolayca entegre edilebilen' },
+    ],
+    specifications: [
+      { label: 'Dedektör Tipi', values: ['VOx Sogutmasiz Termal Dedektör'] },
+      { label: 'Kizilötesi Çözünürlük', values: ['640×512'] },
+      { label: 'Piksel Boyutu', values: ['12μm'] },
+      { label: 'Spektral Aralik', values: ['8~14μm'] },
+      { label: 'NETD', values: ['>35mK @F1.0, 300K'] },
+      { label: 'F Sayisi', values: ['F1.0'] },
+      { label: 'Görüs Alani', values: ['HT T01: 17.5°×14.0°', 'HT T02: 12.5°×10.0°', 'HT T03: 8.8°×7.0°'] },
+      { label: 'Odaklama Yöntemi', values: ['Manuel Odaklama'] },
+      { label: 'Odak Uzakligi', values: ['HT T01: 25mm', 'HT T02: 35mm', 'HT T03: 50mm'] },
+      { label: 'Görüntü Çözünürlügü', values: ['640×480, 25fps'] },
+      { label: 'Renk Paletleri', values: ['Beyaz Sicak, Siyah Sicak, Ates, Gökkusagi, Demir Kirmizi, Serin'] },
+      { label: 'Arayüz', values: ['1× USB2.0 (Görüntü Çikisi ve Fonksiyon Kontrolü)'] },
+      { label: 'Çalisma Sicakligi', values: ['-20°C~+60°C'] },
+      { label: 'Güç Kaynagi', values: ['DC5V ±10%, 0.4A'] },
+      { label: 'Güç Tüketimi', values: ['<2W'] },
+      { label: 'Boyutlar', values: ['HT T01: 60×31×31mm', 'HT T02: 70×45×45mm', 'HT T03: 90×63×63mm'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {
