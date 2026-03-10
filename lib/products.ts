@@ -1584,6 +1584,55 @@ The professional design measures 231mm×79.2mm×84.9mm, weighs 303g, with 3200mA
       { label: 'Standard Accessories', values: ['Color box, user manual, Type-C data cable (1m)'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Drone Uncooled Infrared Camera Module Series',
+    description:
+      `The HT U Series drone infrared camera modules are designed for unmanned aerial vehicle (UAV) applications including wilderness exploration, search and rescue, maritime operations, and night patrol missions.
+
+Available in three models — HT U01, HT U02, and HT U03 — the series offers infrared resolutions from 256×192 up to 640×512, with 12μm pixel size and VOx detector technology. Each model supports manual focus with multiple professional lens options (6.8mm, 9.1mm, 10.0mm), delivering vehicle detection distances up to 1389m and personnel detection distances up to 944m.
+
+The HT U Series features an ultra-wide field of view up to 58.91°×48.62°, hotspot tracking capability, 7 reticle patterns, and multiple pseudo-color modes including white hot, black hot, rainbow, hot metal, yellow saturation, and bird watching mode. With ultra-compact dimensions (as small as 24×24×27.9mm) and lightweight design (starting from 22g), these modules integrate seamlessly into drone payloads while maintaining IP54 protection and wide operating temperature range from -20°C to +50°C.`,
+    category: 'HT U Series',
+    features: [
+      { title: 'Multi-Resolution Options', description: 'Three models offering 256×192, 384×288, and 640×512 infrared resolution with 12μm pixel size' },
+      { title: 'Long-Range Detection', description: 'Vehicle detection up to 1389m and personnel detection up to 944m for effective surveillance' },
+      { title: 'Ultra-Wide FOV', description: 'Field of view up to 58.91°×48.62° with multiple professional lens options (6.8mm/9.1mm/10.0mm)' },
+      { title: 'Hotspot Tracking', description: 'Real-time hotspot tracking with 7 reticle patterns for precise target identification' },
+      { title: 'Ultra-Compact & Lightweight', description: 'Starting from just 22g and 24×24×27.9mm, ideal for drone payload integration' },
+      { title: 'Rugged Design', description: 'IP54 protection rating with -20°C to +50°C operating temperature range' },
+    ],
+    specifications: [
+      { label: 'Detector Type', values: ['VOx'] },
+      { label: 'Infrared Resolution', values: ['HT U01: 256×192', 'HT U02: 384×288', 'HT U03: 640×512'] },
+      { label: 'Pixel Size', values: ['12μm'] },
+      { label: 'Spectral Range', values: ['8~14μm'] },
+      { label: 'NETD', values: ['≤40mK@25°C, F/1.0'] },
+      { label: 'Thermal Time Constant', values: ['<12ms'] },
+      { label: 'Frame Rate', values: ['50Hz'] },
+      { label: 'Display Resolution', values: ['720×576'] },
+      { label: 'Focusing Method', values: ['Manual Focus'] },
+      { label: 'F Number', values: ['1'] },
+      { label: 'Focal Length', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Field of View', values: ['HT U01: 25.46°×19.23°', 'HT U02: 17.46°×13.14°', 'HT U03: 58.91°×48.62° / 45.76°×37.31°'] },
+      { label: 'Detection Range (Person)', values: ['HT U01: ≤642m', 'HT U02: ≤944m', 'HT U03: ≤642m / ≤859m'] },
+      { label: 'Detection Range (Vehicle)', values: ['HT U01: ≤944m', 'HT U02: ≤1389m', 'HT U03: ≤944m / ≤1263m'] },
+      { label: 'Recognition Range (Person)', values: ['HT U01: ≤160m', 'HT U02: ≤236m', 'HT U03: ≤160m / ≤214m'] },
+      { label: 'Recognition Range (Vehicle)', values: ['HT U01: ≤236m', 'HT U02: ≤347m', 'HT U03: ≤236m / ≤315m'] },
+      { label: 'Pseudo-Color Modes', values: ['White Hot, Black Hot, Rainbow, Hot Metal, Yellow Saturation, Bird Watching Mode'] },
+      { label: 'Hotspot Tracking', values: ['On/Off (Default: Off)'] },
+      { label: 'Reticle Patterns', values: ['7 Patterns (Default: Off)'] },
+      { label: 'Video Standard', values: ['PAL'] },
+      { label: 'Operating Voltage', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Power Consumption', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Operating Temperature', values: ['-20°C~+50°C'] },
+      { label: 'Storage Temperature', values: ['-30°C~+70°C'] },
+      { label: 'Protection Rating', values: ['IP54'] },
+      { label: 'Dimensions (excl. bracket)', values: ['HT U01: 24.0×24.0×27.9mm', 'HT U02: 28.4×28.4×41.1mm', 'HT U03: 28.4×28.4×42.4mm'] },
+      { label: 'Weight (excl. bracket)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

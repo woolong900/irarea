@@ -1296,6 +1296,55 @@ Taiustatud funktsioonid holmavad 200W nahtava valguse kaamerat, koiki pildirezii
       { label: 'Toote kaal', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Drooni jahutamata infrapunakaamera moodulite seeria',
+    description:
+      `HT U seeria drooni infrapunakaamera moodulid on loodud mehitamata ohusoiukite (UAV) rakendusteks, sealhulgas looduse uurimine, otsing ja paaste, merendusoperatsioonid ning oopatrullimissioonid.
+
+Seeria on saadaval kolmes mudelis — HT U01, HT U02 ja HT U03 — pakkudes infrapuna eraldusvoimet alates 256x192 kuni 640x512, 12um piksli suurusega ja VOx detektori tehnoloogiaga. Iga mudel toetab kaesitsi fokuseerimist mitme professionaalse laasetsuvalikuga (6.8mm, 9.1mm, 10.0mm), tagades soiukite tuvastuskauguse kuni 1389m ja isikute tuvastuskauguse kuni 944m.
+
+HT U seeria pakub ulilaia vaatevalja kuni 58.91x48.62 kraadi, kuumade punktide jalgimist, 7 sihiku mustrit ja mitmeid pseudovarvi reziime, sealhulgas valge kuum, must kuum, vikerkaar, kuum metall, kollane kullastus ja linnuvaatlusreziim. Ulikompaktsete mootmetega (alates 24x24x27.9mm) ja kerge disainiga (alates 22g) integreeruvad need moodulid sujuvalt drooni koormustesse, sailitades IP54 kaitse ja laia tootemperatuuri vahemiku -20 kuni +50.`,
+    category: 'HT U seeria',
+    features: [
+      { title: 'Mitmekordse eraldusvoimne valikud', description: 'Kolm mudelit pakkudes 256x192, 384x288 ja 640x512 infrapuna eraldusvoimet 12um piksli suurusega' },
+      { title: 'Pika ulatusega tuvastamine', description: 'Soiukite tuvastamine kuni 1389m ja isikute tuvastamine kuni 944m tousaks jalgimiseks' },
+      { title: 'Ulilai vaatevalja', description: 'Vaatevalja kuni 58.91x48.62 kraadi mitme professionaalse laasetsuvalikuga (6.8mm/9.1mm/10.0mm)' },
+      { title: 'Kuumade punktide jalgimine', description: 'Reaalajas kuumade punktide jalgimine 7 sihiku mustriga tapseks sihtmargi tuvastamiseks' },
+      { title: 'Ulikompaktne ja kerge', description: 'Alates vaid 22g ja 24x24x27.9mm, ideaalne drooni koormuse integreerimiseks' },
+      { title: 'Vastupidav disain', description: 'IP54 kaitseaste tootemperatuuri vahemikuga -20 kuni +50' },
+    ],
+    specifications: [
+      { label: 'Detektori tuup', values: ['VOx'] },
+      { label: 'Infrapuna eraldusvoimne', values: ['HT U01: 256x192', 'HT U02: 384x288', 'HT U03: 640x512'] },
+      { label: 'Piksli suurus', values: ['12um'] },
+      { label: 'Spektraalne vahemik', values: ['8~14um'] },
+      { label: 'NETD', values: ['<=40mK@25, F/1.0'] },
+      { label: 'Soojuslik ajakonstant', values: ['<12ms'] },
+      { label: 'Kaadrisagedus', values: ['50Hz'] },
+      { label: 'Ekraani eraldusvoimne', values: ['720x576'] },
+      { label: 'Fokuseerimismeetod', values: ['Kaesitsi fokuseerimine'] },
+      { label: 'F-arv', values: ['1'] },
+      { label: 'Fookuskaugus', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Vaatevalja', values: ['HT U01: 25.46x19.23', 'HT U02: 17.46x13.14', 'HT U03: 58.91x48.62 / 45.76x37.31'] },
+      { label: 'Tuvastuskaugus (isik)', values: ['HT U01: <=642m', 'HT U02: <=944m', 'HT U03: <=642m / <=859m'] },
+      { label: 'Tuvastuskaugus (soiduk)', values: ['HT U01: <=944m', 'HT U02: <=1389m', 'HT U03: <=944m / <=1263m'] },
+      { label: 'Aratundmiskaugus (isik)', values: ['HT U01: <=160m', 'HT U02: <=236m', 'HT U03: <=160m / <=214m'] },
+      { label: 'Aratundmiskaugus (soiduk)', values: ['HT U01: <=236m', 'HT U02: <=347m', 'HT U03: <=236m / <=315m'] },
+      { label: 'Pseudovarvi reziimid', values: ['Valge kuum, Must kuum, Vikerkaar, Kuum metall, Kollane kullastus, Linnuvaatlusreziim'] },
+      { label: 'Kuumade punktide jalgimine', values: ['Sees/Valjas (Vaikimisi: Valjas)'] },
+      { label: 'Sihiku mustrid', values: ['7 mustrit (Vaikimisi: Valjas)'] },
+      { label: 'Videostandard', values: ['PAL'] },
+      { label: 'Toopinge', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Energiatarve', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Tootemperatuur', values: ['-20~+50'] },
+      { label: 'Hoiustamistemperatuur', values: ['-30~+70'] },
+      { label: 'Kaitseaste', values: ['IP54'] },
+      { label: 'Mootmed (ilma kinnituseta)', values: ['HT U01: 24.0x24.0x27.9mm', 'HT U02: 28.4x28.4x41.1mm', 'HT U03: 28.4x28.4x42.4mm'] },
+      { label: 'Kaal (ilma kinnituseta)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

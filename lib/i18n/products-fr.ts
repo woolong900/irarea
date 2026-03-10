@@ -1296,6 +1296,55 @@ Les fonctions avancees comprennent une camera visible 200W, tous les modes d'ima
       { label: 'Poids du produit', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Serie de modules de camera infrarouge non refroidie pour drones',
+    description:
+      `Les modules de camera infrarouge de la serie HT U pour drones sont concus pour les applications de vehicules aeriens sans pilote (UAV), notamment l'exploration de zones sauvages, la recherche et le sauvetage, les operations maritimes et les patrouilles de nuit.
+
+Disponible en trois modeles — HT U01, HT U02 et HT U03 — la serie offre des resolutions infrarouges de 256×192 a 640×512, avec une taille de pixel de 12μm et une technologie de detecteur VOx. Chaque modele prend en charge la mise au point manuelle avec plusieurs options de lentilles professionnelles (6,8mm, 9,1mm, 10,0mm), offrant des distances de detection de vehicules jusqu'a 1389m et des distances de detection de personnes jusqu'a 944m.
+
+La serie HT U dispose d'un champ de vision ultra-large allant jusqu'a 58,91°×48,62°, d'une capacite de suivi de points chauds, de 7 motifs de reticule et de plusieurs modes de pseudo-couleur, notamment blanc chaud, noir chaud, arc-en-ciel, metal chaud, saturation jaune et mode observation des oiseaux. Avec des dimensions ultra-compactes (a partir de 24×24×27,9mm) et une conception legere (a partir de 22g), ces modules s'integrent parfaitement dans les charges utiles des drones tout en maintenant une protection IP54 et une large plage de temperature de fonctionnement de -20°C a +50°C.`,
+    category: 'Serie HT U',
+    features: [
+      { title: 'Options multi-resolution', description: 'Trois modeles offrant une resolution infrarouge de 256×192, 384×288 et 640×512 avec une taille de pixel de 12μm' },
+      { title: 'Detection longue portee', description: 'Detection de vehicules jusqu\'a 1389m et detection de personnes jusqu\'a 944m pour une surveillance efficace' },
+      { title: 'Champ de vision ultra-large', description: 'Champ de vision jusqu\'a 58,91°×48,62° avec plusieurs options de lentilles professionnelles (6,8mm/9,1mm/10,0mm)' },
+      { title: 'Suivi de points chauds', description: 'Suivi de points chauds en temps reel avec 7 motifs de reticule pour une identification precise de la cible' },
+      { title: 'Ultra-compact et leger', description: 'A partir de seulement 22g et 24×24×27,9mm, ideal pour l\'integration dans les charges utiles de drones' },
+      { title: 'Conception robuste', description: 'Indice de protection IP54 avec plage de temperature de fonctionnement de -20°C a +50°C' },
+    ],
+    specifications: [
+      { label: 'Type de detecteur', values: ['VOx'] },
+      { label: 'Resolution infrarouge', values: ['HT U01: 256×192', 'HT U02: 384×288', 'HT U03: 640×512'] },
+      { label: 'Taille de pixel', values: ['12μm'] },
+      { label: 'Plage spectrale', values: ['8~14μm'] },
+      { label: 'NETD', values: ['≤40mK@25°C, F/1.0'] },
+      { label: 'Constante de temps thermique', values: ['<12ms'] },
+      { label: 'Frequence d\'image', values: ['50Hz'] },
+      { label: 'Resolution d\'affichage', values: ['720×576'] },
+      { label: 'Methode de mise au point', values: ['Mise au point manuelle'] },
+      { label: 'Nombre F', values: ['1'] },
+      { label: 'Distance focale', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Champ de vision', values: ['HT U01: 25.46°×19.23°', 'HT U02: 17.46°×13.14°', 'HT U03: 58.91°×48.62° / 45.76°×37.31°'] },
+      { label: 'Distance de detection (Personne)', values: ['HT U01: ≤642m', 'HT U02: ≤944m', 'HT U03: ≤642m / ≤859m'] },
+      { label: 'Distance de detection (Vehicule)', values: ['HT U01: ≤944m', 'HT U02: ≤1389m', 'HT U03: ≤944m / ≤1263m'] },
+      { label: 'Distance de reconnaissance (Personne)', values: ['HT U01: ≤160m', 'HT U02: ≤236m', 'HT U03: ≤160m / ≤214m'] },
+      { label: 'Distance de reconnaissance (Vehicule)', values: ['HT U01: ≤236m', 'HT U02: ≤347m', 'HT U03: ≤236m / ≤315m'] },
+      { label: 'Modes pseudo-couleur', values: ['Blanc chaud, Noir chaud, Arc-en-ciel, Metal chaud, Saturation jaune, Mode observation des oiseaux'] },
+      { label: 'Suivi de points chauds', values: ['Marche/Arret (Par defaut: Arret)'] },
+      { label: 'Motifs de reticule', values: ['7 motifs (Par defaut: Arret)'] },
+      { label: 'Standard video', values: ['PAL'] },
+      { label: 'Tension de fonctionnement', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Consommation d\'energie', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Temperature de fonctionnement', values: ['-20°C~+50°C'] },
+      { label: 'Temperature de stockage', values: ['-30°C~+70°C'] },
+      { label: 'Indice de protection', values: ['IP54'] },
+      { label: 'Dimensions (sans support)', values: ['HT U01: 24.0×24.0×27.9mm', 'HT U02: 28.4×28.4×41.1mm', 'HT U03: 28.4×28.4×42.4mm'] },
+      { label: 'Poids (sans support)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

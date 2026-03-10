@@ -1296,6 +1296,55 @@ Funcțiile avansate includ cameră de lumină vizibilă 200W, toate modurile de 
       { label: 'Greutate produs', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Seria de module de cameră infraroșu neracită pentru drone',
+    description:
+      `Modulele de cameră infraroșu din seria HT U sunt proiectate pentru aplicații cu vehicule aeriene fără pilot (UAV), inclusiv explorarea zonelor sălbatice, căutare și salvare, operațiuni maritime și misiuni de patrulare nocturnă.
+
+Disponibilă în trei modele — HT U01, HT U02 și HT U03 — seria oferă rezoluții infraroșu de la 256×192 până la 640×512, cu dimensiunea pixelului de 12μm și tehnologie de detector VOx. Fiecare model suportă focalizare manuală cu mai multe opțiuni profesionale de lentile (6,8mm, 9,1mm, 10,0mm), oferind distanțe de detectare a vehiculelor până la 1389m și distanțe de detectare a persoanelor până la 944m.
+
+Seria HT U dispune de un câmp vizual ultra-larg de până la 58,91°×48,62°, urmărirea punctelor fierbinți, 7 modele de reticulă și mai multe moduri de pseudo-culoare, inclusiv alb cald, negru cald, curcubeu, metal fierbinte, saturație galbenă și modul de observare a păsărilor. Cu dimensiuni ultra-compacte (de la 24×24×27,9mm) și design ușor (de la 22g), aceste module se integrează perfect în sarcinile utile ale dronelor, menținând protecția IP54 și un interval larg de temperatură de funcționare de la -20°C la +50°C.`,
+    category: 'Seria HT U',
+    features: [
+      { title: 'Opțiuni multiple de rezoluție', description: 'Trei modele care oferă rezoluții infraroșu de 256×192, 384×288 și 640×512 cu pixeli de 12μm' },
+      { title: 'Detectare pe distanță lungă', description: 'Detectare vehicule până la 1389m și persoane până la 944m pentru supraveghere eficientă' },
+      { title: 'Câmp vizual ultra-larg', description: 'Câmp vizual de până la 58,91°×48,62° cu mai multe opțiuni profesionale de lentile (6,8mm/9,1mm/10,0mm)' },
+      { title: 'Urmărirea punctelor fierbinți', description: 'Urmărire în timp real a punctelor fierbinți cu 7 modele de reticulă pentru identificarea precisă a țintelor' },
+      { title: 'Ultra-compact și ușor', description: 'De la doar 22g și 24×24×27,9mm, ideal pentru integrarea în sarcina utilă a dronei' },
+      { title: 'Design robust', description: 'Clasă de protecție IP54 cu interval de temperatură de funcționare de la -20°C la +50°C' },
+    ],
+    specifications: [
+      { label: 'Tip detector', values: ['VOx'] },
+      { label: 'Rezoluție infraroșu', values: ['HT U01: 256×192', 'HT U02: 384×288', 'HT U03: 640×512'] },
+      { label: 'Dimensiune pixel', values: ['12μm'] },
+      { label: 'Interval spectral', values: ['8~14μm'] },
+      { label: 'NETD', values: ['≤40mK@25°C, F/1.0'] },
+      { label: 'Constanta de timp termică', values: ['<12ms'] },
+      { label: 'Rata de cadre', values: ['50Hz'] },
+      { label: 'Rezoluție display', values: ['720×576'] },
+      { label: 'Metodă de focalizare', values: ['Focalizare manuală'] },
+      { label: 'Număr F', values: ['1'] },
+      { label: 'Distanță focală', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Câmp vizual', values: ['HT U01: 25.46°×19.23°', 'HT U02: 17.46°×13.14°', 'HT U03: 58.91°×48.62° / 45.76°×37.31°'] },
+      { label: 'Distanță detectare (persoană)', values: ['HT U01: ≤642m', 'HT U02: ≤944m', 'HT U03: ≤642m / ≤859m'] },
+      { label: 'Distanță detectare (vehicul)', values: ['HT U01: ≤944m', 'HT U02: ≤1389m', 'HT U03: ≤944m / ≤1263m'] },
+      { label: 'Distanță recunoaștere (persoană)', values: ['HT U01: ≤160m', 'HT U02: ≤236m', 'HT U03: ≤160m / ≤214m'] },
+      { label: 'Distanță recunoaștere (vehicul)', values: ['HT U01: ≤236m', 'HT U02: ≤347m', 'HT U03: ≤236m / ≤315m'] },
+      { label: 'Moduri pseudo-culoare', values: ['Alb cald, Negru cald, Curcubeu, Metal fierbinte, Saturație galbenă, Modul observare păsări'] },
+      { label: 'Urmărirea punctelor fierbinți', values: ['Pornit/Oprit (Implicit: Oprit)'] },
+      { label: 'Modele reticulă', values: ['7 modele (Implicit: Oprit)'] },
+      { label: 'Standard video', values: ['PAL'] },
+      { label: 'Tensiune de funcționare', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Consum de energie', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Temperatură funcționare', values: ['-20°C~+50°C'] },
+      { label: 'Temperatură depozitare', values: ['-30°C~+70°C'] },
+      { label: 'Clasă protecție', values: ['IP54'] },
+      { label: 'Dimensiuni (fără suport)', values: ['HT U01: 24.0×24.0×27.9mm', 'HT U02: 28.4×28.4×41.1mm', 'HT U03: 28.4×28.4×42.4mm'] },
+      { label: 'Greutate (fără suport)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

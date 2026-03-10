@@ -1296,6 +1296,55 @@ Geavanceerde functies omvatten 200W zichtbaar licht camera, alle beeldmodi (IR, 
       { label: 'Productgewicht', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Drone ongekoelde infrarood cameramodule serie',
+    description:
+      `De HT U Serie infrarood cameramodules voor drones zijn ontworpen voor toepassingen met onbemande luchtvaartuigen (UAV's), waaronder wildernisverkenning, zoek- en reddingsoperaties, maritieme operaties en nachtpatrouilles.
+
+Beschikbaar in drie modellen — HT U01, HT U02 en HT U03 — biedt de serie infraroodresoluties van 256×192 tot 640×512, met 12μm pixelgrootte en VOx-detectortechnologie. Elk model ondersteunt handmatige scherpstelling met meerdere professionele lensopties (6,8mm, 9,1mm, 10,0mm) en levert voertuigdetectieafstanden tot 1389m en personendetectieafstanden tot 944m.
+
+De HT U Serie beschikt over een ultrabreed gezichtsveld tot 58,91°×48,62°, hotspot-tracking, 7 vizierpatronen en meerdere pseudo-kleurmodi waaronder wit heet, zwart heet, regenboog, heet metaal, gele verzadiging en vogelkijkmodus. Met ultracompacte afmetingen (vanaf 24×24×27,9mm) en lichtgewicht ontwerp (vanaf 22g) integreren deze modules naadloos in drone-payloads met behoud van IP54-bescherming en een breed bedrijfstemperatuurbereik van -20°C tot +50°C.`,
+    category: 'HT U Serie',
+    features: [
+      { title: 'Meerdere resolutieopties', description: 'Drie modellen met 256×192, 384×288 en 640×512 infraroodresolutie bij 12μm pixelgrootte' },
+      { title: 'Langeafstandsdetectie', description: 'Voertuigdetectie tot 1389m en personendetectie tot 944m voor effectieve bewaking' },
+      { title: 'Ultrabreed gezichtsveld', description: 'Gezichtsveld tot 58,91°×48,62° met meerdere professionele lensopties (6,8mm/9,1mm/10,0mm)' },
+      { title: 'Hotspot-tracking', description: 'Realtime hotspot-tracking met 7 vizierpatronen voor nauwkeurige doelidentificatie' },
+      { title: 'Ultracompact en lichtgewicht', description: 'Vanaf slechts 22g en 24×24×27,9mm, ideaal voor integratie in drone-payloads' },
+      { title: 'Robuust ontwerp', description: 'IP54-beschermingsgraad met bedrijfstemperatuurbereik van -20°C tot +50°C' },
+    ],
+    specifications: [
+      { label: 'Detectortype', values: ['VOx'] },
+      { label: 'Infraroodresolutie', values: ['HT U01: 256×192', 'HT U02: 384×288', 'HT U03: 640×512'] },
+      { label: 'Pixelgrootte', values: ['12μm'] },
+      { label: 'Spectraalbereik', values: ['8~14μm'] },
+      { label: 'NETD', values: ['≤40mK@25°C, F/1.0'] },
+      { label: 'Thermische tijdconstante', values: ['<12ms'] },
+      { label: 'Beeldsnelheid', values: ['50Hz'] },
+      { label: 'Schermresolutie', values: ['720×576'] },
+      { label: 'Scherpstelmethode', values: ['Handmatige scherpstelling'] },
+      { label: 'F-nummer', values: ['1'] },
+      { label: 'Brandpuntsafstand', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Gezichtsveld', values: ['HT U01: 25.46°×19.23°', 'HT U02: 17.46°×13.14°', 'HT U03: 58.91°×48.62° / 45.76°×37.31°'] },
+      { label: 'Detectieafstand (Persoon)', values: ['HT U01: ≤642m', 'HT U02: ≤944m', 'HT U03: ≤642m / ≤859m'] },
+      { label: 'Detectieafstand (Voertuig)', values: ['HT U01: ≤944m', 'HT U02: ≤1389m', 'HT U03: ≤944m / ≤1263m'] },
+      { label: 'Herkenningsafstand (Persoon)', values: ['HT U01: ≤160m', 'HT U02: ≤236m', 'HT U03: ≤160m / ≤214m'] },
+      { label: 'Herkenningsafstand (Voertuig)', values: ['HT U01: ≤236m', 'HT U02: ≤347m', 'HT U03: ≤236m / ≤315m'] },
+      { label: 'Pseudo-kleurmodi', values: ['Wit heet, Zwart heet, Regenboog, Heet metaal, Gele verzadiging, Vogelkijkmodus'] },
+      { label: 'Hotspot-tracking', values: ['Aan/Uit (Standaard: Uit)'] },
+      { label: 'Vizierpatronen', values: ['7 patronen (Standaard: Uit)'] },
+      { label: 'Videostandaard', values: ['PAL'] },
+      { label: 'Bedrijfsspanning', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Stroomverbruik', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Bedrijfstemperatuur', values: ['-20°C~+50°C'] },
+      { label: 'Opslagtemperatuur', values: ['-30°C~+70°C'] },
+      { label: 'Beschermingsgraad', values: ['IP54'] },
+      { label: 'Afmetingen (excl. beugel)', values: ['HT U01: 24.0×24.0×27.9mm', 'HT U02: 28.4×28.4×41.1mm', 'HT U03: 28.4×28.4×42.4mm'] },
+      { label: 'Gewicht (excl. beugel)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

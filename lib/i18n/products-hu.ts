@@ -1296,6 +1296,55 @@ Fejlett funkciói közé tartozik a 200W látható fény kamera, minden képmód
       { label: 'Termék tömege', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Drón hűtés nélküli infravörös kameramodul sorozat',
+    description:
+      `A HT U sorozat drón infravörös kameramoduljai pilóta nélküli légi járművek (UAV) alkalmazásaihoz készültek, beleértve a vadon felfedezését, keresést és mentést, tengeri műveleteket és éjszakai járőrözési küldetéseket.
+
+Három modellben elérhető — HT U01, HT U02 és HT U03 — a sorozat infravörös felbontást kínál 256×192-től 640×512-ig, 12μm pixelmérettel és VOx detektor technológiával. Minden modell támogatja a kézi fókuszálást több professzionális objektív opcióval (6,8mm, 9,1mm, 10,0mm), járműfelismerési távolságot biztosítva akár 1389m-ig és személyfelismerési távolságot akár 944m-ig.
+
+A HT U sorozat ultra széles látómezőt kínál akár 58,91°×48,62°-ig, forró pont követést, 7 célkereszt mintázatot és több pszeudoszín módot, beleértve a fehér meleget, fekete meleget, szivárványt, forró fémet, sárga telítettséget és madármegfigyelési módot. Ultra kompakt méretekkel (mindössze 24×24×27,9mm-től) és könnyű kialakítással (mindössze 22g-tól) ezek a modulok zökkenőmentesen integrálhatók a drón hasznos terhébe, miközben IP54 védelmet és széles üzemi hőmérsékleti tartományt biztosítanak -20°C-tól +50°C-ig.`,
+    category: 'HT U Sorozat',
+    features: [
+      { title: 'Többféle felbontási lehetőség', description: 'Három modell 256×192, 384×288 és 640×512 infravörös felbontással, 12μm pixelmérettel' },
+      { title: 'Nagy hatótávolságú felismerés', description: 'Járműfelismerés akár 1389m-ig és személyfelismerés akár 944m-ig a hatékony megfigyeléshez' },
+      { title: 'Ultra széles látómező', description: 'Látómező akár 58,91°×48,62°-ig több professzionális objektív opcióval (6,8mm/9,1mm/10,0mm)' },
+      { title: 'Forró pont követés', description: 'Valós idejű forró pont követés 7 célkereszt mintázattal a célok pontos azonosításához' },
+      { title: 'Ultra kompakt és könnyű', description: 'Mindössze 22g-tól és 24×24×27,9mm-től, ideális drón hasznos teher integrációhoz' },
+      { title: 'Strapabíró kialakítás', description: 'IP54 védelmi osztály -20°C-tól +50°C-ig terjedő üzemi hőmérsékleti tartománnyal' },
+    ],
+    specifications: [
+      { label: 'Detektor típus', values: ['VOx'] },
+      { label: 'Infravörös felbontás', values: ['HT U01: 256×192', 'HT U02: 384×288', 'HT U03: 640×512'] },
+      { label: 'Pixelméret', values: ['12μm'] },
+      { label: 'Spektrális tartomány', values: ['8~14μm'] },
+      { label: 'NETD', values: ['≤40mK@25°C, F/1.0'] },
+      { label: 'Termikus időállandó', values: ['<12ms'] },
+      { label: 'Képfrissítési frekvencia', values: ['50Hz'] },
+      { label: 'Kijelző felbontás', values: ['720×576'] },
+      { label: 'Fókuszálási módszer', values: ['Kézi fókuszálás'] },
+      { label: 'F szám', values: ['1'] },
+      { label: 'Fókusztávolság', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Látómező', values: ['HT U01: 25.46°×19.23°', 'HT U02: 17.46°×13.14°', 'HT U03: 58.91°×48.62° / 45.76°×37.31°'] },
+      { label: 'Felismerési távolság (személy)', values: ['HT U01: ≤642m', 'HT U02: ≤944m', 'HT U03: ≤642m / ≤859m'] },
+      { label: 'Felismerési távolság (jármű)', values: ['HT U01: ≤944m', 'HT U02: ≤1389m', 'HT U03: ≤944m / ≤1263m'] },
+      { label: 'Azonosítási távolság (személy)', values: ['HT U01: ≤160m', 'HT U02: ≤236m', 'HT U03: ≤160m / ≤214m'] },
+      { label: 'Azonosítási távolság (jármű)', values: ['HT U01: ≤236m', 'HT U02: ≤347m', 'HT U03: ≤236m / ≤315m'] },
+      { label: 'Pszeudoszín módok', values: ['Fehér meleg, Fekete meleg, Szivárvány, Forró fém, Sárga telítettség, Madármegfigyelési mód'] },
+      { label: 'Forró pont követés', values: ['Be/Ki (Alapértelmezett: Ki)'] },
+      { label: 'Célkereszt mintázatok', values: ['7 mintázat (Alapértelmezett: Ki)'] },
+      { label: 'Videószabvány', values: ['PAL'] },
+      { label: 'Üzemi feszültség', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Energiafogyasztás', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Üzemi hőmérséklet', values: ['-20°C~+50°C'] },
+      { label: 'Tárolási hőmérséklet', values: ['-30°C~+70°C'] },
+      { label: 'Védelmi osztály', values: ['IP54'] },
+      { label: 'Méretek (tartó nélkül)', values: ['HT U01: 24.0×24.0×27.9mm', 'HT U02: 28.4×28.4×41.1mm', 'HT U03: 28.4×28.4×42.4mm'] },
+      { label: 'Tömeg (tartó nélkül)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

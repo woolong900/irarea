@@ -1296,6 +1296,55 @@ Isplestines funkcijos apima 200W matomos sviesos kamera, visus vaizdo rezimus (I
       { label: 'Produkto svoris', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Dronu neausinamu infraraudonuju kameru moduliu serija',
+    description:
+      `HT U serijos dronu infraraudonuju kameru moduliai yra sukurti bepilociu orlaiviu (UAV) taikymams, iskaitant tyrinejimu laukineje gamtoje, paieskos ir gelbejimo operacijas, jurines operacijas ir naktines patruliu misijas.
+
+Serija siuloma trimis modeliais — HT U01, HT U02 ir HT U03 — su infraraudonaja rezoliucija nuo 256x192 iki 640x512, 12um pikselio dydziu ir VOx detektoriaus technologija. Kiekvienas modelis palaiko rankini fokusavima su keliomis profesionaliomis lesziu parinktimis (6.8mm, 9.1mm, 10.0mm), uztikrinant transporto priemoniu aptikimo atstuma iki 1389m ir asmenu aptikimo atstuma iki 944m.
+
+HT U serija pasizymi ypac placiu matymo lauku iki 58.91x48.62 laipsniu, karsciausio tasko sekimu, 7 tiklo rastais ir keliais pseudo-spalvu rezimais, iskaitant balta karsta, juoda karsta, vaivorykste, karsta metala, geltona sodruma ir paukciu stebejimo rezima. Su ypac kompaktiskais matmenimis (nuo 24x24x27.9mm) ir lengvu dizainu (nuo 22g), sie moduliai puikiai integruojasi i drono krovini islaikant IP54 apsauga ir platu darbo temperaturos diapazona nuo -20 iki +50.`,
+    category: 'HT U serija',
+    features: [
+      { title: 'Keliu rezoliuciju parinktys', description: 'Trys modeliai siulantys 256x192, 384x288 ir 640x512 infraraudonaja rezoliucija su 12um pikselio dydziu' },
+      { title: 'Ilgo nuotolio aptikimas', description: 'Transporto priemoniu aptikimas iki 1389m ir asmenu aptikimas iki 944m efektyviam stebejimui' },
+      { title: 'Ypac platus matymo laukas', description: 'Matymo laukas iki 58.91x48.62 laipsniu su keliomis profesionaliomis lesziu parinktimis (6.8mm/9.1mm/10.0mm)' },
+      { title: 'Karsciausio tasko sekimas', description: 'Karsciausio tasko sekimas realiu laiku su 7 tiklo rastais tiksliam taikinio identifikavimui' },
+      { title: 'Ypac kompaktiskas ir lengvas', description: 'Nuo vos 22g ir 24x24x27.9mm, idealiai tinka drono krovinio integracijai' },
+      { title: 'Atsparus dizainas', description: 'IP54 apsaugos klase su darbo temperaturos diapazonu nuo -20 iki +50' },
+    ],
+    specifications: [
+      { label: 'Detektoriaus tipas', values: ['VOx'] },
+      { label: 'Infraraudonoji rezoliucija', values: ['HT U01: 256x192', 'HT U02: 384x288', 'HT U03: 640x512'] },
+      { label: 'Pikselio dydis', values: ['12um'] },
+      { label: 'Spektrinis diapazonas', values: ['8~14um'] },
+      { label: 'NETD', values: ['<=40mK@25, F/1.0'] },
+      { label: 'Termines laiko konstanta', values: ['<12ms'] },
+      { label: 'Kadru daznis', values: ['50Hz'] },
+      { label: 'Ekrano rezoliucija', values: ['720x576'] },
+      { label: 'Fokusavimo budas', values: ['Rankinis fokusavimas'] },
+      { label: 'F skaicius', values: ['1'] },
+      { label: 'Zidinio nuotolis', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Matymo laukas', values: ['HT U01: 25.46x19.23', 'HT U02: 17.46x13.14', 'HT U03: 58.91x48.62 / 45.76x37.31'] },
+      { label: 'Aptikimo atstumas (asmuo)', values: ['HT U01: <=642m', 'HT U02: <=944m', 'HT U03: <=642m / <=859m'] },
+      { label: 'Aptikimo atstumas (transporto priemone)', values: ['HT U01: <=944m', 'HT U02: <=1389m', 'HT U03: <=944m / <=1263m'] },
+      { label: 'Atpazinimo atstumas (asmuo)', values: ['HT U01: <=160m', 'HT U02: <=236m', 'HT U03: <=160m / <=214m'] },
+      { label: 'Atpazinimo atstumas (transporto priemone)', values: ['HT U01: <=236m', 'HT U02: <=347m', 'HT U03: <=236m / <=315m'] },
+      { label: 'Pseudo-spalvu rezimai', values: ['Balta karsta, Juoda karsta, Vaivorykste, Karstas metalas, Geltona sodrumas, Paukciu stebejimo rezimas'] },
+      { label: 'Karsciausio tasko sekimas', values: ['Ijungta/Isjungta (Numatytasis: Isjungta)'] },
+      { label: 'Tiklo rastai', values: ['7 rastai (Numatytasis: Isjungta)'] },
+      { label: 'Vaizdo standartas', values: ['PAL'] },
+      { label: 'Darbine itampa', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Energijos suvartojimas', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Darbo temperatura', values: ['-20~+50'] },
+      { label: 'Saugojimo temperatura', values: ['-30~+70'] },
+      { label: 'Apsaugos klase', values: ['IP54'] },
+      { label: 'Matmenys (be laikiklio)', values: ['HT U01: 24.0x24.0x27.9mm', 'HT U02: 28.4x28.4x41.1mm', 'HT U03: 28.4x28.4x42.4mm'] },
+      { label: 'Svoris (be laikiklio)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

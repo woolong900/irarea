@@ -1296,6 +1296,55 @@ Pokročilé funkcie zahŕňajú 200W kameru viditeľného svetla, všetky obrazo
       { label: 'Hmotnosť produktu', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Séria nechladených infračervených kamerových modulov pre drony',
+    description:
+      `Infračervené kamerové moduly pre drony série HT U sú navrhnuté pre aplikácie bezpilotných lietadiel (UAV) vrátane prieskumu divočiny, pátrania a záchrany, námorných operácií a nočných hliadkových misií.
+
+Séria je dostupná v troch modeloch — HT U01, HT U02 a HT U03 — a ponúka infračervené rozlíšenie od 256×192 až po 640×512, s 12μm veľkosťou pixela a technológiou VOx detektora. Každý model podporuje manuálne zaostrovanie s viacerými profesionálnymi možnosťami objektívov (6,8mm, 9,1mm, 10,0mm), pričom dosahuje vzdialenosť detekcie vozidiel až 1389m a vzdialenosť detekcie osôb až 944m.
+
+Séria HT U disponuje ultraširokým zorným poľom až 58,91°×48,62°, sledovaním horúcich bodov, 7 vzormi zameriavača a viacerými pseudofarebnými režimami vrátane biela horúca, čierna horúca, dúha, horúci kov, žlté nasýtenie a režim pozorovania vtákov. S ultrakompaktnými rozmermi (od 24×24×27,9mm) a ľahkým dizajnom (od 22g) sa tieto moduly bezproblémovo integrujú do užitočného zaťaženia dronu s ochranou IP54 a širokým rozsahom prevádzkovej teploty od -20°C do +50°C.`,
+    category: 'Séria HT U',
+    features: [
+      { title: 'Viaceré možnosti rozlíšenia', description: 'Tri modely ponúkajúce 256×192, 384×288 a 640×512 infračervené rozlíšenie s 12μm veľkosťou pixela' },
+      { title: 'Detekcia na veľkú vzdialenosť', description: 'Detekcia vozidiel až do 1389m a osôb až do 944m pre efektívny dohľad' },
+      { title: 'Ultraširoké zorné pole', description: 'Zorné pole až 58,91°×48,62° s viacerými profesionálnymi možnosťami objektívov (6,8mm/9,1mm/10,0mm)' },
+      { title: 'Sledovanie horúcich bodov', description: 'Sledovanie horúcich bodov v reálnom čase so 7 vzormi zameriavača pre presnú identifikáciu cieľa' },
+      { title: 'Ultrakompaktný a ľahký', description: 'Od iba 22g a 24×24×27,9mm, ideálny pre integráciu do užitočného zaťaženia dronu' },
+      { title: 'Robustný dizajn', description: 'Stupeň ochrany IP54 s rozsahom prevádzkovej teploty -20°C až +50°C' },
+    ],
+    specifications: [
+      { label: 'Typ detektora', values: ['VOx'] },
+      { label: 'Infračervené rozlíšenie', values: ['HT U01: 256×192', 'HT U02: 384×288', 'HT U03: 640×512'] },
+      { label: 'Veľkosť pixela', values: ['12μm'] },
+      { label: 'Spektrálny rozsah', values: ['8~14μm'] },
+      { label: 'NETD', values: ['≤40mK@25°C, F/1.0'] },
+      { label: 'Tepelná časová konštanta', values: ['<12ms'] },
+      { label: 'Snímková frekvencia', values: ['50Hz'] },
+      { label: 'Rozlíšenie displeja', values: ['720×576'] },
+      { label: 'Spôsob zaostrovania', values: ['Manuálne zaostrovanie'] },
+      { label: 'F číslo', values: ['1'] },
+      { label: 'Ohnisková vzdialenosť', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Zorné pole', values: ['HT U01: 25.46°×19.23°', 'HT U02: 17.46°×13.14°', 'HT U03: 58.91°×48.62° / 45.76°×37.31°'] },
+      { label: 'Vzdialenosť detekcie (osoba)', values: ['HT U01: ≤642m', 'HT U02: ≤944m', 'HT U03: ≤642m / ≤859m'] },
+      { label: 'Vzdialenosť detekcie (vozidlo)', values: ['HT U01: ≤944m', 'HT U02: ≤1389m', 'HT U03: ≤944m / ≤1263m'] },
+      { label: 'Vzdialenosť rozpoznania (osoba)', values: ['HT U01: ≤160m', 'HT U02: ≤236m', 'HT U03: ≤160m / ≤214m'] },
+      { label: 'Vzdialenosť rozpoznania (vozidlo)', values: ['HT U01: ≤236m', 'HT U02: ≤347m', 'HT U03: ≤236m / ≤315m'] },
+      { label: 'Pseudofarebné režimy', values: ['Biela horúca, Čierna horúca, Dúha, Horúci kov, Žlté nasýtenie, Režim pozorovania vtákov'] },
+      { label: 'Sledovanie horúcich bodov', values: ['Zap/Vyp (Predvolené: Vyp)'] },
+      { label: 'Vzory zameriavača', values: ['7 vzorov (Predvolené: Vyp)'] },
+      { label: 'Video štandard', values: ['PAL'] },
+      { label: 'Prevádzkové napätie', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Spotreba energie', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Prevádzková teplota', values: ['-20°C~+50°C'] },
+      { label: 'Skladovacia teplota', values: ['-30°C~+70°C'] },
+      { label: 'Stupeň ochrany', values: ['IP54'] },
+      { label: 'Rozmery (bez konzoly)', values: ['HT U01: 24.0×24.0×27.9mm', 'HT U02: 28.4×28.4×41.1mm', 'HT U03: 28.4×28.4×42.4mm'] },
+      { label: 'Hmotnosť (bez konzoly)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

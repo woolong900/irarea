@@ -1300,6 +1300,55 @@ Napredne funkcije uključuju 200W kameru vidljive svetlosti, sve režime slike (
       { label: 'Težina proizvoda', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Serija dron nehlađenih infracrvenih kamera modula',
+    description:
+      `Moduli infracrvene kamere HT U serije dizajnirani su za primene bespilotnih letelica (UAV) uključujući istraživanje divljine, traganje i spasavanje, pomorske operacije i noćne patrole.
+
+Dostupni u tri modela — HT U01, HT U02 i HT U03 — serija nudi infracrvene rezolucije od 256×192 do 640×512, sa veličinom piksela od 12μm i VOx tehnologijom detektora. Svaki model podržava ručno fokusiranje sa više profesionalnih opcija sočiva (6.8mm, 9.1mm, 10.0mm), pružajući rastojanja detekcije vozila do 1389m i detekcije osoba do 944m.
+
+HT U serija ima ultra-široko vidno polje do 58.91°×48.62°, praćenje vrućih tačaka, 7 uzoraka nišana i više pseudo-boja uključujući belo toplo, crno toplo, dugu, vrući metal, žutu saturaciju i režim posmatranja ptica. Sa ultra-kompaktnim dimenzijama (od samo 24×24×27.9mm) i lakim dizajnom (od 22g), ovi moduli se besprekorno integrišu u nosivost drona uz IP54 zaštitu i širok raspon radne temperature od -20°C do +50°C.`,
+    category: 'HT U serija',
+    features: [
+      { title: 'Opcije više rezolucija', description: 'Tri modela koji nude infracrvenu rezoluciju 256×192, 384×288 i 640×512 sa veličinom piksela 12μm' },
+      { title: 'Detekcija na velike daljine', description: 'Detekcija vozila do 1389m i detekcija osoba do 944m za efikasan nadzor' },
+      { title: 'Ultra-široko vidno polje', description: 'Vidno polje do 58.91°×48.62° sa više profesionalnih opcija sočiva (6.8mm/9.1mm/10.0mm)' },
+      { title: 'Praćenje vrućih tačaka', description: 'Praćenje vrućih tačaka u realnom vremenu sa 7 uzoraka nišana za preciznu identifikaciju cilja' },
+      { title: 'Ultra-kompaktan i lagan', description: 'Od samo 22g i 24×24×27.9mm, idealan za integraciju u nosivost drona' },
+      { title: 'Robustan dizajn', description: 'IP54 stepen zaštite sa rasponom radne temperature od -20°C do +50°C' },
+    ],
+    specifications: [
+      { label: 'Tip detektora', values: ['VOx'] },
+      { label: 'Infracrvena rezolucija', values: ['HT U01: 256×192', 'HT U02: 384×288', 'HT U03: 640×512'] },
+      { label: 'Veličina piksela', values: ['12μm'] },
+      { label: 'Spektralni opseg', values: ['8~14μm'] },
+      { label: 'NETD', values: ['≤40mK@25°C, F/1.0'] },
+      { label: 'Termička vremenska konstanta', values: ['<12ms'] },
+      { label: 'Frekvencija kadrova', values: ['50Hz'] },
+      { label: 'Rezolucija ekrana', values: ['720×576'] },
+      { label: 'Metoda fokusiranja', values: ['Ručno fokusiranje'] },
+      { label: 'F broj', values: ['1'] },
+      { label: 'Žarišna daljina', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Vidno polje', values: ['HT U01: 25.46°×19.23°', 'HT U02: 17.46°×13.14°', 'HT U03: 58.91°×48.62° / 45.76°×37.31°'] },
+      { label: 'Raspon detekcije (osoba)', values: ['HT U01: ≤642m', 'HT U02: ≤944m', 'HT U03: ≤642m / ≤859m'] },
+      { label: 'Raspon detekcije (vozilo)', values: ['HT U01: ≤944m', 'HT U02: ≤1389m', 'HT U03: ≤944m / ≤1263m'] },
+      { label: 'Raspon prepoznavanja (osoba)', values: ['HT U01: ≤160m', 'HT U02: ≤236m', 'HT U03: ≤160m / ≤214m'] },
+      { label: 'Raspon prepoznavanja (vozilo)', values: ['HT U01: ≤236m', 'HT U02: ≤347m', 'HT U03: ≤236m / ≤315m'] },
+      { label: 'Pseudo-boje', values: ['Belo toplo, Crno toplo, Duga, Vrući metal, Žuta saturacija, Režim posmatranja ptica'] },
+      { label: 'Praćenje vrućih tačaka', values: ['Uključeno/Isključeno (Podrazumevano: Isključeno)'] },
+      { label: 'Uzorci nišana', values: ['7 uzoraka (Podrazumevano: Isključeno)'] },
+      { label: 'Video standard', values: ['PAL'] },
+      { label: 'Radni napon', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Potrošnja energije', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Radna temperatura', values: ['-20°C~+50°C'] },
+      { label: 'Temperatura skladištenja', values: ['-30°C~+70°C'] },
+      { label: 'Stepen zaštite', values: ['IP54'] },
+      { label: 'Dimenzije (bez nosača)', values: ['HT U01: 24.0×24.0×27.9mm', 'HT U02: 28.4×28.4×41.1mm', 'HT U03: 28.4×28.4×42.4mm'] },
+      { label: 'Težina (bez nosača)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

@@ -1296,6 +1296,55 @@ As funcoes avancadas incluem camera de luz visivel 200W, todos os modos de image
       { label: 'Peso do produto', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Serie de Modulos de Camera Infravermelha Nao Refrigerada para Drones',
+    description:
+      `Os modulos de camera infravermelha da serie HT U para drones sao projetados para aplicacoes com veiculos aereos nao tripulados (UAV), incluindo exploracao de areas selvagens, busca e salvamento, operacoes maritimas e patrulhamento noturno.
+
+Disponivel em tres modelos — HT U01, HT U02 e HT U03 — a serie oferece resolucoes infravermelhas de 256×192 ate 640×512, com tamanho de pixel de 12μm e tecnologia de detetor VOx. Cada modelo suporta foco manual com multiplas opcoes de lentes profissionais (6,8mm, 9,1mm, 10,0mm), oferecendo distancias de detecao de veiculos ate 1389m e distancias de detecao de pessoas ate 944m.
+
+A serie HT U apresenta um campo de visao ultra-amplo de ate 58,91°×48,62°, capacidade de rastreamento de pontos quentes, 7 padroes de reticulo e multiplos modos de pseudo-cor incluindo branco quente, preto quente, arco-iris, metal quente, saturacao amarela e modo observacao de aves. Com dimensoes ultra-compactas (a partir de 24×24×27,9mm) e design leve (a partir de 22g), estes modulos integram-se perfeitamente nas cargas uteis dos drones mantendo protecao IP54 e uma ampla faixa de temperatura de operacao de -20°C a +50°C.`,
+    category: 'Serie HT U',
+    features: [
+      { title: 'Opcoes de multiplas resolucoes', description: 'Tres modelos oferecendo resolucao infravermelha de 256×192, 384×288 e 640×512 com tamanho de pixel de 12μm' },
+      { title: 'Detecao de longo alcance', description: 'Detecao de veiculos ate 1389m e detecao de pessoas ate 944m para vigilancia eficaz' },
+      { title: 'Campo de visao ultra-amplo', description: 'Campo de visao ate 58,91°×48,62° com multiplas opcoes de lentes profissionais (6,8mm/9,1mm/10,0mm)' },
+      { title: 'Rastreamento de pontos quentes', description: 'Rastreamento de pontos quentes em tempo real com 7 padroes de reticulo para identificacao precisa do alvo' },
+      { title: 'Ultra-compacto e leve', description: 'A partir de apenas 22g e 24×24×27,9mm, ideal para integracao em cargas uteis de drones' },
+      { title: 'Design robusto', description: 'Grau de protecao IP54 com faixa de temperatura de operacao de -20°C a +50°C' },
+    ],
+    specifications: [
+      { label: 'Tipo de detetor', values: ['VOx'] },
+      { label: 'Resolucao infravermelha', values: ['HT U01: 256×192', 'HT U02: 384×288', 'HT U03: 640×512'] },
+      { label: 'Tamanho do pixel', values: ['12μm'] },
+      { label: 'Faixa espectral', values: ['8~14μm'] },
+      { label: 'NETD', values: ['≤40mK@25°C, F/1.0'] },
+      { label: 'Constante de tempo termica', values: ['<12ms'] },
+      { label: 'Taxa de quadros', values: ['50Hz'] },
+      { label: 'Resolucao de exibicao', values: ['720×576'] },
+      { label: 'Metodo de focagem', values: ['Foco Manual'] },
+      { label: 'Numero F', values: ['1'] },
+      { label: 'Distancia focal', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Campo de visao', values: ['HT U01: 25.46°×19.23°', 'HT U02: 17.46°×13.14°', 'HT U03: 58.91°×48.62° / 45.76°×37.31°'] },
+      { label: 'Distancia de detecao (Pessoa)', values: ['HT U01: ≤642m', 'HT U02: ≤944m', 'HT U03: ≤642m / ≤859m'] },
+      { label: 'Distancia de detecao (Veiculo)', values: ['HT U01: ≤944m', 'HT U02: ≤1389m', 'HT U03: ≤944m / ≤1263m'] },
+      { label: 'Distancia de reconhecimento (Pessoa)', values: ['HT U01: ≤160m', 'HT U02: ≤236m', 'HT U03: ≤160m / ≤214m'] },
+      { label: 'Distancia de reconhecimento (Veiculo)', values: ['HT U01: ≤236m', 'HT U02: ≤347m', 'HT U03: ≤236m / ≤315m'] },
+      { label: 'Modos de pseudo-cor', values: ['Branco quente, Preto quente, Arco-iris, Metal quente, Saturacao amarela, Modo observacao de aves'] },
+      { label: 'Rastreamento de pontos quentes', values: ['Ligado/Desligado (Padrao: Desligado)'] },
+      { label: 'Padroes de reticulo', values: ['7 padroes (Padrao: Desligado)'] },
+      { label: 'Padrao de video', values: ['PAL'] },
+      { label: 'Tensao de operacao', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Consumo de energia', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Temperatura de operacao', values: ['-20°C~+50°C'] },
+      { label: 'Temperatura de armazenamento', values: ['-30°C~+70°C'] },
+      { label: 'Grau de protecao', values: ['IP54'] },
+      { label: 'Dimensoes (excl. suporte)', values: ['HT U01: 24.0×24.0×27.9mm', 'HT U02: 28.4×28.4×41.1mm', 'HT U03: 28.4×28.4×42.4mm'] },
+      { label: 'Peso (excl. suporte)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

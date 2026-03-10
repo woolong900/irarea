@@ -1296,6 +1296,55 @@ Papildus funkcijas ietver 200W redzamas gaismas kameru, visus attelu rezimus (IR
       { label: 'Produkta svars', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Dronu neatdzesetu infrasarkano kameru modulu serija',
+    description:
+      `HT U serijas dronu infrasarkano kameru moduli ir izstradati bezpilota gaisa transportlidzeklu (UAV) lietojumiem, ieskaitot meza izpeti, meklesanu un glabsanu, jurnieku operacijas un nakts patrulesanas misijas.
+
+Serija ir pieejama tris modelos — HT U01, HT U02 un HT U03 — piedavajot infrasarkano izskirtspeju no 256x192 lidz 640x512, ar 12um piksela izmeru un VOx detektora tehnologiju. Katrs modelis atbalsta manualu fokusesanu ar vairakam profesionalam objektivu iespejam (6.8mm, 9.1mm, 10.0mm), nodrosinot transportlidzeklu noteksanas attalumu lidz 1389m un personu noteksanas attalumu lidz 944m.
+
+HT U serijai ir ipasi plats redzamibas lauks lidz 58.91x48.62 gradiem, karstako punktu izsekosana, 7 tikla raksti un vairakas pseido-krasu rezimi, ieskaitot balto karsto, melno karsto, varavksni, karsto metalu, dzelteno piesatinajumu un putnu verosanas rezimu. Ar ipasi kompaktiem izmeriem (no 24x24x27.9mm) un vieglu dizainu (no 22g), sie moduli nevainojami integrejas dronu krava, nodrosinot IP54 aizsardzibu un platu darba temperaturas diapazonu no -20 lidz +50.`,
+    category: 'HT U serija',
+    features: [
+      { title: 'Vairakas izskirtspejas iespejas', description: 'Tris modeli, kas piedava 256x192, 384x288 un 640x512 infrasarkano izskirtspeju ar 12um piksela izmeru' },
+      { title: 'Tala diapazona noteksana', description: 'Transportlidzeklu noteksana lidz 1389m un personu noteksana lidz 944m efektivai noverojanai' },
+      { title: 'Ipasi plats redzamibas lauks', description: 'Redzamibas lauks lidz 58.91x48.62 gradiem ar vairakam profesionalam objektivu iespejam (6.8mm/9.1mm/10.0mm)' },
+      { title: 'Karstako punktu izsekosana', description: 'Reallaikas karstako punktu izsekosana ar 7 tikla rakstiem precizai merka identifikacijai' },
+      { title: 'Ipasi kompakts un viegls', description: 'No tikai 22g un 24x24x27.9mm, ideali piemirots dronu kravas integracijai' },
+      { title: 'Izturigs dizains', description: 'IP54 aizsardzibas klase ar darba temperaturas diapazonu no -20 lidz +50' },
+    ],
+    specifications: [
+      { label: 'Detektora tips', values: ['VOx'] },
+      { label: 'Infrasarkana izskirtspejas', values: ['HT U01: 256x192', 'HT U02: 384x288', 'HT U03: 640x512'] },
+      { label: 'Piksela izmers', values: ['12um'] },
+      { label: 'Spektralais diapazons', values: ['8~14um'] },
+      { label: 'NETD', values: ['<=40mK@25, F/1.0'] },
+      { label: 'Termiska laika konstante', values: ['<12ms'] },
+      { label: 'Kadru atrums', values: ['50Hz'] },
+      { label: 'Ekrana izskirtspejas', values: ['720x576'] },
+      { label: 'Fokusesanas metode', values: ['Manuala fokusesana'] },
+      { label: 'F skaitlis', values: ['1'] },
+      { label: 'Fokusa attalums', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Redzamibas lauks', values: ['HT U01: 25.46x19.23', 'HT U02: 17.46x13.14', 'HT U03: 58.91x48.62 / 45.76x37.31'] },
+      { label: 'Noteksanas diapazons (persona)', values: ['HT U01: <=642m', 'HT U02: <=944m', 'HT U03: <=642m / <=859m'] },
+      { label: 'Noteksanas diapazons (transportlidzeklis)', values: ['HT U01: <=944m', 'HT U02: <=1389m', 'HT U03: <=944m / <=1263m'] },
+      { label: 'Atpazisanas diapazons (persona)', values: ['HT U01: <=160m', 'HT U02: <=236m', 'HT U03: <=160m / <=214m'] },
+      { label: 'Atpazisanas diapazons (transportlidzeklis)', values: ['HT U01: <=236m', 'HT U02: <=347m', 'HT U03: <=236m / <=315m'] },
+      { label: 'Pseido-krasu rezimi', values: ['Balta karsta, Melna karsta, Varavksne, Karsts metals, Dzeltena piesatinajums, Putnu verosanas rezims'] },
+      { label: 'Karstako punktu izsekosana', values: ['Ieslegt/Izslegt (Noklusejums: Izslegt)'] },
+      { label: 'Tikla raksti', values: ['7 raksti (Noklusejums: Izslegt)'] },
+      { label: 'Video standarts', values: ['PAL'] },
+      { label: 'Darbibas spriegums', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Jaudas paterins', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Darba temperatura', values: ['-20~+50'] },
+      { label: 'Uzglabasanas temperatura', values: ['-30~+70'] },
+      { label: 'Aizsardzibas klase', values: ['IP54'] },
+      { label: 'Izmeri (bez kronsteina)', values: ['HT U01: 24.0x24.0x27.9mm', 'HT U02: 28.4x28.4x41.1mm', 'HT U03: 28.4x28.4x42.4mm'] },
+      { label: 'Svars (bez kronsteina)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

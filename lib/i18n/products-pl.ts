@@ -1296,6 +1296,55 @@ Zaawansowane funkcje obejmują kamerę światła widzialnego 200W, wszystkie try
       { label: 'Waga produktu', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Seria niechłodzonych modułów kamer podczerwieni do dronów',
+    description:
+      `Moduły kamer podczerwieni serii HT U zostały zaprojektowane do zastosowań w bezzałogowych statkach powietrznych (UAV), w tym eksploracji terenów dzikich, poszukiwań i ratownictwa, operacji morskich oraz nocnych misji patrolowych.
+
+Dostępna w trzech modelach — HT U01, HT U02 i HT U03 — seria oferuje rozdzielczości podczerwieni od 256×192 do 640×512, z rozmiarem piksela 12μm i technologią detektora VOx. Każdy model obsługuje ręczną ostrość z wieloma profesjonalnymi opcjami obiektywów (6,8mm, 9,1mm, 10,0mm), zapewniając zasięg wykrywania pojazdów do 1389m i osób do 944m.
+
+Seria HT U oferuje ultraszerokie pole widzenia do 58,91°×48,62°, śledzenie punktów gorących, 7 wzorów celownika oraz wiele trybów pseudokolorów, w tym biały gorący, czarny gorący, tęcza, gorący metal, nasycenie żółte i tryb obserwacji ptaków. Dzięki ultrakompaktowym wymiarom (od 24×24×27,9mm) i lekkiej konstrukcji (od 22g), moduły te bezproblemowo integrują się z ładunkami dronów, zachowując klasę ochrony IP54 i szeroki zakres temperatury pracy od -20°C do +50°C.`,
+    category: 'Seria HT U',
+    features: [
+      { title: 'Opcje wielu rozdzielczości', description: 'Trzy modele oferujące rozdzielczości podczerwieni 256×192, 384×288 i 640×512 z pikselem 12μm' },
+      { title: 'Wykrywanie dalekiego zasięgu', description: 'Wykrywanie pojazdów do 1389m i osób do 944m dla skutecznego nadzoru' },
+      { title: 'Ultraszerokie pole widzenia', description: 'Pole widzenia do 58,91°×48,62° z wieloma profesjonalnymi opcjami obiektywów (6,8mm/9,1mm/10,0mm)' },
+      { title: 'Śledzenie punktów gorących', description: 'Śledzenie punktów gorących w czasie rzeczywistym z 7 wzorami celownika do precyzyjnej identyfikacji celów' },
+      { title: 'Ultrakompaktowy i lekki', description: 'Od zaledwie 22g i 24×24×27,9mm, idealny do integracji z ładunkiem drona' },
+      { title: 'Wytrzymała konstrukcja', description: 'Klasa ochrony IP54 z zakresem temperatury pracy od -20°C do +50°C' },
+    ],
+    specifications: [
+      { label: 'Typ detektora', values: ['VOx'] },
+      { label: 'Rozdzielczość podczerwieni', values: ['HT U01: 256×192', 'HT U02: 384×288', 'HT U03: 640×512'] },
+      { label: 'Rozmiar piksela', values: ['12μm'] },
+      { label: 'Zakres spektralny', values: ['8~14μm'] },
+      { label: 'NETD', values: ['≤40mK@25°C, F/1.0'] },
+      { label: 'Stała czasowa termiczna', values: ['<12ms'] },
+      { label: 'Częstotliwość odświeżania', values: ['50Hz'] },
+      { label: 'Rozdzielczość wyświetlacza', values: ['720×576'] },
+      { label: 'Metoda ogniskowania', values: ['Ręczna ostrość'] },
+      { label: 'Liczba F', values: ['1'] },
+      { label: 'Ogniskowa', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Pole widzenia', values: ['HT U01: 25.46°×19.23°', 'HT U02: 17.46°×13.14°', 'HT U03: 58.91°×48.62° / 45.76°×37.31°'] },
+      { label: 'Zasięg wykrywania (osoba)', values: ['HT U01: ≤642m', 'HT U02: ≤944m', 'HT U03: ≤642m / ≤859m'] },
+      { label: 'Zasięg wykrywania (pojazd)', values: ['HT U01: ≤944m', 'HT U02: ≤1389m', 'HT U03: ≤944m / ≤1263m'] },
+      { label: 'Zasięg rozpoznania (osoba)', values: ['HT U01: ≤160m', 'HT U02: ≤236m', 'HT U03: ≤160m / ≤214m'] },
+      { label: 'Zasięg rozpoznania (pojazd)', values: ['HT U01: ≤236m', 'HT U02: ≤347m', 'HT U03: ≤236m / ≤315m'] },
+      { label: 'Tryby pseudokolorów', values: ['Biały gorący, Czarny gorący, Tęcza, Gorący metal, Nasycenie żółte, Tryb obserwacji ptaków'] },
+      { label: 'Śledzenie punktów gorących', values: ['Wł./Wył. (Domyślnie: Wył.)'] },
+      { label: 'Wzory celownika', values: ['7 wzorów (Domyślnie: Wył.)'] },
+      { label: 'Standard wideo', values: ['PAL'] },
+      { label: 'Napięcie robocze', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Pobór mocy', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Temperatura pracy', values: ['-20°C~+50°C'] },
+      { label: 'Temperatura przechowywania', values: ['-30°C~+70°C'] },
+      { label: 'Klasa ochrony', values: ['IP54'] },
+      { label: 'Wymiary (bez uchwytu)', values: ['HT U01: 24.0×24.0×27.9mm', 'HT U02: 28.4×28.4×41.1mm', 'HT U03: 28.4×28.4×42.4mm'] },
+      { label: 'Waga (bez uchwytu)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

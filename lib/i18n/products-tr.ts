@@ -1296,6 +1296,55 @@ Gelismis özellikler arasinda 200W görünür isik kamerasi, tüm görüntü mod
       { label: 'Ürün Agirligi', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Drone Sogutmasiz Kizilötesi Kamera Modülü Serisi',
+    description:
+      `HT U Serisi drone kizilötesi kamera modülleri, vahsi doga kesfi, arama kurtarma, deniz operasyonlari ve gece devriye görevleri dahil insansiz hava araci (IHA) uygulamalari için tasarlanmistir.
+
+Üç modelde mevcut — HT U01, HT U02 ve HT U03 — seri, 12μm piksel boyutu ve VOx dedektör teknolojisi ile 256×192'den 640×512'ye kadar kizilötesi çözünürlükler sunar. Her model, birden fazla profesyonel lens seçenegiyle (6,8mm, 9,1mm, 10,0mm) manuel odaklama destekler ve 1389m'ye kadar araç tespit mesafesi ile 944m'ye kadar kisi tespit mesafesi saglar.
+
+HT U Serisi, 58,91°×48,62°'ye kadar ultra genis görüs alani, sicak nokta takibi, 7 nisangah deseni ve beyaz sicak, siyah sicak, gökkusagi, sicak metal, sari doygunluk ve kus gözlem modu dahil birden fazla sahte renk modu sunar. Ultra kompakt boyutlari (24×24×27,9mm'den baslayan) ve hafif tasarimi (22g'den baslayan) ile bu modüller, IP54 koruma sinifi ve -20°C ile +50°C arasinda genis çalisma sicakligi araligini koruyarak drone yüklerine sorunsuz entegre olur.`,
+    category: 'HT U Serisi',
+    features: [
+      { title: 'Çoklu Çözünürlük Seçenekleri', description: '12μm piksel boyutu ile 256×192, 384×288 ve 640×512 kizilötesi çözünürlük sunan üç model' },
+      { title: 'Uzun Menzil Tespit', description: 'Etkili gözetim için 1389m\'ye kadar araç ve 944m\'ye kadar kisi tespiti' },
+      { title: 'Ultra Genis Görüs Alani', description: 'Birden fazla profesyonel lens seçenegiyle (6,8mm/9,1mm/10,0mm) 58,91°×48,62°\'ye kadar görüs alani' },
+      { title: 'Sicak Nokta Takibi', description: 'Hassas hedef tanimlamasi için 7 nisangah deseni ile gerçek zamanli sicak nokta takibi' },
+      { title: 'Ultra Kompakt ve Hafif', description: 'Sadece 22g ve 24×24×27,9mm\'den baslayan, drone yük entegrasyonu için ideal' },
+      { title: 'Dayanikli Tasarim', description: '-20°C ile +50°C çalisma sicakligi araliginda IP54 koruma sinifi' },
+    ],
+    specifications: [
+      { label: 'Dedektör Tipi', values: ['VOx'] },
+      { label: 'Kizilötesi Çözünürlük', values: ['HT U01: 256×192', 'HT U02: 384×288', 'HT U03: 640×512'] },
+      { label: 'Piksel Boyutu', values: ['12μm'] },
+      { label: 'Spektral Aralik', values: ['8~14μm'] },
+      { label: 'NETD', values: ['≤40mK@25°C, F/1.0'] },
+      { label: 'Termal Zaman Sabiti', values: ['<12ms'] },
+      { label: 'Kare Hizi', values: ['50Hz'] },
+      { label: 'Ekran Çözünürlügü', values: ['720×576'] },
+      { label: 'Odaklama Yöntemi', values: ['Manuel Odaklama'] },
+      { label: 'F Sayisi', values: ['1'] },
+      { label: 'Odak Uzakligi', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Görüs Alani', values: ['HT U01: 25.46°×19.23°', 'HT U02: 17.46°×13.14°', 'HT U03: 58.91°×48.62° / 45.76°×37.31°'] },
+      { label: 'Tespit Mesafesi (Kisi)', values: ['HT U01: ≤642m', 'HT U02: ≤944m', 'HT U03: ≤642m / ≤859m'] },
+      { label: 'Tespit Mesafesi (Araç)', values: ['HT U01: ≤944m', 'HT U02: ≤1389m', 'HT U03: ≤944m / ≤1263m'] },
+      { label: 'Tanima Mesafesi (Kisi)', values: ['HT U01: ≤160m', 'HT U02: ≤236m', 'HT U03: ≤160m / ≤214m'] },
+      { label: 'Tanima Mesafesi (Araç)', values: ['HT U01: ≤236m', 'HT U02: ≤347m', 'HT U03: ≤236m / ≤315m'] },
+      { label: 'Sahte Renk Modlari', values: ['Beyaz Sicak, Siyah Sicak, Gökkusagi, Sicak Metal, Sari Doygunluk, Kus Gözlem Modu'] },
+      { label: 'Sicak Nokta Takibi', values: ['Açik/Kapali (Varsayilan: Kapali)'] },
+      { label: 'Nisangah Desenleri', values: ['7 Desen (Varsayilan: Kapali)'] },
+      { label: 'Video Standardi', values: ['PAL'] },
+      { label: 'Çalisma Gerilimi', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Güç Tüketimi', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Çalisma Sicakligi', values: ['-20°C~+50°C'] },
+      { label: 'Depolama Sicakligi', values: ['-30°C~+70°C'] },
+      { label: 'Koruma Sinifi', values: ['IP54'] },
+      { label: 'Boyutlar (braket hariç)', values: ['HT U01: 24.0×24.0×27.9mm', 'HT U02: 28.4×28.4×41.1mm', 'HT U03: 28.4×28.4×42.4mm'] },
+      { label: 'Agirlik (braket hariç)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

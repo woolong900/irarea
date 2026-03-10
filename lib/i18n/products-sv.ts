@@ -1300,6 +1300,55 @@ Avancerade funktioner inkluderar 200W synligt ljus-kamera, alla bildlägen (IR, 
       { label: 'Produktvikt', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Dronserie med okylda infraröda kameramoduler',
+    description:
+      `HT U-seriens infraröda kameramoduler för drönare är designade för tillämpningar med obemannade flygfarkoster (UAV) inklusive vildmarksutforskning, sök och räddning, maritima operationer och nattpatrulluppdrag.
+
+Serien finns i tre modeller — HT U01, HT U02 och HT U03 — och erbjuder infraröda upplösningar från 256×192 upp till 640×512, med 12μm pixelstorlek och VOx-detektorteknik. Varje modell stöder manuell fokusering med flera professionella linsalternativ (6,8mm, 9,1mm, 10,0mm) och levererar fordonsdetektionsavstånd upp till 1389m och persondetektionsavstånd upp till 944m.
+
+HT U-serien har ett ultrabredt synfält upp till 58,91°×48,62°, hotspot-spårning, 7 riktmärken och flera pseudofärgslägen inklusive vit het, svart het, regnbåge, het metall, gul mättnad och fågelskådningsläge. Med ultrakompakta mått (så små som 24×24×27,9mm) och lätt design (från 22g) integreras dessa moduler sömlöst i drönarens nyttolast med IP54-skydd och brett drifttemperaturområde från -20°C till +50°C.`,
+    category: 'HT U-serien',
+    features: [
+      { title: 'Flera upplösningsalternativ', description: 'Tre modeller med 256×192, 384×288 och 640×512 infraröd upplösning med 12μm pixelstorlek' },
+      { title: 'Långdistansdetektering', description: 'Fordonsdetektering upp till 1389m och persondetektering upp till 944m för effektiv övervakning' },
+      { title: 'Ultrabredt synfält', description: 'Synfält upp till 58,91°×48,62° med flera professionella linsalternativ (6,8mm/9,1mm/10,0mm)' },
+      { title: 'Hotspot-spårning', description: 'Realtids hotspot-spårning med 7 riktmärken för exakt målidentifiering' },
+      { title: 'Ultrakompakt och lätt', description: 'Från bara 22g och 24×24×27,9mm, perfekt för integration i drönarens nyttolast' },
+      { title: 'Robust design', description: 'IP54-skyddsklass med drifttemperaturområde -20°C till +50°C' },
+    ],
+    specifications: [
+      { label: 'Detektortyp', values: ['VOx'] },
+      { label: 'Infraröd upplösning', values: ['HT U01: 256×192', 'HT U02: 384×288', 'HT U03: 640×512'] },
+      { label: 'Pixelstorlek', values: ['12μm'] },
+      { label: 'Spektralområde', values: ['8~14μm'] },
+      { label: 'NETD', values: ['≤40mK@25°C, F/1.0'] },
+      { label: 'Termisk tidskonstant', values: ['<12ms'] },
+      { label: 'Bildfrekvens', values: ['50Hz'] },
+      { label: 'Displayupplösning', values: ['720×576'] },
+      { label: 'Fokuseringsmetod', values: ['Manuell fokus'] },
+      { label: 'F-nummer', values: ['1'] },
+      { label: 'Brännvidd', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Synfält', values: ['HT U01: 25.46°×19.23°', 'HT U02: 17.46°×13.14°', 'HT U03: 58.91°×48.62° / 45.76°×37.31°'] },
+      { label: 'Detektionsavstånd (person)', values: ['HT U01: ≤642m', 'HT U02: ≤944m', 'HT U03: ≤642m / ≤859m'] },
+      { label: 'Detektionsavstånd (fordon)', values: ['HT U01: ≤944m', 'HT U02: ≤1389m', 'HT U03: ≤944m / ≤1263m'] },
+      { label: 'Igenkänningsavstånd (person)', values: ['HT U01: ≤160m', 'HT U02: ≤236m', 'HT U03: ≤160m / ≤214m'] },
+      { label: 'Igenkänningsavstånd (fordon)', values: ['HT U01: ≤236m', 'HT U02: ≤347m', 'HT U03: ≤236m / ≤315m'] },
+      { label: 'Pseudofärgslägen', values: ['Vit het, Svart het, Regnbåge, Het metall, Gul mättnad, Fågelskådningsläge'] },
+      { label: 'Hotspot-spårning', values: ['På/Av (Standard: Av)'] },
+      { label: 'Riktmärken', values: ['7 mönster (Standard: Av)'] },
+      { label: 'Videostandard', values: ['PAL'] },
+      { label: 'Driftspänning', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Effektförbrukning', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Drifttemperatur', values: ['-20°C~+50°C'] },
+      { label: 'Förvaringstemperatur', values: ['-30°C~+70°C'] },
+      { label: 'Skyddsklass', values: ['IP54'] },
+      { label: 'Mått (exkl. fäste)', values: ['HT U01: 24.0×24.0×27.9mm', 'HT U02: 28.4×28.4×41.1mm', 'HT U03: 28.4×28.4×42.4mm'] },
+      { label: 'Vikt (exkl. fäste)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

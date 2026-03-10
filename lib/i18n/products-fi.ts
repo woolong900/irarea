@@ -1296,6 +1296,55 @@ Edistyneet ominaisuudet sisaltavat 200W nakyvan valon kameran, kaikki kuvatilat 
       { label: 'Tuotepaino', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Dronen jaahdyttamaton infrapunakameramoduulisarja',
+    description:
+      `HT U-sarjan dronen infrapunakameramoduulit on suunniteltu miehittamattomien ilma-alusten (UAV) sovelluksiin, mukaan lukien eramaatutkimus, etsinta ja pelastus, meritoiminnot ja yopartioinnit.
+
+Sarja on saatavana kolmena mallina — HT U01, HT U02 ja HT U03 — ja tarjoaa infrapunaresoluutioita valilla 256×192 - 640×512, 12μm pikselikoolla ja VOx-ilmaisinteknologialla. Jokainen malli tukee manuaalista tarkennusta useilla ammattimaisilla linssivaihtoehdoilla (6,8mm, 9,1mm, 10,0mm), tarjoten ajoneuvon havaitsemisetaisyyden jopa 1389m ja henkilon havaitsemisetaisyyden jopa 944m.
+
+HT U-sarjassa on ultralaaja nakokentta jopa 58,91°×48,62°, kuumapisteen seuranta, 7 tahtainmallia ja useita pseudovaritiloja, mukaan lukien valkoinen kuuma, musta kuuma, sateenkaari, kuuma metalli, keltainen kyllastys ja lintujenkatselutila. Ultrakompaktilla mitoilla (pienimmillaan 24×24×27,9mm) ja kevyella suunnittelulla (alkaen 22g) nama moduulit integroituvat saumattomasti dronen hyotykuormaan IP54-suojauksella ja laajalla kayttolampotila-alueella -20°C - +50°C.`,
+    category: 'HT U-sarja',
+    features: [
+      { title: 'Useita resoluutiovaihtoehtoja', description: 'Kolme mallia tarjoavat 256×192, 384×288 ja 640×512 infrapunaresoluution 12μm pikselikoolla' },
+      { title: 'Pitkan kantaman havaitseminen', description: 'Ajoneuvon havaitseminen jopa 1389m ja henkilon havaitseminen jopa 944m tehokkaaseen valvontaan' },
+      { title: 'Ultralaaja nakokentta', description: 'Nakokentta jopa 58,91°×48,62° useilla ammattimaisilla linssivaihtoehdoilla (6,8mm/9,1mm/10,0mm)' },
+      { title: 'Kuumapisteen seuranta', description: 'Reaaliaikainen kuumapisteen seuranta 7 tahtainmallilla tarkkaan kohteen tunnistamiseen' },
+      { title: 'Ultrakompakti ja kevyt', description: 'Alkaen vain 22g ja 24×24×27,9mm, ihanteellinen dronen hyotykuorman integrointiin' },
+      { title: 'Kestavaa suunnittelua', description: 'IP54-suojausluokka kayttolampotila-alueella -20°C - +50°C' },
+    ],
+    specifications: [
+      { label: 'Ilmaisintyyppi', values: ['VOx'] },
+      { label: 'Infrapunaresoluutio', values: ['HT U01: 256×192', 'HT U02: 384×288', 'HT U03: 640×512'] },
+      { label: 'Pikselikoko', values: ['12μm'] },
+      { label: 'Spektrialue', values: ['8~14μm'] },
+      { label: 'NETD', values: ['≤40mK@25°C, F/1.0'] },
+      { label: 'Lampotilavakio', values: ['<12ms'] },
+      { label: 'Kuvataajuus', values: ['50Hz'] },
+      { label: 'Nayton resoluutio', values: ['720×576'] },
+      { label: 'Tarkennusmenetelma', values: ['Manuaalinen tarkennus'] },
+      { label: 'F-luku', values: ['1'] },
+      { label: 'Polttovaali', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Nakokentta', values: ['HT U01: 25.46°×19.23°', 'HT U02: 17.46°×13.14°', 'HT U03: 58.91°×48.62° / 45.76°×37.31°'] },
+      { label: 'Havaitsemisetaisyys (henkilo)', values: ['HT U01: ≤642m', 'HT U02: ≤944m', 'HT U03: ≤642m / ≤859m'] },
+      { label: 'Havaitsemisetaisyys (ajoneuvo)', values: ['HT U01: ≤944m', 'HT U02: ≤1389m', 'HT U03: ≤944m / ≤1263m'] },
+      { label: 'Tunnistusetaisyys (henkilo)', values: ['HT U01: ≤160m', 'HT U02: ≤236m', 'HT U03: ≤160m / ≤214m'] },
+      { label: 'Tunnistusetaisyys (ajoneuvo)', values: ['HT U01: ≤236m', 'HT U02: ≤347m', 'HT U03: ≤236m / ≤315m'] },
+      { label: 'Pseudovaritilat', values: ['Valkoinen kuuma, Musta kuuma, Sateenkaari, Kuuma metalli, Keltainen kyllastys, Lintujenkatselutila'] },
+      { label: 'Kuumapisteen seuranta', values: ['Paalla/Pois (Oletus: Pois)'] },
+      { label: 'Tahtainmallit', values: ['7 mallia (Oletus: Pois)'] },
+      { label: 'Videostandardi', values: ['PAL'] },
+      { label: 'Kayttojannite', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Tehonkulutus', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Kayttolampotila', values: ['-20°C~+50°C'] },
+      { label: 'Sailytyslampotila', values: ['-30°C~+70°C'] },
+      { label: 'Suojausluokka', values: ['IP54'] },
+      { label: 'Mitat (ilman kiinniketta)', values: ['HT U01: 24.0×24.0×27.9mm', 'HT U02: 28.4×28.4×41.1mm', 'HT U03: 28.4×28.4×42.4mm'] },
+      { label: 'Paino (ilman kiinniketta)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {

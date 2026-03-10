@@ -1296,6 +1296,55 @@ Avancerede funktioner inkluderer 200W synligt lys kamera, alle billedtilstande (
       { label: 'Produktvaegt', values: ['303g'] },
     ],
   },
+  {
+    id: 'ht-u-series',
+    name: 'HT U01/U02/U03',
+    subtitle: 'Drone ukoelet infrarodt kameramodulserie',
+    description:
+      `HT U-seriens drone infraroede kameramoduler er designet til ubemannede luftfartoejsapplikationer (UAV), herunder vildmarksudforskring, eftersogning og redning, maritime operationer og natpatruljemissioner.
+
+Serien faas i tre modeller — HT U01, HT U02 og HT U03 — og tilbyder infrarod oplosning fra 256×192 op til 640×512, med 12μm pixelstorrelse og VOx-detektorteknologi. Hver model understoetter manuel fokusering med flere professionelle linsevalg (6,8mm, 9,1mm, 10,0mm) og leverer koeretoejsdetektionsafstande op til 1389m og persondetektionsafstande op til 944m.
+
+HT U-serien har et ultrabredt synsfelt op til 58,91°×48,62°, hotspot-sporing, 7 sigtemonstre og flere pseudofarvtilstande, herunder hvid varm, sort varm, regnbue, varmt metal, gul maetning og fuglekigningstilstand. Med ultrakompakte maal (saa smaa som 24×24×27,9mm) og let design (fra 22g) integreres disse moduler problemfrit i dronens nyttelast med IP54-beskyttelse og bredt driftstemperaturomraade fra -20°C til +50°C.`,
+    category: 'HT U-serien',
+    features: [
+      { title: 'Flere oplosningsalternativer', description: 'Tre modeller med 256×192, 384×288 og 640×512 infrarod oplosning med 12μm pixelstorrelse' },
+      { title: 'Langdistancedetektion', description: 'Koeretoejsdetektion op til 1389m og persondetektion op til 944m for effektiv overvaagning' },
+      { title: 'Ultrabredt synsfelt', description: 'Synsfelt op til 58,91°×48,62° med flere professionelle linsevalg (6,8mm/9,1mm/10,0mm)' },
+      { title: 'Hotspot-sporing', description: 'Realtids hotspot-sporing med 7 sigtemonstre til praecis maalidentifikation' },
+      { title: 'Ultrakompakt og let', description: 'Fra kun 22g og 24×24×27,9mm, ideel til integration i dronens nyttelast' },
+      { title: 'Robust design', description: 'IP54-beskyttelsesklasse med driftstemperaturomraade -20°C til +50°C' },
+    ],
+    specifications: [
+      { label: 'Detektortype', values: ['VOx'] },
+      { label: 'Infrarod oplosning', values: ['HT U01: 256×192', 'HT U02: 384×288', 'HT U03: 640×512'] },
+      { label: 'Pixelstorrelse', values: ['12μm'] },
+      { label: 'Spektralomraade', values: ['8~14μm'] },
+      { label: 'NETD', values: ['≤40mK@25°C, F/1.0'] },
+      { label: 'Termisk tidskonstant', values: ['<12ms'] },
+      { label: 'Billedfrekvens', values: ['50Hz'] },
+      { label: 'Displayoplosning', values: ['720×576'] },
+      { label: 'Fokuseringsmetode', values: ['Manuel fokus'] },
+      { label: 'F-nummer', values: ['1'] },
+      { label: 'Braendvidde', values: ['HT U01: 6.8mm', 'HT U02: 10.0mm', 'HT U03: 6.8mm / 9.1mm'] },
+      { label: 'Synsfelt', values: ['HT U01: 25.46°×19.23°', 'HT U02: 17.46°×13.14°', 'HT U03: 58.91°×48.62° / 45.76°×37.31°'] },
+      { label: 'Detektionsafstand (person)', values: ['HT U01: ≤642m', 'HT U02: ≤944m', 'HT U03: ≤642m / ≤859m'] },
+      { label: 'Detektionsafstand (koeretoj)', values: ['HT U01: ≤944m', 'HT U02: ≤1389m', 'HT U03: ≤944m / ≤1263m'] },
+      { label: 'Genkendelsesafstand (person)', values: ['HT U01: ≤160m', 'HT U02: ≤236m', 'HT U03: ≤160m / ≤214m'] },
+      { label: 'Genkendelsesafstand (koeretoj)', values: ['HT U01: ≤236m', 'HT U02: ≤347m', 'HT U03: ≤236m / ≤315m'] },
+      { label: 'Pseudofarvetilstande', values: ['Hvid varm, Sort varm, Regnbue, Varmt metal, Gul maetning, Fuglekigningstilstand'] },
+      { label: 'Hotspot-sporing', values: ['Til/Fra (Standard: Fra)'] },
+      { label: 'Sigtemonstre', values: ['7 monstre (Standard: Fra)'] },
+      { label: 'Videostandard', values: ['PAL'] },
+      { label: 'Driftspaending', values: ['HT U01: 6.0V~24.0V', 'HT U02/U03: 5.0V~24.0V'] },
+      { label: 'Effektforbrug', values: ['HT U01: 0.4W (6V/80mA)', 'HT U02/U03: 1.3W (5V/260mA)'] },
+      { label: 'Driftstemperatur', values: ['-20°C~+50°C'] },
+      { label: 'Opbevaringstemperatur', values: ['-30°C~+70°C'] },
+      { label: 'Beskyttelsesklasse', values: ['IP54'] },
+      { label: 'Maal (ekskl. beslag)', values: ['HT U01: 24.0×24.0×27.9mm', 'HT U02: 28.4×28.4×41.1mm', 'HT U03: 28.4×28.4×42.4mm'] },
+      { label: 'Vaegt (ekskl. beslag)', values: ['HT U01: 22g', 'HT U02/U03: 65g'] },
+    ],
+  },
 ]
 
 export function getProduct(id: string): Product | undefined {
