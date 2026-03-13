@@ -3,7 +3,7 @@
 import { useEffect } from 'react'
 import { useLocale } from 'next-intl'
 import { useRouter, usePathname } from '@/lib/i18n'
-import { locales, countryToLocale, type Locale } from '@/lib/i18n/config'
+import { locales, defaultLocale, countryToLocale, type Locale } from '@/lib/i18n/config'
 
 const browserLangToLocale: Record<string, Locale> = {
   en: 'en', 'en-US': 'en', 'en-GB': 'en', 'en-AU': 'en',
@@ -42,7 +42,14 @@ export default function LocaleDetector() {
 
   useEffect(() => {
     const detectAndRedirect = async () => {
-      // Skip if user has manually selected a language
+      // If the URL explicitly uses a non-default locale, the user intentionally
+      // chose that language — respect it and skip all auto-detection.
+      if (currentLocale !== defaultLocale) {
+        try { localStorage.setItem('preferred-locale', currentLocale) } catch {}
+        return
+      }
+
+      // Check if user has manually selected a language via the switcher
       try {
         const savedLocale = localStorage.getItem('preferred-locale')
         if (savedLocale && locales.includes(savedLocale as Locale)) {

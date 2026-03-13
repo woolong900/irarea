@@ -47,3 +47,6 @@ next-env.d.ts
 *.html
 sitemap.xml
 generate-product-pages.js
+
+# Local Netlify folder
+.netlify
