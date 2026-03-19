@@ -17,13 +17,13 @@ export function OrganizationJsonLd() {
     },
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+86-15080329022',
+      telephone: '+86-13385207064',
       contactType: 'sales',
       email: 'hi@irarea.com',
       availableLanguage: ['English', 'Chinese'],
     },
     sameAs: [
-      'https://wa.me/8615080329022',
+      'https://wa.me/8613385207064',
     ],
     foundingLocation: {
       '@type': 'Place',

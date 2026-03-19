@@ -51,7 +51,7 @@ export default async function StorePage({ params }: PageProps) {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button href="/products">{t('viewProducts')}</Button>
-              <Button href="https://wa.me/8615080329022" variant="outline">
+              <Button href="https://wa.me/8613385207064" variant="outline">
                 {t('contactSales')}
               </Button>
             </div>

@@ -7,7 +7,7 @@ interface Props {
 }
 
 export default function WhatsAppCta({ label }: Props) {
-  const phoneNumber = '8615080329022'
+  const phoneNumber = '8613385207064'
   const whatsappUrl = `https://wa.me/${phoneNumber}`
 
   return (

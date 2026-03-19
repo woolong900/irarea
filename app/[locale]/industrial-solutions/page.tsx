@@ -294,7 +294,7 @@ export default async function IndustrialSolutionsPage({ params }: PageProps) {
               {t('ctaDesc')}
             </p>
             <Link
-              href="https://wa.me/8615080329022"
+              href="https://wa.me/8613385207064"
               className="inline-flex items-center gap-2 bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors"
             >
               {t('contactUs')}

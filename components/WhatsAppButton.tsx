@@ -4,7 +4,7 @@ import { trackWhatsAppClick } from './GoogleAnalytics'
 
 export default function WhatsAppButton() {
   // Format phone number for WhatsApp (remove spaces and special characters)
-  const phoneNumber = '8615080329022'
+  const phoneNumber = '8613385207064'
   const whatsappUrl = `https://wa.me/${phoneNumber}`
 
   const handleClick = () => {

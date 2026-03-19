@@ -58,7 +58,7 @@ export default function ProductPage({ product, relatedProducts = [] }: ProductPa
               <p className="text-lg text-neutral-300 mt-2">{product.subtitle}</p>
             </div>
             <Button
-              href="https://wa.me/8615080329022"
+              href="https://wa.me/8613385207064"
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-dark self-start md:self-center"
             >
@@ -172,7 +172,7 @@ export default function ProductPage({ product, relatedProducts = [] }: ProductPa
                 <p className="text-neutral-800 font-medium">
                   {t('interested', { name: product.name })}
                 </p>
-                <Button href="https://wa.me/8615080329022" className="flex-shrink-0">
+                <Button href="https://wa.me/8613385207064" className="flex-shrink-0">
                   {t('contactSales')}
                 </Button>
               </div>
@@ -293,7 +293,7 @@ export default function ProductPage({ product, relatedProducts = [] }: ProductPa
               {t('ctaDescription')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="https://wa.me/8615080329022">
+              <Button href="https://wa.me/8613385207064">
                 {t('contactSales')}
               </Button>
               <Link 

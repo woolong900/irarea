@@ -307,7 +307,7 @@ export default async function LandingPage({ params }: PageProps) {
               {lt('ctaDesc')}
             </p>
             <a
-              href="https://wa.me/8615080329022"
+              href="https://wa.me/8613385207064"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#20bd5a] text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
